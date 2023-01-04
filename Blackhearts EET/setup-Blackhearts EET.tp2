@@ -331,6 +331,12 @@ COPY ~Blackhearts EET/items/WIMACE01.itm~ ~override/WIMACE01.itm~
 COPY ~Blackhearts EET/items/WIARMO02.itm~ ~override/WIARMO02.itm~
 	SAY NAME2 @137
 	SAY DESC @138
+
+COPY ~Blackhearts EET/items/WIMISC04.itm~ ~override/WIMISC04.itm~
+	SAY NAME1 @3324
+	SAY NAME2 @3324
+	SAY UNIDENTIFIED_DESC @3325
+	SAY DESC @3325
 	
 COPY ~Blackhearts EET/items/WISPER01.itm~ ~override/WISPER01.itm~
 	SAY NAME2 @139
@@ -497,6 +503,9 @@ COPY ~Blackhearts EET/CRE/WIHOBG02.cre~ ~override/WIHOBG02.cre~
 COPY ~Blackhearts EET/CRE/WIHOBG03.cre~ ~override/WIHOBG03.cre~
 	SAY NAME1 @3308
 	SAY NAME2 @3308
+	
+COPY_EXISTING ~ARDENO.cre~ ~override/ARDENO.cre~
+ADD_CRE_ITEM ~WIMISC04~ #0 #0 #0 ~IDENTIFIED~ ~INV~	
 
 COPY ~Blackhearts EET/CRE/WIBORT.cre~ ~override/WIBORT.cre~
 	SAY NAME1 @44
