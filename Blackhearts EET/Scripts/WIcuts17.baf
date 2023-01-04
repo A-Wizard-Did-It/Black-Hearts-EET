@@ -1,0 +1,15 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+	CutSceneId(Player1)
+	Wait(1)
+	FadeToColor([20.0],0)
+	Wait(1)
+	ActionOverride("WINerys",MoveBetweenAreas("BG0705",[477.731],SE))
+	ActionOverride("WIILLASE",DestroySelf())
+	Wait(1)
+	FadeFromColor([20.0],0)
+	EndCutSceneMode()
+	AddJournalEntry(@114,QUEST) 
+END

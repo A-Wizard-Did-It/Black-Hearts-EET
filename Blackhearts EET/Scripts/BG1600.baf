@@ -1,0 +1,11 @@
+IF 
+Global("BHBG1Quest","GLOBAL",7)
+Global("BHBG1Quest7spawn1","BG1600",0)
+!Dead("TAKIYAH")
+
+THEN
+RESPONSE #100
+	SetGlobal("BHBG1Quest7spawn1","BG1600",1)
+	CreateCreature("WIAMARAN",[930.2292],N) 
+
+END

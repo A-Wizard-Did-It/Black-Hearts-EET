@@ -1,0 +1,485 @@
+@16=~Helmet~
+@17=~This class of open-face helmet, made of reinforced leather or metal, covers most of the head save the face and neck. These helmets commonly provide protection for the nose. 
+
+STATISTICS:
+
+Equipped abilities:
+– Protects against critical hits
+
+Weight: 2~
+
+@18=~Hard Knocks Helm~
+@19=~This helm contains no enchantment, yet it seems to be reinforced with some cleverly placed furs that give its wearer just a little bit extra protection from knocks on the head. Unfortunately, it also smells deeply of stale ale and you suspect that no amount of washing will ever quite get it out.
+
+STATISTICS:
+
+Equipped abilities:
+- Hit Points: +3
+– Protects against critical hits
+
+Weight: 2~
+
+@22=~Humanbane Bastard Sword~
+@23=~Also known as the hand-and-a-half sword, the bastard sword derives its name from the fact that it is halfway between the two-handed sword and the long sword. 
+
+This old, beaten up sword has been given a bane enchantment, making it particularly effective in slaying humans. Blood seems to permanently stain its chipped blade. Even just holding such a weapon is often considered a sign of the wielder's wickedness, but practicality and virtue are rarely easy companions.
+
+STATISTICS:
+
+-2 Charisma
+
+THAC0: +1
+Damage: 2d4+1, +3 vs. humans
+Speed Factor: 7
+Proficiency Type: Bastard Sword
+Type: One-handed
+Requires:
+ 11 Strength
+
+Weight: 9~
+
+@26=~Sazazir's Spellbook~
+@27=~This heavy tome contains Sazazir's spells and writings. Most of it is indecipherable, though you were able to strip out a few of the pages with spells that could be scribed from it. Near as you can tell, the rest of the book is mostly composed of the rantings of a madman; scared witless about some sort of accountant from a former cult of his who was intent on murdering him. There are also several passages about how he was often frightened to near paralysis by the thought that his own skeleton would be the one to betray him next.
+
+STATISTICS:
+
+Weight: 6~
+
+@31=~Bag of Holds a Regular amount of Things~
+@32=~Once a fabled bag of holding, it appears that the enchantment that caused the bag to open into a pocket dimension has been disrupted. It is now an ordinary mundane bag in every way, and thus quite useless.
+
+STATISTICS:
+
+Weight: 1~
+
+@33=~Copy of the Liberus Optimae Erositica~
+@34=~While not the genuine Liberus Optimae Erositica, this copied volume seems to be a faithful reproduction of the original work. While examining the rather suggestive cover, you're tempted to open it to peruse the librum's salacious content, but the watchful eyes of your companions quickly quells those compulsions. At least until you have a chance to look upon it in private, that is.
+
+STATISTICS:
+
+Weight: 10~
+
+@35=~Tome of Manuscripts~
+@36=~This tome contains the manuscripts of the playwright (and rumored Harper) Salena Fairsky, including such popular plays as "The Merryweather Conundrum" and "Whisper the Six". 
+
+Salena's plays are well known for being beautifully written with characters that explore cyclical themes of humanoid-nature. Critics however have often panned her work for being overwrought and with a reliance on deus ex machina endings to resolve central conflicts in the play.
+
+The last few pages contain Salena's last unfinished play, titled "Black Heart". It details a woman named the “Cardinal” as she courts "The Pale Man", who had murdered her family when she was only a child, in the hopes of using the relationship to destroy him. The play seemed to be moving for a tragic turn as the Cardinal's efforts draw her down a dark path, her actions becoming more extreme and compromising her morals little by little until she became just like the man she so hated. The story abruptly stops without any hint for where the ending might have gone.~
+
+@37=~Ring of Lesser Magic Resistance~
+@38=~Rings of Magic Resistance are a common accessory among the warriors of Rashemen to protect them from their hated rivals, the Red Wizards of Thay. More than once, a Red Wizard has cast a fireball upon a band of Rashemen warriors, only to find them unscarred by the flames and barreling straight at them.
+
+STATISTICS:
+
+Equipped Abilities:
+- 10% Magic Resistance
+
+Weight: 0~
+
+@42=~Tainted Eternity Glass~
+@43=~You found this item off a group of mad adventurers who attacked you while howling with most unearthly wails. While this object is supposedly a Lens of True Seeing, it appears that there is marring across its surface, and when you briefly look into the reflection, you see a dark presence looming behind you. You quickly wrapped the item in cloth to cover it, hoping that will inhibit whatever vile magic has suffused it.~
+
+@62=~Bloodletting Blade~
+@63=~This crimson tinged katana has been infused with an enchantment that causes those struck by it to continue to bleed out slowly. The blade's exact history is shrouded in mystery, though it has been wielded by many an assassin. Some even suspect that it passed among several Deathstalkers, and is responsible for the horrible demise of several nobles and political figures throughout the years.
+
+STATISTICS:
+
+Combat abilities:
+- 2 extra bleeding damage every round until 10 hit points of damage done
+
+THAC0: +1
+Damage: 1d10+1 (slashing)
+Speed Factor: 3
+Proficiency Type: Katana
+Type: One-handed
+Requires:
+ 6 Strength
+ 
+Weight: 5~
+
+@59=~Broken Eternity Glass~
+@60=~While supposedly this used to be a potent magical item, the Eternity Glass is now broken and ruined, its frame bent and marred and the glass that had supposedly been enchanted with true seeing now simply gone without a trace. You don't imagine this will be worth anything to anyone.~
+
+@66=~Letter~
+@67=~PLACEHOLDER~
+
+@71=~This was one of the spiderlings that exploded out of the man's body within the Eversong Tavern, growing instantly in size as it emerged. There's something extra repulsive about carrying around the body of this spider after it had just been crawling around the inside of a man's body. Bits of his viscera still cling to its unnaturally edged legs.~
+
+@80=~Arachnid's Breast~
+@81=~This leather armor is lined with silken strands of spiderwebs that provide both excellent protection as well as a curious secondary effect; when the wearer of the armor is struck, the webs spray out over his attacker, binding them in webbing for a short time. This works even when struck by ranged attackers. These armors are common among the Underdark, worn by druidic outcasts who tend to mushroom groves or the many strange beasts of those darkened realms.
+
+STATISTICS:
+
+Equipped abilities:
+– 30% chance to bind attackers per the Web spell unless they can make a successful save.
+
+Armor Class: 7 (9 vs. piercing and missile)
+Requires:
+ 4 Strength
+
+Weight: 10~
+
+@82=~Sendai's Gift~
+@83=~You retrieved this brambled collar from the rogue Harper, Riezen Darkeyes. It bears a faint protective enchantment on it, granting a minor bonus to armor class and saving throws. On the collar is inscribed a message in the drow language. 
+
+"To my suntouched lover. Do your great works with thoughts of my dark lips."
+
+STATISTICS:
+
+Equipped abilities:
+– Armor Class: +1
+– Saving Throws: +1
+
+Weight: 1~
+
+@84=~Coded Diary of Riezen Darkeyes~
+@85=~You retrieved this diary from the rogue Harper, Riezen Darkeyes. The writing within however is encoded in an elaborate code that is impossible to decipher. Perusing the pages, you suspect it would take an expert code breaker months if not years to fully piece together.
+
+Weight: 5~
+
+@89=~Brilla's Necklace~
+
+@90=~Unfinished Letter~
+@91=~Krollir,
+
+Status Report - We've continued to monitor the situation in Baldur's Gate closely. I believe your suspicions about something major happening here were not unfounded. The Iron Throne continues to manipulate the region and consolidate their power. I anticipate the guild will benefit greatly from a relationship formed now.
+
+Our partnership with the Red Wizards seems almost too coincidental for me to feel comfortable with, yet I think we soon both realized the benefit of our cooperation. They seem as aware as we are that even the schemes of the Throne seem to be only a stage set for something greater. Cherise and her Wizards have offered their loyalty to a figure that is within the Throne, but that offer, as far as we are aware, does not extend to the leaders of the Iron Throne itself, just to the son of one of them. A curious detail that we are still trying to decipher.
+
+Unfortunately, she holds her own schemes at arm's length from us yet. We will continue to remain apprised of the goings on here. Until then, we've received our first mission from the Wizards, through a coded and untraceable magical message. We now hold in our possession a Harper agent. She's been tight lipped so far, but my next missive will surely contain all of her secrets, including I hope any Harper agents in our ranks.
+
+The only lingering thread is the "Blackheart" at the center of your infernal auguries. However, I am pleased to report that one of my agents was able to pl-
+
+*The letter seems to stop here, likely interrupted by your attack against the Night Knives*~
+
+@92=~Borrowed Fortune~
+@93=~Loyle Nosbrun was a prodigious gambler, a man who never left home without making a wager, and never returned home without making two more. While such a lifestyle is surely a path to disaster for most, Loyle always found a way out or an unexpected turn of fortune that settled his debts so he could live to gamble another day. Some attributed this unnatural luck to the gaudy sword he wore at his hip, one which he never seemed to be without. 
+
+However, even Loyle’s good luck soon wore thin as he found himself in a criminal’s den, running up a debt that spiraled out of his control. Speaking with the Crime Lord at the center of the ring, Loyle made one last wager, a single unfavored die roll that would either clear his debts, or enslave himself forever to the Crime Lord’s whims. Taking up his sword and laying a kiss on its blade, he rolled the die, which improbably landed in his favor. With a sigh of relief, Loyle left the criminal den. Moments after stepping out, he was improbably crushed by a cow that had fallen loose of the talons of a wyvern far overhead.
+
+When you pick up the blade, you feel your luck greatly improving. However, you also feel a slight undercurrent of dread, sensing that this improvement is not being given, but rather just borrowed from the future. All fortunes balance out in time.
+
+STATISTICS:
+
++1 Luck
+1% chance on strike for... something to happen
+
+THAC0: +2
+Damage: 1d6+2 (piercing)
+Speed Factor: 1
+Proficiency Type: Short Sword
+Type: One-handed
+Requires:
+ 4 Strength
+
+Weight: 2~
+
+@94=~Ring of Arcane Lore~
+@95=~While wearing this ring, your mind more readily calls to mind facts and details, expanding long term memory significantly. Rings like this are common among the Red Wizards of Thay, though none will ever dare admit to using such a crutch in their pursuit of arcane mastery.
+
+STATISTICS:
+
++2 Intelligence
+
+Weight: 0~
+
+@103=~Tattered Tome~
+@104=~*This tome seems positively ancient, hundreds of years old possibly. You're only able to make a few scribblings within.*
+
+"...blessed are we to have been given the egg... imagine, a dragon infused with our very Lord's own dark essence. What glorious devastation... received a premonition from our dark lord. This is to be one of many seeds sown through the years. To carry on his essence in case... hidden our enclave cleverly but... too dangerous. His enemies have noticed our presence. We must abandon this sanctum... east to the Anauroch desert. There we will raise the dragonling in secret, for centuries if needed, until the time of prophecy arrives... One day he will rise to take his rightful place besides the Lord.~
+
+@108=~Bright Orange Ioun Stone~
+@109=~This ioun stone glows with a bright orange hue that causes your hairs to stand on end. You feel a tangible sense of energy flowing through it. Ioun stones of this kind bolster the power of mages who wear them, and are highly sought after throughout the Realms.
+
+STATISTICS: 
+
+Equipped abilities:
+- Mage Caster Level: +1
+
+Weight: 0~
+
+@110=~Strange Gemstone~
+@111=~This glimmering gemstone feels oddly light to hold and projects an otherworldly aura. You aren't sure what it's for, but you feel like it might be best to hold onto until you can give it to someone who might be able to use it.~
+
+@112=~Letter~
+@113=~Cherise,
+I have received your inventory of creatures and I find the menagerie at your command to be an impressive force. You are wise to support me in my rise to power. The Zulkirs will quake in fear when you return to Thay, bolstered by my support. Once you have ripped their power from them, not even the Harpers or these old Deathstalker rivals of yours will pose any danger to you. I must reiterate that I, Winski, Cythandria, or my lieutenants Semaj and Angelo are to be your sole contacts. Only they know the full scope of my plans, including details that the rest of the Iron Throne organization may find disagreeable. I will be leaving Baldur's Gate soon on a mission. When I return, we will reconvene, and the next stage of my plans revealed to you.
+
+-S~
+
+@116=~Mimic Mace~
+@117=~You found this mace within the remains of a mimic, corroded by its acid and covered in its sticky ichor, but otherwise remarkably in tact. It's difficult to say what the original enchantment placed on the mace was, yet its time within the mimics digestive system seems to have imbued it with properties of the mimic itself. When swung at an enemy, this mace has a chance to ensnare them in the mimic's adhesive ichor or drench them in a mimic's acidic digestive fluids. While a powerful weapon, the Mimic Mace's properties also make it extremely difficult to let go of once picked up, covering the carrier's hand in its sticky coating. It would take a Remove Curse spell to undo this effect.
+
+STATISTICS:
+
+– May only be removed with a Remove Curse spell
+- 5% Chance to Paralyze target for 5 rounds (save vs breath)
+- 5% Chance to deal 3d12 acid damage to target
+
+THAC0: +2
+Damage: 1d6+3 (crushing)
+Speed Factor: 5
+Proficiency Type: Mace
+Type: One-handed
+Requires:
+ 10 Strength
+
+Weight: 7~
+
+@118=~Bastard Sword~
+@119=~Bastard Sword + 2~
+@120=~Also known as the hand-and-a-half sword, the bastard sword derives its name from the fact that it is halfway between the two-handed sword and the long sword. The bastard sword has a double-edged blade and a long grip, which can accommodate both hands if preferred. The overall length of the bastard sword ranges between four feet and four feet ten inches.
+
+STATISTICS:
+
+Damage: 2d4 (slashing)
+Speed Factor: 8
+Proficiency Type: Bastard Sword
+Type: One-handed
+Requires:
+ 11 Strength
+
+Weight: 10~
+@121=~Not only has a smith made this sword so that it is better balanced and more durable than a standard blade, powerful enchantments have also been placed on it. It is faster, more accurate, and hits for far more damage than the standard of its type. 
+
+STATISTICS:
+
+THAC0: +2
+Damage: 2d4+2 (slashing)
+Speed Factor: 6
+Proficiency Type: Bastard Sword
+Type: One-handed
+Requires:
+ 11 Strength
+
+Weight: 7~
+
+@125=~White Astral Gemstone~
+@126=~This glittering gemstone appears to have a faintly magical aura. You immediately suspect that gathering them will be the key to undoing the wards that protect Cherise within her astral domain.~
+
+@127=~Green Astral Gemstone~
+@128=~This glittering gemstone appears to have a faintly magical aura. You immediately suspect that gathering them will be the key to undoing the wards that protect Cherise within her astral domain.~
+
+@129=~Black Astral Gemstone~
+@130=~This glittering gemstone appears to have a faintly magical aura. You immediately suspect that gathering them will be the key to undoing the wards that protect Cherise within her astral domain.~
+
+@131=~Blue Astral Gemstone~
+@132=~This glittering gemstone appears to have a faintly magical aura. You immediately suspect that gathering them will be the key to undoing the wards that protect Cherise within her astral domain.~
+
+@135=~Flame Binding Wardstone~
+@136=~This brilliant gem is hot to the touch and its surface seems to roil and shift like an oily surface swirls around it. It is likely that such a gem could be used as a powerful focus for a ritual binding spell related to the element of fire.~
+
+@137=~Charred Scales~
+@138=~A suit of armor procured from the City of Brass, this set of chain mail seems to be perpetually coated in a sheen of oily substance. When the armor is struck, the chains rub against one another, producing sparks that set this oily layer ablaze and causes a gout of fire to launch in the direction of the striker. The enchantment woven into the armor also provides limited protection against fire.
+
+STATISTICS:
+
+30% chance to cast Burning Hands on target when hit
+40% Fire Resistance
+
+Armor Class: 3 (1 vs. slashing, 5 vs. crushing)
+Requires:
+ 8 Strength
+
+Weight: 10~
+
+@139=~Glacial Spear~
+@140=~The tip of this spear is composed of glacial ice taken from the coldest recesses of the elemental plane of water. The cold is so bitter that it sizzles in the air and not even the hottest flame could hope to melt it. In addition to doing extra cold damage, this spear has a chance to inflict freezing cold on targets struck, slowing their every movement.
+
+
+STATISTICS:
+
+Deals +1 Cold Damage on Hit
+30% Chance to cast slow on target on hit
+
+THAC0: +2
+Damage: 1d6+2 (piercing)
+Speed Factor: 4
+Proficiency Type: Spear 
+Type: Two-handed
+Requires:
+ 5 Strength
+
+Weight: 3~
+
+@141=~Oaken Heart Staff~
+@142=~In the depths of the Forest of Lethyr, the Dryad Queen Fariquoir rules over a secret kingdom of Fey, unknown beyond the forest’s edge. Uncommonly for Dryads, Fariquoir’s harem are free willed druidic men and women who are not ensorcelled by her charms, but rather who serve as her advisors with full free will out of love and respect for the Queen. With their counsel, she has ruled peacefully and in harmony with the civilizations that surround the forest since before any record of man.
+
+To her most valued consorts, she grants a staff composed of fallen branches from her very Heart Tree, a great Oak at the center of Lethyr. This staff grants them the protection of the Heart Tree even from afar, as well as a greater connection to the natural world.
+
+
+STATISTICS:
+
++2 to Level of Divine Spells
+Memorize 1 Additional Spell of each Level
+
+THAC0: +2
+Damage: 1d6+2 (crushing)
+Speed Factor: 4
+Proficiency Type: Quarterstaff
+Type: Two-handed
+Requires:
+ 5 Strength
+
+Weight: 4
+
+Usable by:
+Druid
+Shaman~
+
+@146=~Gift of Silence~
+@147=~The story of Song and Silence is one told often in the taverns of far away Kara-Tur. The story begins with two twin brothers, born on the border between two lands, one of Light and one of Shadow. Each brother was born with a curious affliction. One brother could only speak in verse and song, and every step or sound they made seemed to accompany a strange melody. The other brother was cursed to silence, never able to speak and whose every step seemed muffled and distant. 
+
+Leaders from the prevailing monasteries on both lands came to the family of the destined brothers. There, they agreed to each take a brother, the Brother of Song to the Monastery of Light and the Brother of Silence to the Monastery of Shadow. There, each brother was raised in accordance with their Monastery’s tenants, each becoming a Monk of their associated order.
+
+The brothers did not meet again until a grand martial arts tournament when both entered as representatives of their Monasteries and faced one another. Stories of what happened here diverge greatly. Some describe the brothers fighting to a standstill until they came to embrace one another. Others say they each struck a mortal blow to the other and died together as one. 
+
+The Brother of Silence was crafted this special Ninjatō by his order that was instilled with his virtues. When wielded, the weapon shrouds its wielder in silence, rendering them mute and muffling every sound they make. Those it strikes are enshrouded in the very same silence.
+
+STATISTICS:
+
+Silences wielder on equip
++ 30% Move Silent
+25% chance to silence for 30 seconds on strike (save vs spell)
+
+THAC0: +2
+Damage: 1d8+2 (slashing)
+Speed Factor: 2
+Proficiency Type: Scimitar/Wakizashi/Ninjatō
+Type: One-handed
+Requires:
+ 6 Strength
+
+Weight: 3~
+
+@148=~Gift of Song~
+@149=~The story of Song and Silence is one told often in the taverns of far away Kara-Tur. The story begins with two twin brothers, born on the border between two lands, one of Light and one of Shadow. Each brother was born with a curious affliction. One brother could only speak in verse and song, and every step or sound they made seemed to accompany a strange melody. The other brother was cursed to silence, never able to speak and whose every step seemed muffled and distant. 
+
+Leaders from the prevailing monasteries on both lands came to the family of the destined brothers. There, they agreed to each take a brother, the Brother of Song to the Monastery of Light and the Brother of Silence to the Monastery of Shadow. There, each brother was raised in accordance with their Monastery’s tenants, each becoming a Monk of their associated order.
+
+The brothers did not meet again until a grand martial arts tournament when both entered as representatives of their Monasteries and faced one another. Stories of what happened here diverge greatly. Some describe the brothers fighting to a standstill until they came to embrace one another. Others say they each struck a mortal blow to the other and died together as one. 
+
+The Brother of Song was crafted this special Wakizashi by his order that was instilled with his virtues. When wielded, the weapon sings with the sound of his Divine Hymn, which inspires its wielder’s allies to greater valor in combat. However for the wielder who holds the singing blade, this can prove to be an intoxicating distraction in combat.
+
+STATISTICS:
+Bard song effect on party upon successful attack
++1 Charisma
+-2 Armor Class
+
+-2 to THAC0 (effects both weapons if dual wielding)
+Damage: 1d8+2 (piercing)
+Speed Factor: 1
+Proficiency Type: Scimitar/Wakizashi/Ninjatō
+Type: One-handed
+Requires:
+ 5 Strength
+
+Weight: 1~
+
+@150=~Quicksilver Robes~
+@151=~Try as you might, you haven’t the faintest clue what material these robes are made out or how they could even exist in the first place. The material is a swirl of silver and blue that shifts about like a metallic liquid and when worn, they feel not entirely solid but like a semi-hard liquid of sorts which can be disconcerting to wear. Still, they hold firm as robes and seem of no danger of melting off your body. Additionally, its wearer always feels a tingle in the tips of their fingers and their small hairs are always standing on edge.
+
+As strange as their make is, what’s even stranger is the effect they have when worn. The robes have a powerful magnetic field around them. This effect repulses all weapon attacks, but especially projectiles. The material of the robes to slide through the air as if lacking any kind of resistance to it at all. Finally, the magnetic aura also seems to amplify the effects of electricity around them. This has a double edged effect; electricity spells cast by the wearer are amplified, but the wearer also suffers a greater vulnerability to those same spells.
+
+STATISTICS:
+
+Equipped abilities:
+Armor Class: 6
+Armor Class vs Missiles: 3
+Increased Movement Rate
++20% damage done with Electricity Spells
+-30% Resistance to Electricity
+
+Weight: 6
+
+Usable by:
+Mages
+Druid
+Shaman~
+
+@153=~Unholy Symbol of Bhaal~
+@154=~A depiction of the dead god Bhaal. This symbol is cracked and worn with age.~
+
+@155=~Boots of the Stout Traveler~
+@156=~These fur boots look very well worn and even a bit shabby, yet it's impossible to deny how cozy one's feet feel inside of them. Legend says they were boots worn by a traveling dwarf who made his way up and down Faerûn, never stopping for more than a few days before heading out on his next trip. If so, these shoes have endured a lifetime of wear and tear, yet they still seem ready to take the wearer on ever further travels.
+
+STATISTICS:
+
+Equipped abilities:
++1 Constitution
+
+Weight: 4~
+
+@163=~Tempest Targe~
+@164=~The Tempest Targe is the creation of a priestess of Tempus who was disparaged by the way that shields often allowed their wearers to hide behind them in combat. While she respected the shield’s role in a warrior’s arsenal as a means of defense, she knew that such cowardly behavior would never earn her god’s favor. In seeking to meld both offense and defense, she created the perfect fusion of both, a shield that provided excellent protection while also spurning the user onwards. Unlike other shields that benefit from a slower approach to battle, the Tempest Targe is meant to be wielded much like a weapon in the off-hand, repelling attacks in one moment while striking enemies the other. The effect is much akin to dual wielding weapons, although with the added protection of a shield in the off-hand. 
+
+STATISTICS:
+
+Equipped abilities:
+– 1 Extra Attack per Round
+– -2 THAC0
+– Armor Class: +3
+– No protection against missile attacks
+
+Requires:
+ 4 Strength
+
+Weight: 2~
+
+@165=~Decoded Diary of Riezen Darkeyes~
+@166=~*Translator’s note: I’ve gone through and transcribed the most important entries in the volume. Hope this helps, or that you at least find it interesting.
+
+Entry 1 - The Harper leadership has convened and assigned to me the pursuit of the Blackheart, Bhaal’s favored High Priestess during the Time of Troubles. It’s a most confidential mission. I’m not to speak of it to anyone, and should not even be leaving a written record of my task. I only do so under the most carefully devised code that only I or other high ranking Harpers should be able to decipher in the worst case that I cannot accomplish my mission or report back. The details I have been given of Blackheart are as follows:
+
+Known details are as such: 
+- Fair of skin 
+- Blue eyes 
+- Records conflict on hair. Some say brown, others auburn, others bright red. Likely it is dyed as necessary.
+- In her priestly regalia, tends towards avian motifs (possibly owl?). It is unlikely she will assume such dress again, however she often will retain feathered adornments on her even in disguise. 
+- Lean physique.
+- Roughly thirty years of age.
+- Her favored weapon is the spear. She was known to fight with it in conjunction with a large clawed gauntlet. 
+- She is at least a proficient mage. It is unlikely she retains any divine powers after her god fell, however this does not mean she is not a dangerous enemy. 
+- She was last seen within the Marching Mountains of Tethyr
+
+Entry 6 - I have located the Blackheart and begun to trail her. She does not yet know I follow her. However, she has proceeded into the Underdark for some reason I cannot guess at. This is troubling, yet I will continue my task and track her beneath. I only hope that I do not encounter my darkened bastard kin there. 
+
+Entry 9 - I’ve followed the Blackheart for days beneath the earth. Or… perhaps weeks? Time escapes me here. Her destination has revealed itself. She has come to a small shrine, away from the major drow cities. However, the shrine is tended to by other drow. The complex has the markings of Bhaal on them… likely they hide from the Lloth worshiping drow who would destroy a shrine to any surface deity, even one as foul as theirs. She remains in the shrine tending to a young drow woman, I believe educating her. She cannot long be an adult now. She is… rather lovely, despite her dark heritage. 
+
+Entry 13 - I’ve claimed a large cavern in the Underdark as my residence while I observe the Blackheart and her dark prodigy. The mushrooms I tend to and wildlife are adequate to sustain me. I miss the sun, but not so terribly as some of my kin might. I’ve always felt an attraction to the shaded recesses of the below ground. Tending to my mushroom groves, I’ve begun to find new respect for my dark kin.
+
+Entry 18 - I’ve made a terrible error. While I was tending to my groves, I was intruded upon. But while I feared that the vile drow may have discovered me, it was only the single drow girl that Blackheart showed interest in. I know now why. She is a child of the dark god. A Bhaalspawn. I should slay her… it would be my duty as a Harper and as a noble elf. Yet I could not. She’s so beautiful and curious. She did not hate me when she found me. She wished to talk. She even promised not to reveal me to her kin. It is strange. I must watch more.
+
+Entry 19 - She has begun to visit me regularly. Her name is Sendai. I think I love her. 
+
+Entry 22 - Blackheart left the enclave some time ago, but I did not follow. I cannot follow. Perhaps this is an abdication of my mission, but I feel like I must remain here with Sendai. She tells me of her plans, the things she was born to achieve. It scares me because, more and more, I think she speaks truly. I wish for her the destiny she speaks of. 
+
+Entry 29 - This will be my last entry. I have sworn myself to Sendai with all my heart. She sends me on a mission topside… I must destroy an enemy of hers. A Bhaalspawn like her who would ascend before her own plans fall into place. None may steal this inheritance from my love. The Harpers be damned.~
+
+@3323=~Wakizashi~
+@3324=~The wakizashi, or companion sword, is extremely important to the samurai. It is worn at all times, even indoors, and is near the samurai when he sleeps at night. As finely made as the katana, the wakizashi, a shorter sword with a length between twelve and twenty-four inches, is a dangerous weapon in the hands of a skilled user.
+
+STATISTICS:
+
+Damage: 1d8 (piercing)
+Speed Factor: 3
+Proficiency Type: Scimitar/Wakizashi/Ninjatō
+Type: One-handed
+Requires:
+ 5 Strength
+
+Weight: 3~
+
+@3325=~Ninja-To~
+@3326=~The sword of the ninja, the ninjatō, is of lower quality than other Kara-Turan blades such as the katana. The ninjatō is short with a straight blade, making it ideal for subterfuge. The ninjatō is also more suited to fighting in closed places, sometimes giving the ninja an advantage over the longer blades that the samurai use.
+
+STATISTICS:
+
+Damage: 1d8 (slashing)
+Speed Factor: 4
+Proficiency Type: Scimitar/Wakizashi/Ninjatō
+Type: One-handed
+Requires:
+ 6 Strength
+
+Weight: 5~

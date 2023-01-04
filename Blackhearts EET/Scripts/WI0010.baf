@@ -1,0 +1,11 @@
+IF
+Global("BHBG1Quest19spawn1","WI0010",0)
+
+THEN RESPONSE #100
+CreateCreature("WICHERIS",[596.779],S)
+CreateCreature("WIELAN",[494.745],S)
+CreateCreature("WITHARDE",[862.782],S)
+
+SetGlobal("BHBG1Quest19spawn1","WI0010",1)
+
+END

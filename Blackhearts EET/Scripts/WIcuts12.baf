@@ -1,0 +1,28 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+	ClearActions(Player2)
+	ClearActions(Player3)
+	ClearActions(Player4)
+	ClearActions(Player5)
+	ClearActions(Player6)
+	ClearActions(Player1)
+	CutSceneId(Player1)
+	Weather(RAIN)
+	DisplayStringHead(Myself,~*As Riezen begins his incantation, a powerful force of wind holds you in place*~)
+	Wait(2)
+	ActionOverride("WIRIEZEN",ForceSpell("WICOMM03",CLERIC_CALL_LIGHTNING))
+	Wait(6)
+	ActionOverride("WICOMM03",Kill(Myself))
+	ActionOverride("WICOMM02",Kill(Myself))
+	CreateCreature("WISPID01",[600.884],S)
+	CreateCreature("WISPID01",[603.905],S)
+	CreateCreature("WISPID01",[627.904],S)
+	CreateCreature("WISPID01",[630.886],S)
+	CreateCreature("WISPID01",[638.865],S)
+	CreateCreature("WISPID03",[860.808],S)
+	ActionOverride("WIRIEZEN",ChangeAIScript("BPAVNG1",CLASS)
+	DisplayStringHead(Myself,~*A bolt of lightning rips through the clouds, the winds calm, and you are able to fight*~)
+	EndCutSceneMode()
+END

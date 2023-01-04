@@ -1,0 +1,18 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+	CutSceneId(Player1)
+	ActionOverride("WIFIREG2",ChangeAIScript("BPGIAFIR",OVERRIDE)
+	CreateVisualEffect("SPRDRASI",[492.1627])
+	CreateCreature("WIELFIR1",[492.1627],E)
+	CreateVisualEffect("SPRDRASI",[420.1710])
+	CreateCreature("WIELFIR1",[420.1710],E)
+	CreateVisualEffect("SPRDRASI",[427.1817])	
+	CreateCreature("WIELFIR1",[427.1817],E)
+	CreateVisualEffect("SPRDRASI",[529.1907])	
+	CreateCreature("WIELFIR1",[529.1907],E)
+	EndCutSceneMode()	
+END
+
+

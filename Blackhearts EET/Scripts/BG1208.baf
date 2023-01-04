@@ -1,0 +1,12 @@
+IF 
+Global("BHBG1Quest","GLOBAL",13)
+
+THEN
+RESPONSE #100
+	ActionOverride(Player1,LeaveAreaLUA("WI0005","",[324.919],10))
+	ActionOverride(Player2,LeaveAreaLUA("WI0005","",[359.943],10))
+	ActionOverride(Player3,LeaveAreaLUA("WI0005","",[279.939],10))
+	ActionOverride(Player4,LeaveAreaLUA("WI0005","",[327.976],10))
+	ActionOverride(Player5,LeaveAreaLUA("WI0005","",[245.964],10))
+	ActionOverride(Player6,LeaveAreaLUA("WI0005","",[297.999],10))
+END

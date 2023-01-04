@@ -1,0 +1,24 @@
+IF
+Global("BHBG1Quest3spawn1","BG5403",0) 
+Global("BHBG1Quest","GLOBAL",3)
+
+THEN RESPONSE #100
+
+CreateCreature("WILLYRK",[1792.677],N)
+CreateCreature("WISKEL",[1760.550],N)
+CreateCreature("WISKEL",[1713.604],W)
+CreateCreature("WISKEL",[1635.587],S) 
+CreateCreature("WISKEL",[1388.333],N)
+CreateCreature("WISKEL",[1422.398],W)
+CreateCreature("WISKEL",[2003.384],N)
+CreateCreature("WISKEL",[1974.421],W)
+CreateCreature("WISKEL",[1115.1003],S) 
+CreateCreature("WISKEL",[479.308],N)
+CreateCreature("WISKEL",[782.925],W)
+CreateCreature("WISKEL",[1631.953],N)
+CreateCreature("WISKEL",[3173.984],W)
+CreateCreature("WISKEL",[2976.295],S) 
+CreateCreature("WISKEL",[2379.1096],N)
+
+SetGlobal("BHBG1Quest3spawn1","BG5403",1)
+END

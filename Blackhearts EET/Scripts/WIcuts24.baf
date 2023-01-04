@@ -1,0 +1,17 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+	CutSceneId(Player1)
+	Wait(1)
+	FadeToColor([20.0],0)
+	Wait(1)
+	EndCutSceneMode()
+	ActionOverride(Player1,LeaveAreaLUA("BG5400","",[1086.851],4))
+	ActionOverride(Player2,LeaveAreaLUA("BG5400","",[1088.823],4))
+	ActionOverride(Player3,LeaveAreaLUA("BG5400","",[1060.847],4))
+	ActionOverride(Player4,LeaveAreaLUA("BG5400","",[1060.816],4))
+	ActionOverride(Player5,LeaveAreaLUA("BG5400","",[1028.841],4))
+	ActionOverride(Player6,LeaveAreaLUA("BG5400","",[1025.816],4))
+	FadeFromColor([20.0],0)
+END

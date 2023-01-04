@@ -1,0 +1,15 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+	CutSceneId(Player1)
+	Wait(3)
+	ScreenShake([2377.1941],12)
+	CreateCreature("WIANKHE1",[687.2192],S)
+	CreateCreature("WIANKHE1",[1420.2120],S)
+	CreateCreature("WIANKHE1",[1513.2512],S)
+	CreateCreature("WIANKHE1",[1089.2647],S)
+	CreateCreature("WIANKHE1",[761.2596],S)
+	AddJournalEntry(@74,QUEST)
+	EndCutSceneMode()
+END

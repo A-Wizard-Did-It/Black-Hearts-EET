@@ -1,0 +1,11 @@
+IF
+	Global("Chapter","GLOBAL",7)
+	Global("BHBG1Quest","GLOBAL",16)
+	Global("BHBG1Quest16spawn1","BG0112",0)
+
+THEN
+RESPONSE #100
+	SetGlobal("BHBG1Quest16spawn1","BG0112",1)
+	CreateCreature("WIILLASE",[1234.832],SE) 
+	
+END

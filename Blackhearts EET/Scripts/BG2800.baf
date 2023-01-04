@@ -1,0 +1,10 @@
+IF
+Global("AR2800MapNote","BG2800",0)
+
+THEN
+	RESPONSE #100
+
+AddMapNote([4575.1409],@40)
+SetGlobal("AR2800MapNote","BG2800",1)
+
+END

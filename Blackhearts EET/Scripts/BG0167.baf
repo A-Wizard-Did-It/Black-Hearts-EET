@@ -1,0 +1,18 @@
+IF
+  Global("WINerysMet","GLOBAL",2)
+THEN
+  RESPONSE #100
+	StartCutSceneMode()
+	SetGlobal("WINerysMet","GLOBAL",3)
+	CutSceneId(Player1)
+	Wait(2)
+	DisplayStringHead("WINerys",~Now lets see here. I have all my Harper correspondences and records here. Gimmie a minute~)
+	Wait(4)
+	DisplayStringHead("WINerys",~Ok, got them!~)
+	Wait(1)
+	ActionOverride("WINerys",MoveToPoint([315.285]))
+	Wait(2)
+	Face(0)
+	EndCutSceneMode()
+	ActionOverride("WINerys",StartDialogueNoSet(Player1))
+END

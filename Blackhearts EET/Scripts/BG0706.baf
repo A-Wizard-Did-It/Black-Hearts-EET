@@ -1,0 +1,10 @@
+IF
+Global("IllaseraScene2","GLOBAL",1)
+Global("BHBG1Quest","GLOBAL",16)
+
+THEN
+RESPONSE #100
+
+ActionOverride("WInerys",StartDialogueNoSet(Player1))
+
+END
