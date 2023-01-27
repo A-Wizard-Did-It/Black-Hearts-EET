@@ -1,0 +1,17 @@
+IF
+	Entered([ANYONE])
+	Global("WIMIMICTRAP","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetInterrupt(FALSE)
+		SetGlobal("WIMIMICTRAP","GLOBAL",1)
+		ContainerEnable("Mimic",FALSE)
+		CreateCreatureImpassableAllowOverlap("WIMIMIC",[2738.1221],E)  // Killer Mimic
+		CreateVisualEffect("ILLUSH",[785.675])
+		PlaySound("EFF_M110")
+		CreateCreatureEffect("JELLOC","TRGOOYAA",[2631.1174],S)  // Ochre Jelly
+		CreateCreatureEffect("JELLOC","TRGOOYAA",[2754.1302],SW)  // Ochre Jelly
+		SetInterrupt(TRUE)
+END
+
+

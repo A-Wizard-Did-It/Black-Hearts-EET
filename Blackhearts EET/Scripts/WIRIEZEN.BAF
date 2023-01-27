@@ -1,0 +1,10 @@
+IF
+	See([PC])
+	NumTimesTalkedTo(0)
+THEN
+	RESPONSE #100
+		SmallWait(6)
+		StartDialog("WIRiezen",[PC])
+END
+
+

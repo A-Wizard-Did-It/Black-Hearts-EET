@@ -11,4 +11,4 @@ END
 		++ @3295 + Yondak2
 
 CHAIN WIYondak Yondak2
-	@3296 DO ~Enemy() StartCutSceneMode() StartCutSceneEx("WIcuts13",TRUE)~ EXIT
+	@3296 DO ~Enemy() StartCutSceneEx("WIcuts13",TRUE)~ EXIT

@@ -1,0 +1,15 @@
+IF
+	Entered([ANYONE])
+	Global("WISHAMBTRAP","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("WISTOGOL",[1945.2399],S)  // Stone Golem
+		CreateCreature("WICLAYGO",[2083.2376],S)  // Clay Golem
+		CreateCreature("WISTOGOL",[2205.2325],S)  // Stone Golem
+		CreateCreature("WICLAYGO",[2316.2220],S)  // Clay Golem
+		CreateCreature("WISTOGOL",[2389.2078],S)  // Stone Golem
+		CreateCreature("WISHAMB",[2010.2169],S)  // Shambling Mound
+		SetGlobal("WISHAMBTRAP","GLOBAL",1)
+END
+
+

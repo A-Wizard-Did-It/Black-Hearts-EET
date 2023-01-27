@@ -1,0 +1,9 @@
+IF
+	See(Player1)
+THEN
+	RESPONSE #100
+		Wait(1)
+		StartDialogNoSet(Player1)
+END
+
+

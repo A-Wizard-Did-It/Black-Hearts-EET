@@ -1,0 +1,23 @@
+IF
+	Global("WIAnkhegAmbush","GLOBAL",0)
+	Global("BHBG1Quest","GLOBAL",9)
+THEN
+	RESPONSE #100
+		SetGlobal("WIAnkhegAmbush","GLOBAL",1)
+		CreateCreature("WIANKHE1",[1454.1066],S)  // Assassin Ankheg
+		CreateCreature("WIANKHE1",[1434.957],S)  // Assassin Ankheg
+		CreateCreature("WIANKHE1",[1452.865],S)  // Assassin Ankheg
+		CreateCreature("WIANKHE1",[1491.787],S)  // Assassin Ankheg
+		CreateCreature("WIANKHE1",[1573.673],S)  // Assassin Ankheg
+END
+
+IF
+	Global("BHBG1Quest","GLOBAL",9)
+	Global("BHBG1Quest9spawn1","WI0003",0)
+THEN
+	RESPONSE #100
+		SetGlobal("BHBG1Quest9spawn1","WI0003",1)
+		CreateCreature("WIRIEZEN",[751.869],NW)  // Riezen Darkeyes
+		CreateCreature("WICOMM2",[639.885],S)  // Commoner
+		CreateCreature("WICOMM3",[850.806],S)  // Commoner
+END

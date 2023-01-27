@@ -1,9 +1,0 @@
-IF
-  Global("WINerysMet","GLOBAL",2)
-THEN
-  RESPONSE #100
-	StartCutSceneMode()
-	Global("WINerysMet","GLOBAL",3)
-	StartCutSceneEx("WIcuts12",TRUE)
-END
-

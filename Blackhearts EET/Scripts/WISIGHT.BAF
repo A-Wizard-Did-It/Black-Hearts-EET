@@ -1,0 +1,180 @@
+IF
+	!Allegiance(Myself,ENEMY)
+	OR(2)
+		AreaCheck("OH9310")  // The Black Pits: Arena 1
+		AreaCheck("OH9350")  // The Black Pits: Arena 2
+THEN
+	RESPONSE #100
+		Enemy()
+		Continue()
+END
+
+IF
+	Allegiance(Myself,ENEMY)
+	ActionListEmpty()
+	OR(2)
+		!Detect([PC])
+		!Detect(NearestEnemyOf(Myself))
+	InMyArea(Player1)
+	HPGT(Player1,1)
+	RandomNum(6,1)
+THEN
+	RESPONSE #100
+		MoveToObject(Player1)
+END
+
+IF
+	Allegiance(Myself,ENEMY)
+	ActionListEmpty()
+	OR(2)
+		!Detect([PC])
+		!Detect(NearestEnemyOf(Myself))
+	InMyArea(Player2)
+	HPGT(Player2,1)
+	RandomNum(6,2)
+THEN
+	RESPONSE #100
+		MoveToObject(Player2)
+END
+
+IF
+	Allegiance(Myself,ENEMY)
+	ActionListEmpty()
+	OR(2)
+		!Detect([PC])
+		!Detect(NearestEnemyOf(Myself))
+	InMyArea(Player3)
+	HPGT(Player3,1)
+	RandomNum(6,3)
+THEN
+	RESPONSE #100
+		MoveToObject(Player3)
+END
+
+IF
+	Allegiance(Myself,ENEMY)
+	ActionListEmpty()
+	OR(2)
+		!Detect([PC])
+		!Detect(NearestEnemyOf(Myself))
+	InMyArea(Player4)
+	HPGT(Player4,1)
+	RandomNum(6,4)
+THEN
+	RESPONSE #100
+		MoveToObject(Player4)
+END
+
+IF
+	Allegiance(Myself,ENEMY)
+	ActionListEmpty()
+	OR(2)
+		!Detect([PC])
+		!Detect(NearestEnemyOf(Myself))
+	InMyArea(Player5)
+	HPGT(Player5,1)
+	RandomNum(6,5)
+THEN
+	RESPONSE #100
+		MoveToObject(Player5)
+END
+
+IF
+	Allegiance(Myself,ENEMY)
+	ActionListEmpty()
+	OR(2)
+		!Detect([PC])
+		!Detect(NearestEnemyOf(Myself))
+	InMyArea(Player6)
+	HPGT(Player6,1)
+	RandomNum(6,6)
+THEN
+	RESPONSE #100
+		MoveToObject(Player6)
+END
+
+IF
+	Allegiance(Myself,ENEMY)
+	ActionListEmpty()
+	OR(2)
+		!Detect([PC])
+		!Detect(NearestEnemyOf(Myself))
+	HPGT(NearestEnemyOf(Myself),1)
+THEN
+	RESPONSE #100
+		MoveToObject(NearestEnemyOf(Myself))
+END
+
+IF
+	Allegiance(Myself,ENEMY)
+	ActionListEmpty()
+	OR(2)
+		!Detect([PC])
+		!Detect(SecondNearestEnemyOf(Myself))
+	HPGT(SecondNearestEnemyOf(Myself),1)
+THEN
+	RESPONSE #100
+		MoveToObject(SecondNearestEnemyOf(Myself))
+END
+
+IF
+	Allegiance(Myself,ENEMY)
+	ActionListEmpty()
+	OR(2)
+		!Detect([PC])
+		!Detect(ThirdNearestEnemyOf(Myself))
+	HPGT(ThirdNearestEnemyOf(Myself),1)
+THEN
+	RESPONSE #100
+		MoveToObject(ThirdNearestEnemyOf(Myself))
+END
+
+IF
+	Allegiance(Myself,ENEMY)
+	ActionListEmpty()
+	OR(2)
+		!Detect([PC])
+		!Detect(FourthNearestEnemyOf(Myself))
+	HPGT(FourthNearestEnemyOf(Myself),1)
+THEN
+	RESPONSE #100
+		MoveToObject(FourthNearestEnemyOf(Myself))
+END
+
+IF
+	Allegiance(Myself,ENEMY)
+	ActionListEmpty()
+	OR(2)
+		!Detect([PC])
+		!Detect(FifthNearestEnemyOf(Myself))
+	HPGT(FifthNearestEnemyOf(Myself),1)
+THEN
+	RESPONSE #100
+		MoveToObjectNoInterrupt(FifthNearestEnemyOf(Myself))
+END
+
+IF
+	Allegiance(Myself,ENEMY)
+	ActionListEmpty()
+	OR(2)
+		!Detect([PC])
+		!Detect(SixthNearestEnemyOf(Myself))
+	HPGT(SixthNearestEnemyOf(Myself),1)
+THEN
+	RESPONSE #100
+		MoveToObject(SixthNearestEnemyOf(Myself))
+END
+
+IF
+	Allegiance(Myself,ENEMY)
+	ActionListEmpty()
+	OR(2)
+		!Detect([PC])
+		!Detect(SeventhNearestEnemyOf(Myself))
+	HPGT(SeventhNearestEnemyOf(Myself),1)
+THEN
+	RESPONSE #100
+		MoveToObject(SeventhNearestEnemyOf(Myself))
+END
+
+

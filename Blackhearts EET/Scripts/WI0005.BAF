@@ -1,0 +1,17 @@
+IF
+	Global("BHBG1Quest","GLOBAL",13)
+	Global("BHBG1Quest13spawn1","WI0005",0)
+THEN
+	RESPONSE #100
+		SetGlobal("BHBG1Quest13spawn1","WI0005",1)
+		CreateCreature("WINIKN02",[761.309],SE)
+		CreateCreature("WINIKN01",[961.271],E)
+		CreateCreature("WINIKN02",[930.505],SE)
+		CreateCreature("WINIKN01",[1105.576],E)
+		CreateCreature("WINIKN02",[1074.341],SE)
+		CreateCreature("WINIKN01",[587.432],E)
+		CreateCreature("WISHADO2",[927.497],SE)
+		CreateCreature("WISHADO2",[1082.571],E)
+END
+
+

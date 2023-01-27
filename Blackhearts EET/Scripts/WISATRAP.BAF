@@ -1,0 +1,15 @@
+IF
+	Entered([ANYONE])
+	Global("WISALATRAP","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("WIICESAL",[2366.627],S)  // Ice Salamander
+		CreateCreature("WIICESAL",[2188.609],S)  // Ice Salamander
+		CreateCreature("WIICESAL",[2069.611],S)  // Ice Salamander
+		CreateCreature("WIICESAL",[1921.604],S)  // Ice Salamander
+		CreateCreature("WIICESAL",[1806.546],S)  // Ice Salamander
+		CreateCreature("WIICESCL",[2103.491],S)  // Ice Salamander Cleric
+		SetGlobal("WISALATRAP","GLOBAL",1)
+END
+
+

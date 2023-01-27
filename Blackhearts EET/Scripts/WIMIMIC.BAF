@@ -1,0 +1,57 @@
+IF
+	Global("WIMIMICTRAP","GLOBAL",1)
+	StateCheck(Myself,STATE_REALLY_DEAD)
+THEN
+	RESPONSE #100
+		SetInterrupt(FALSE)
+		SetGlobal("WIMIMICTRAP","GLOBAL",2)
+		ContainerEnable("Mimic",TRUE)
+		SmallWait(5)
+		Unlock("Mimic")
+		SetInterrupt(TRUE)
+END
+
+IF
+	OR(3)
+		!Allegiance(Myself,EVILCUTOFF)
+		StateCheck(Myself,STATE_IMMOBILE)
+		StateCheck(Myself,STATE_REALLY_DEAD)
+THEN
+	RESPONSE #100
+		NoAction()
+END
+
+IF
+	!InActiveArea(Myself)
+	!Range(NearestEnemyOf(Myself),30)
+THEN
+	RESPONSE #100
+		NoAction()
+END
+
+IF
+	StateCheck(Myself,STATE_PANIC)
+THEN
+	RESPONSE #100
+		NoAction()
+END
+
+IF
+	Global("BD_Glue","LOCALS",0)
+	Range([PC],30)
+THEN
+	RESPONSE #100
+		SetGlobal("BD_Glue","LOCALS",1)
+		ForceSpell([PC],MIMIC_GLUE)  // SPIN914.SPL (Mimic Glue)
+END
+
+IF
+	!GlobalTimerNotExpired("BD_Cast","LOCALS")
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		SetGlobalTimer("BD_Cast","LOCALS",ONE_ROUND)
+		ForceSpell(NearestEnemyOf(Myself),MIMIC_ACID)  // SPIN913.SPL (Mimic Acid)
+END
+
+

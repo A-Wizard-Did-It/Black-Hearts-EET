@@ -1019,7 +1019,7 @@ CHAIN IF ~NumTimesTalkedToGT(0) GlobalLT("Chapter","GLOBAL",3)~ THEN WIillase il
 
 // Section 1 - First Quest
 
-CHAIN IF ~NumTimesTalkedTo(0) GlobalGT("Chapter","GLOBAL",2) GlobalLT("Chapter","GLOBAL",5)~ THEN WIillase il1.0
+CHAIN IF ~NumTimesTalkedTo(0) GlobalGT("Chapter","GLOBAL",2) Global("BHBG1Quest","GLOBAL",0)~ THEN WIillase il1.0
 	@1326
 	== MINSCJ_ IF ~InParty("Minsc") InMyArea("Minsc") !StateCheck("Minsc",CD_STATE_NOTVALID)~ THEN @1327
 	== XANJ IF ~InParty("Xan") InMyArea("Xan") !StateCheck("Xan",CD_STATE_NOTVALID)~ THEN @1328
@@ -1133,7 +1133,7 @@ END
 		++ @1379 + il1.15
 		++ @1380 + il1.8
 
-CHAIN IF ~NumTimesTalkedToGT(0) GlobalGT("Chapter","GLOBAL",2) GlobalLT("Chapter","GLOBAL",5) Global("BHBG1Quest","GLOBAL",0)~ THEN WIillase il1.13
+CHAIN IF ~NumTimesTalkedToGT(0) GlobalGT("Chapter","GLOBAL",2) Global("BHBG1Quest","GLOBAL",0)~ THEN WIillase il1.13
 	@1383
 	= @1384
 	== MINSCJ_ IF ~InParty("Minsc") InMyArea("Minsc") !StateCheck("Minsc",CD_STATE_NOTVALID)~ THEN @1327

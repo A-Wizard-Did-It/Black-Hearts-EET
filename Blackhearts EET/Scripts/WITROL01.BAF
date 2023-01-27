@@ -1,0 +1,32 @@
+IF
+	StateCheck(Myself,STATE_PANIC)
+THEN
+	RESPONSE #100
+		RandomWalkContinuous()
+END
+
+IF
+	See(NearestMyGroupOfType([0.0.0.MUSTARD_JELLY]))
+	HPPercentLT(LastSeenBy(Myself),30)
+THEN
+	RESPONSE #100
+		AttackReevaluate(LastSeenBy(Myself),75)
+END
+
+IF
+	!GlobalTimerNotExpired("BD_Cast","LOCALS")
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		SetGlobalTimer("BD_Cast","LOCALS",TEN_ROUNDS)
+		ForceSpell(NearestEnemyOf(Myself),WIZARD_GREASE)  // SPWI101.SPL (Grease)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		AttackOneRound(NearestEnemyOf(Myself))
+END
+
+

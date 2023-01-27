@@ -2,51 +2,26 @@ IF
 	Global("Chapter","GLOBAL",7)
 	Global("BHBG1Quest","GLOBAL",16)
 	Global("IllaseraCellerBuff","LOCALS",0)
-	AreaCheck("BG0112")
-	
+	AreaCheck("AR0112")  // Undercellars (Slythe, Krystin)
 THEN
-RESPONSE #100
-	SetGlobal("IllaseraCellerBuff","LOCALS",1)
-	ApplySpell(Myself,WIZARD_INVISIBILITY)
-	Continue()
+	RESPONSE #100
+		SetGlobal("IllaseraCellerBuff","LOCALS",1)
+		ApplySpell(Myself,WIZARD_INVISIBILITY)  // SPWI206.SPL (Invisibility)
+		Continue()
 END
-
 
 IF
 	Global("Chapter","GLOBAL",7)
 	Global("BHBG1Quest","GLOBAL",16)
-	Dead("Slythe")  
-	Dead("Krystin")  
+	Dead("Slythe")  // Slythe
+	Dead("Krystin")  // Krystin
 	Global("WIIllaseCallout","LOCALS",0)
-	AreaCheck("BG0112")
-	
+	AreaCheck("AR0112")  // Undercellars (Slythe, Krystin)
 THEN
-RESPONSE #100
-	SetGlobal("WIIllaseCallout","LOCALS",1)
-	StartDialogueNoSet(Player1)
-	Continue()
+	RESPONSE #100
+		SetGlobal("WIIllaseCallout","LOCALS",1)
+		StartDialogNoSet(Player1)
+		Continue()
 END
 
-IF
-  AttackedBy([GOODCUTOFF],Myself)
-  Allegiance(Myself,GOODBUTBLUE)
-THEN
-  RESPONSE #100
-	DisplayStringHead(myself,~Oh no no, it isn't time for that yet. We will meet again.~)
-	CreateVisualEffectObject("spdimndr",myself)
-	Wait(3)
-	DestroySelf()
-  
-END
 
-IF
-  HPPercentLT(Myself,10)
-  Allegiance(Myself,ALLY)
-THEN
-  RESPONSE #100
-	DisplayStringHead(myself,~Damn it, I'm injured. You'll need to finish this!~)
-	CreateVisualEffectObject("spdimndr",myself)
-	Wait(3)
-	DestroySelf()
-  
-END

@@ -30,7 +30,7 @@ END
 		++ @3239 + ri9.4
 		
 CHAIN WIRiezen ri9.4
-	@3240 DO ~SetGlobal("BHBG1Quest","GLOBAL",10) Enemy() StartCutSceneMode() StartCutSceneEx("WIcuts12",TRUE)~ EXIT
+	@3240 DO ~SetGlobal("BHBG1Quest","GLOBAL",10) Enemy() StartCutSceneEx("WIcuts12",TRUE)~ EXIT
 	
 CHAIN WIRiezen ri9.5
 	@3241

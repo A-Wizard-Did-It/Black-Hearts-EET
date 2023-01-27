@@ -1,0 +1,14 @@
+IF
+	Global("CHDETHSP","WI0010",0)
+	StateCheck(Myself,STATE_REALLY_DEAD)
+THEN
+	RESPONSE #100
+		SetInterrupt(FALSE)
+		SetGlobal("CHDETHSP","WI0010",1)
+		Wait(6)
+		CreateVisualEffect("spdimndr",[293.780])
+		CreateCreature("WIILLASE",[293.780],E)  // Illasera the Quick
+		SetInterrupt(TRUE)
+END
+
+

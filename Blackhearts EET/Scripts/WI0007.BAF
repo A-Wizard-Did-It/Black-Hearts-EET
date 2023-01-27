@@ -1,0 +1,16 @@
+IF
+	Global("BHBG1Quest","GLOBAL",14)
+	Global("BHBG1Quest14spawn2","WI0007",0)
+THEN
+	RESPONSE #100
+		SetGlobal("BHBG1Quest14spawn2","WI0007",1)
+		CreateCreature("WIRWBKGD",[701.769],SE)  // Thayan Subjugator
+		CreateCreature("WIRWCLER",[825.619],SW)  // Thayan Apostle
+		CreateCreature("WIRWWIZ3",[628.659],S)  // Thayan Conjuror
+		CreateCreature("WIRWTHI2",[1039.464],N)  // Thayan Agent
+		CreateCreature("WIRWBAR2",[557.911],W)  // Thayan Bodyguard
+		CreateCreature("WIRWWIZ1",[955.598],SW)  // Malachi Medeid
+		CreateCreature("WICHERIS",[840.747],SE)  // Cherise Siltuhr
+END
+
+

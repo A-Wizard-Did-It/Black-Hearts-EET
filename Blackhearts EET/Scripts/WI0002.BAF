@@ -1,0 +1,16 @@
+IF
+	Global("BHBG1Quest5spawn1","WI0002",0)
+	Global("BHBG1Quest","GLOBAL",5)
+THEN
+	RESPONSE #100
+		CreateCreature("WIOWYN",[517.228],S)  // Adokul
+		CreateCreature("WIKRANCO",[515.363],S)  // Riffolk Wyne
+		CreateCreature("WISAMJOH",[82.285],W)  // Adogeon Sharpgrin
+		CreateCreature("WICARLOS",[316.211],S)  // Durgig Shadowbrand
+		CreateCreature("WIWYLLIA",[571.366],SW)  // Urthadar
+		CreateCreature("WICIRIL",[854.389],W)  // Dico
+		CreateCreature("WIPRESFI",[288.304],S)  // Presfiel
+		SetGlobal("BHBG1Quest5spawn1","WI0002",1)
+END
+
+

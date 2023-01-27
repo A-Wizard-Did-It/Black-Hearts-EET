@@ -170,25 +170,55 @@ COMPILE ~Blackhearts EET/Scripts/WIcuts23.baf~
 COMPILE ~Blackhearts EET/Scripts/WIcuts24.baf~
 COMPILE ~Blackhearts EET/Scripts/WIcuts25.baf~
 COMPILE ~Blackhearts EET/Scripts/WIcuts26.baf~
+COMPILE ~Blackhearts EET/Scripts/WISIGHT.baf~
+COMPILE ~Blackhearts EET/Scripts/PRESFIEL.baf~
+COMPILE ~Blackhearts EET/Scripts/WIRIEZEN.baf~
+COMPILE ~Blackhearts EET/Scripts/WINIGKNI.baf~
+COMPILE ~Blackhearts EET/Scripts/WITALK.baf~
+COMPILE ~Blackhearts EET/Scripts/WITROL01.baf~
+COMPILE ~Blackhearts EET/Scripts/WIMITRAP.baf~
+COMPILE ~Blackhearts EET/Scripts/WISHTRAP.baf~
+COMPILE ~Blackhearts EET/Scripts/WISATRAP.baf~
+COMPILE ~Blackhearts EET/Scripts/WIMIMIC.baf~
+COMPILE ~Blackhearts EET/Scripts/WICHDETH.baf~
+COMPILE ~Blackhearts EET/Scripts/WIILLIMG.baf~
 
-COPY ~Blackhearts EET/Scripts/WISIGHT.BCS~ ~override/WISIGHT.BCS~
+EXTEND_TOP ~BG0112.bcs~ ~Blackhearts EET/Scripts/BG0112.baf~
+EXTEND_TOP ~BG0123.bcs~ ~Blackhearts EET/Scripts/BG0123.baf~
+EXTEND_TOP ~BG0125.bcs~ ~Blackhearts EET/Scripts/BG0125.baf~
+EXTEND_TOP ~BG0200.bcs~ ~Blackhearts EET/Scripts/BG0200.baf~
+EXTEND_TOP ~BG3401.bcs~ ~Blackhearts EET/Scripts/BG3401.baf~
+EXTEND_TOP ~BG3351.bcs~ ~Blackhearts EET/Scripts/BG3351.baf~
+EXTEND_TOP ~BG3700.bcs~ ~Blackhearts EET/Scripts/BG3700.baf~
+EXTEND_TOP ~BG3300.bcs~ ~Blackhearts EET/Scripts/BG3300.baf~
+EXTEND_TOP ~BG5403.bcs~ ~Blackhearts EET/Scripts/BG5403.baf~
+EXTEND_TOP ~BG5402.bcs~ ~Blackhearts EET/Scripts/BG5402.baf~
+EXTEND_TOP ~BG5401.bcs~ ~Blackhearts EET/Scripts/BG5401.baf~
+EXTEND_TOP ~BG2700.bcs~ ~Blackhearts EET/Scripts/BG2700.baf~
+EXTEND_TOP ~WISIGHT.bcs~ ~Blackhearts EET/Scripts/GENTLSUM.baf~
+EXTEND_TOP ~BG2800.bcs~ ~Blackhearts EET/Scripts/BG2800.baf~
+EXTEND_TOP ~PRESFIEL.bcs~ ~Blackhearts EET/Scripts/PRESFIEL.baf~
+EXTEND_TOP ~BG0800.bcs~ ~Blackhearts EET/Scripts/BG0800.baf~
+EXTEND_TOP ~BG0705.bcs~ ~Blackhearts EET/Scripts/BG0705.baf~
+EXTEND_TOP ~BG0706.bcs~ ~Blackhearts EET/Scripts/BG0706.baf~
+EXTEND_TOP ~BG1600.bcs~ ~Blackhearts EET/Scripts/BG1600.baf~
+EXTEND_TOP ~BG2400.bcs~ ~Blackhearts EET/Scripts/BG2400.baf~
+EXTEND_TOP ~BG0119.bcs~ ~Blackhearts EET/Scripts/BG0119.baf~
+EXTEND_TOP ~BG0167.bcs~ ~Blackhearts EET/Scripts/BG0167.baf~
+EXTEND_TOP ~BG0700.bcs~ ~Blackhearts EET/Scripts/BG0700.baf~
+EXTEND_TOP ~BG1208.bcs~ ~Blackhearts EET/Scripts/BG1208.baf~
+EXTEND_TOP ~BG0226.bcs~ ~Blackhearts EET/Scripts/BG0226.baf~
+EXTEND_TOP ~WI0002.bcs~ ~Blackhearts EET/Scripts/WI0002.baf~
+EXTEND_TOP ~WI0003.bcs~ ~Blackhearts EET/Scripts/WI0003.baf~
+EXTEND_TOP ~WI0005.bcs~ ~Blackhearts EET/Scripts/WI0005.baf~
+EXTEND_TOP ~WI0006.bcs~ ~Blackhearts EET/Scripts/WI0006.baf~
+EXTEND_TOP ~WI0007.bcs~ ~Blackhearts EET/Scripts/WI0007.baf~
+EXTEND_TOP ~WI0008.bcs~ ~Blackhearts EET/Scripts/WI0008.baf~
+EXTEND_TOP ~WI0009.bcs~ ~Blackhearts EET/Scripts/WI0009.baf~
+EXTEND_TOP ~WI0010.bcs~ ~Blackhearts EET/Scripts/WI0010.baf~
+
 COPY ~Blackhearts EET/Scripts/WISHOUT.BCS~ ~override/WISHOUT.BCS~
-COPY ~Blackhearts EET/Scripts/WI0002.BCS~ ~override/WI0002.BCS~
-COPY ~Blackhearts EET/Scripts/WI0003.BCS~ ~override/WI0003.BCS~
-COPY ~Blackhearts EET/Scripts/WI0005.BCS~ ~override/WI0005.BCS~
-COPY ~Blackhearts EET/Scripts/WI0006.BCS~ ~override/WI0006.BCS~
-COPY ~Blackhearts EET/Scripts/WI0007.BCS~ ~override/WI0007.BCS~
-COPY ~Blackhearts EET/Scripts/PRESFIEL.BCS~ ~override/PRESFIEL.BCS~
-COPY ~Blackhearts EET/Scripts/WIILLIMG.BCS~ ~override/WIILLIMG.BCS~
-COPY ~Blackhearts EET/Scripts/WIRIEZEN.BCS~ ~override/WIRIEZEN.BCS~
-COPY ~Blackhearts EET/Scripts/WINIGKNI.BCS~ ~override/WINIGKNI.BCS~
-COPY ~Blackhearts EET/Scripts/WITALK.BCS~ ~override/WITALK.BCS~
-COPY ~Blackhearts EET/Scripts/WITROL01.BCS~ ~override/WITROL01.BCS~
-COPY ~Blackhearts EET/Scripts/WIMITRAP.BCS~ ~override/WIMITRAP.BCS~
-COPY ~Blackhearts EET/Scripts/WISHTRAP.BCS~ ~override/WISHTRAP.BCS~
-COPY ~Blackhearts EET/Scripts/WISATRAP.BCS~ ~override/WISATRAP.BCS~
-COPY ~Blackhearts EET/Scripts/WIMIMIC.BCS~ ~override/WIMIMIC.BCS~
-COPY ~Blackhearts EET/Scripts/WICHDETH.BCS~ ~override/WICHDETH.BCS~
+
 
 COPY ~Blackhearts EET/items/WIRING01.itm~ ~override/WIRING01.itm~
 	SAY NAME2 @37
@@ -855,34 +885,8 @@ COPY ~Blackhearts EET/CRE/WIPINATA.cre~ ~override/WIPINATA.cre~
 WRITE_ASCII DEATHVAR ~WIPINATA~
 ADD_CRE_ITEM ~WISHLD01~ #0 #0 #0 ~none~ ~INV~
 
-EXTEND_TOP ~BG0112.bcs~ ~Blackhearts EET/Scripts/BG0112.baf~
-EXTEND_TOP ~BG0123.bcs~ ~Blackhearts EET/Scripts/BG0123.baf~
-EXTEND_TOP ~BG0125.bcs~ ~Blackhearts EET/Scripts/BG0125.baf~
-EXTEND_TOP ~BG0200.bcs~ ~Blackhearts EET/Scripts/BG0200.baf~
-EXTEND_TOP ~BG3401.bcs~ ~Blackhearts EET/Scripts/BG3401.baf~
-EXTEND_TOP ~BG3351.bcs~ ~Blackhearts EET/Scripts/BG3351.baf~
-EXTEND_TOP ~BG3700.bcs~ ~Blackhearts EET/Scripts/BG3700.baf~
-EXTEND_TOP ~BG3300.bcs~ ~Blackhearts EET/Scripts/BG3300.baf~
-EXTEND_TOP ~BG5403.bcs~ ~Blackhearts EET/Scripts/BG5403.baf~
-EXTEND_TOP ~BG5402.bcs~ ~Blackhearts EET/Scripts/BG5402.baf~
-EXTEND_TOP ~BG5401.bcs~ ~Blackhearts EET/Scripts/BG5401.baf~
-EXTEND_TOP ~BG2700.bcs~ ~Blackhearts EET/Scripts/BG2700.baf~
 EXTEND_TOP ~WISIGHT.bcs~ ~Blackhearts EET/Scripts/GENTLSUM.baf~
-EXTEND_TOP ~BG2800.bcs~ ~Blackhearts EET/Scripts/BG2800.baf~
 EXTEND_TOP ~PRESFIEL.bcs~ ~Blackhearts EET/Scripts/PRESFIEL.baf~
-EXTEND_TOP ~BG0800.bcs~ ~Blackhearts EET/Scripts/BG0800.baf~
-EXTEND_TOP ~BG0705.bcs~ ~Blackhearts EET/Scripts/BG0705.baf~
-EXTEND_TOP ~BG0706.bcs~ ~Blackhearts EET/Scripts/BG0706.baf~
-EXTEND_TOP ~BG1600.bcs~ ~Blackhearts EET/Scripts/BG1600.baf~
-EXTEND_TOP ~BG2400.bcs~ ~Blackhearts EET/Scripts/BG2400.baf~
-EXTEND_TOP ~BG0119.bcs~ ~Blackhearts EET/Scripts/BG0119.baf~
-EXTEND_TOP ~BG0167.bcs~ ~Blackhearts EET/Scripts/BG0167.baf~
-EXTEND_TOP ~BG0700.bcs~ ~Blackhearts EET/Scripts/BG0700.baf~
-EXTEND_TOP ~BG1208.bcs~ ~Blackhearts EET/Scripts/BG1208.baf~
-EXTEND_TOP ~BG0226.bcs~ ~Blackhearts EET/Scripts/BG0226.baf~
-EXTEND_TOP ~WI0008.bcs~ ~Blackhearts EET/Scripts/WI0008.baf~
-EXTEND_TOP ~WI0009.bcs~ ~Blackhearts EET/Scripts/WI0009.baf~
-EXTEND_TOP ~WI0010.bcs~ ~Blackhearts EET/Scripts/WI0010.baf~
 
 APPEND ~mastarea.2da~
 ~WI0003  value~

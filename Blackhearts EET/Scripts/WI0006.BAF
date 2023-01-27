@@ -1,0 +1,27 @@
+IF
+	GlobalLT("BHBG1Quest","GLOBAL",14)
+THEN
+	RESPONSE #100
+		ActionOverride(Player1,LeaveAreaLUA("AR0226","",[807.2752],NE))  // BG Sewers, eastern area (ogre mage for Scar)
+		ActionOverride(Player2,LeaveAreaLUA("AR0226","",[774.2798],NE))  // BG Sewers, eastern area (ogre mage for Scar)
+		ActionOverride(Player3,LeaveAreaLUA("AR0226","",[751.2788],NE))  // BG Sewers, eastern area (ogre mage for Scar)
+		ActionOverride(Player4,LeaveAreaLUA("AR0226","",[727.2740],NE))  // BG Sewers, eastern area (ogre mage for Scar)
+		ActionOverride(Player5,LeaveAreaLUA("AR0226","",[681.2727],NE))  // BG Sewers, eastern area (ogre mage for Scar)
+		ActionOverride(Player6,LeaveAreaLUA("AR0226","",[663.2776],NE))  // BG Sewers, eastern area (ogre mage for Scar)
+END
+
+IF
+	Global("BHBG1Quest","GLOBAL",14)
+	Global("BHBG1Quest14spawn1","WI0006",0)
+THEN
+	RESPONSE #100
+		SetGlobal("BHBG1Quest14spawn1","WI0006",1)
+		CreateCreature("WIRWBKGD",[920.1642],SE)  // Thayan Subjugator
+		CreateCreature("WIRWBKGD",[997.1759],SW)  // Thayan Subjugator
+		CreateCreature("WIRWWIZ2",[2879.2184],NE)  // Thayan Conjuror
+		CreateCreature("WIRWTHIF",[2995.2134],N)  // Thayan Agent
+		CreateCreature("WIRWBARB",[3019.2309],W)  // Thayan Bodyguard
+		CreateCreature("WIOGMA01",[3283.1069],SW)  // Yondak Master of Portals
+END
+
+
