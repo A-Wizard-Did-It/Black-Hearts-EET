@@ -155,7 +155,7 @@ CHAIN WInerys ne8.24a
 	@2983
 	== JAHEIJ IF ~InParty("Jaheira") InMyArea("Jaheira") !StateCheck("Jaheira",CD_STATE_NOTVALID)~ THEN @2984
 	== WInerys @2985 EXTERN WInerys ne8.24c
-	
+
 CHAIN WInerys ne8.24b
 	@2986 EXTERN WInerys ne8.24c
 	
