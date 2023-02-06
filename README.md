@@ -1,5 +1,5 @@
 *****************************************
-Black Hearts BG1 - The Huntress v1.01
+Black Hearts BG1 - The Huntress v1.04
 *****************************************
 
 **Introduction**
