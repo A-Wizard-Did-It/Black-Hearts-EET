@@ -14,6 +14,17 @@ LANGUAGE
 ~Blackhearts EET/tra/English/BHBG1items.tra~
 ~Blackhearts EET/tra/English/BHBG1script.tra~
 
+LANGUAGE
+	~Simplified Chinese (translation: Lewis Liu)~
+	~schinese~
+
+~Blackhearts EET/tra/schinese/BHBG1setup.tra~
+~Blackhearts EET/tra/schinese/BHBG1names.tra~
+~Blackhearts EET/tra/schinese/BHBG1sounds.tra~
+~Blackhearts EET/tra/schinese/BHBG1quests.tra~
+~Blackhearts EET/tra/schinese/BHBG1items.tra~
+~Blackhearts EET/tra/schinese/BHBG1script.tra~
+
 BEGIN @1
 
 ADD_JOURNAL @15 @20 @25 @28 @39 @63 @70 @74 @75 @77 @87 @88 @105 @107 @114 @123 @124 @133 @152 USING ~Blackhearts EET/English/BHBG1quests.tra~
