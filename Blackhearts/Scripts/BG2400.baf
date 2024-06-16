@@ -1,0 +1,9 @@
+IF 
+	Global("BHBG1Quest","GLOBAL",7)
+	Global("BHBG1Quest7spawn2","%Peldvale%",0)
+THEN
+	RESPONSE #100
+		SetGlobal("BHBG1Quest7spawn2","%Peldvale%",1)
+		CreateCreature("WIDRYAD1",[2350.1855],S) 
+		CreateCreature("WIDRYAD2",[2427.1930],S) 
+END

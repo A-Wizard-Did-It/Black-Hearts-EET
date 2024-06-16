@@ -1,0 +1,22 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		Wait(1)
+		DisplayStringHead(Myself,@5020 /*~*Imoen shares a few more stories from Candlekeep as you all drink together*~*/)
+		Wait(4)
+		FadeToColor([20.0],0)
+		Wait(3)
+		FadeFromColor([20.0],0)
+		DisplayStringHead("WIILLASE",@5021 /*~"Thank you both for sharing a drink with me. This has been pleasant. I must get to work on our final attack on Cherise, but I will contact you when I am ready. Be well."~*/)
+		Wait(6)
+		FadeToColor([20.0],0)
+		Wait(2)
+		ActionOverride("WINerys",MoveBetweenAreas("%EBaldursGate_ElfsongTavern_L1%",[477.731],SE))
+		ActionOverride("WIILLASE",DestroySelf())
+		Wait(1)
+		FadeFromColor([20.0],0)
+		EndCutSceneMode()
+		AddJournalEntry(@114,QUEST) 
+END

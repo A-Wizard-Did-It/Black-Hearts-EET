@@ -1,0 +1,19 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+	CutSceneId(Player1)
+	FadeToColor([20.0],0)
+	Wait(4)
+	JumpToPoint([292.606])
+	MoveViewObject(Myself,INSTANT)
+	Face(7)
+	ActionOverride("WIILLASE",JumpToPoint([234.569]))
+	ActionOverride("WIILLASE",Face(14))
+	Wait(1)
+	CreateCreature("WIBARMAI",[274.566],SE)
+	FadeFromColor([20.0],0)
+	EndCutSceneMode()
+	ActionOverride("WIBARMAI",StartDialogueNoSet(Player1))
+
+END

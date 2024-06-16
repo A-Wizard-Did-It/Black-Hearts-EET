@@ -1,0 +1,10 @@
+IF
+	AttackedBy([GOODCUTOFF],DEFAULT)
+	Global("BHBG1Quest4spawn","GLOBAL",1)
+
+THEN
+	RESPONSE #100
+	ApplySpell(Myself,WIZARD_INVISIBILITY)
+	SetGlobal("BHBG1Quest4spawn","GLOBAL",2)
+
+END

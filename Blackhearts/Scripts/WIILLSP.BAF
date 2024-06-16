@@ -1,0 +1,27 @@
+IF
+	Global("Chapter","GLOBAL",7)
+	Global("BHBG1Quest","GLOBAL",16)
+	Global("IllaseraCellerBuff","LOCALS",0)
+	AreaCheck("%BaldursGate_Undercellars%")  // Undercellars (Slythe, Krystin)
+THEN
+	RESPONSE #100
+		SetGlobal("IllaseraCellerBuff","LOCALS",1)
+		ApplySpell(Myself,WIZARD_INVISIBILITY)  // SPWI206.SPL (Invisibility)
+		Continue()
+END
+
+IF
+	Global("Chapter","GLOBAL",7)
+	Global("BHBG1Quest","GLOBAL",16)
+	Dead("Slythe")  // Slythe
+	Dead("Krystin")  // Krystin
+	Global("WIIllaseCallout","LOCALS",0)
+	AreaCheck("%BaldursGate_Undercellars%")  // Undercellars (Slythe, Krystin)
+THEN
+	RESPONSE #100
+		SetGlobal("WIIllaseCallout","LOCALS",1)
+		StartDialogNoSet(Player1)
+		Continue()
+END
+
+

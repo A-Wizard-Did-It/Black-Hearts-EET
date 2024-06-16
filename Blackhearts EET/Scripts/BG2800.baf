@@ -1,7 +1,0 @@
-IF
-	Global("AR2800MapNote","%CoastWay%",0)
-THEN
-	RESPONSE #100
-		AddMapNote([4575.1409],@40)
-		SetGlobal("AR2800MapNote","%CoastWay%",1)
-END

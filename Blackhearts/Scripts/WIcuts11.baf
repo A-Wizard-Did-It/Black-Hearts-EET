@@ -1,0 +1,18 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+	CutSceneId(Player1)
+	Wait(1)
+	FadeToColor([20.0],0)
+	Wait(1)
+	ActionOverride("WINerys",MoveBetweenAreas("WI0004",[405.179],0))
+	ActionOverride(Player1,LeaveAreaLUA("WI0004","",[247.363],4))
+	ActionOverride(Player2,LeaveAreaLUA("WI0004","",[324.364],6))
+	ActionOverride(Player3,LeaveAreaLUA("WI0004","",[377.378],9))
+	ActionOverride(Player4,LeaveAreaLUA("WI0004","",[390.322],12))
+	ActionOverride(Player5,LeaveAreaLUA("WI0004","",[443.343],1))
+	ActionOverride(Player6,LeaveAreaLUA("WI0004","",[469.269],15))
+	FadeFromColor([20.0],0)
+END
+

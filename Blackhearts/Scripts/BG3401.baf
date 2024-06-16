@@ -1,0 +1,13 @@
+IF
+	Global("BHBG1Quest1spawn","%Temple_Vestibule%",0) 
+	Global("BHBG1Quest","GLOBAL",1)
+THEN
+	RESPONSE #100
+		CreateCreature("WIBORT",[360.196],N)
+		CreateCreature("WIAPPLE",[628.280],W)
+		CreateCreature("WIERASMU",[530.178],S) 
+		CreateCreature("WIFARGUS",[413.165],N)
+		CreateCreature("WIREGINA",[450.290],E)
+		CreateCreature("WITIM",[623.211],N)
+		SetGlobal("BHBG1Quest1spawn","%Temple_Vestibule%",1)
+END

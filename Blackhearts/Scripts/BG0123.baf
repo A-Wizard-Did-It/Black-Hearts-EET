@@ -1,0 +1,15 @@
+IF
+	Global("BHBGNOQUEST","%Undercity%",0)
+	OR(2)
+	GlobalLT("BHBG1Quest","GLOBAL",21)
+	Global("BHBG1Quest","GLOBAL",99)
+THEN
+RESPONSE #100
+	SetGlobal("BHBGNOQUEST","%Undercity%",1)
+	CreateCreature("WICHERI2",[4117.1138],S)
+	CreateCreature("WIELAN",[4171.1229],S)
+	CreateCreature("WITHARDE",[4077.1060],S)
+	CreateCreature("WIRWBKGD",[4238.1014],S)
+	CreateCreature("WIRWBARB",[4297.1108],S)
+	CreateCreature("WIRWWIZ2",[4267.1194],S)
+END

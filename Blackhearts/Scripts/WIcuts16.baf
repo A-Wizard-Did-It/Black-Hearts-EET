@@ -1,0 +1,14 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+	CutSceneId(Player1)
+	ActionOverride("IMOEN2",MoveToPoint([967.544])
+	Wait(1)
+	DisplayStringHead("Imoen",~Boooooored now.~)
+	Wait(2)
+	DisplayStringHead("Imoen",~This conversation has gotta be way better than what they're talking about out there.~)
+	Wait(2)
+	EndCutSceneMode()
+	ActionOverride("WIILLASE",StartDialogueNoSet(Player1))
+END

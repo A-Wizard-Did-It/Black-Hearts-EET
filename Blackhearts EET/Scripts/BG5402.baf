@@ -1,8 +1,0 @@
-IF
-	Global("BHBG1Quest3spawn2","%NashkelMines_L2%",0) 
-	Global("BHBG1Quest","GLOBAL",3)
-THEN
-	RESPONSE #100
-		CreateCreature("WIGUARD",[3616.2424],N)
-		SetGlobal("BHBG1Quest3spawn2","%NashkelMines_L2%",1)
-END

@@ -1,0 +1,26 @@
+IF
+	Global("BHBG1AR0009Spawn","WI0009",0)
+THEN
+	RESPONSE #100
+		CreateCreature("WIRWTHIF",[2070.2064],S)  // Thayan Agent
+		Kill("WIRWTHIF")  // Thayan Agent
+		CreateCreature("WIRWBKGD",[2073.2226],S)  // Thayan Subjugator
+		Kill("WIRWBKGD")  // Thayan Subjugator
+		CreateCreature("WIRWWIZ6",[1845.2330],S)  // Error
+		Kill("WIRWWIZ6")  // Error
+		CreateCreature("WIRWBARB",[1987.501],S)  // Thayan Bodyguard
+		Kill("WIRWBARB")  // Thayan Bodyguard
+		CreateCreature("WIRWBARB",[2039.409],S)  // Thayan Bodyguard
+		Kill("WIRWBARB")  // Thayan Bodyguard
+		CreateCreature("WIRWWIZ4",[2217.475],S)  // Error
+		Kill("WIRWWIZ4")  // Error
+		CreateCreature("WIRWWIZ7",[1218.1033],S)  // Error
+		CreateCreature("WIRWBARB",[1134.981],S)  // Thayan Bodyguard
+		CreateCreature("WIRWBLGD",[1188.942],S)
+		CreateCreature("WIRWTHI2",[1184.1107],S)  // Error
+		CreateCreature("WIJELLY",[2498.3370],SW)  // Error
+		CreateCreature("WIPINATA",[2066.3498],S)  // Error
+		SetGlobal("BHBG1AR0009Spawn","WI0009",1)
+END
+
+

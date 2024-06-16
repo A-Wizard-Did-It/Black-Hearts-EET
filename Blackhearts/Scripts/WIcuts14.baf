@@ -1,0 +1,13 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+	CutSceneId(Player1)
+	Wait(1)
+	CreateVisualEffect("spdimndr",[576.790])
+	Wait(2)
+	CreateCreature("WIILLASE",[576.790],S)
+	Wait(2)
+	EndCutSceneMode()
+	ActionOverride("WIILLASE",StartDialogueNoSet(Player1))
+END

@@ -1,0 +1,10 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+	CutSceneId(Player1)
+	ActionOverride("WICOMM01",MoveToPoint([438.777]))
+	Wait(2)
+	EndCutSceneMode()
+	ActionOverride("WICOMM01",StartDialogueNoSet(Player1))
+END

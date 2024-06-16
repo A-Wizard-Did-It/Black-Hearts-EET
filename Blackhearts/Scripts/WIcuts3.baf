@@ -1,0 +1,12 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+	CutSceneId(Player1)
+	FadeToColor([20.0],0)
+	Wait(2)
+	ActionOverride("WIBARMAI",DestroySelf())
+	FadeFromColor([20.0],0)
+	EndCutSceneMode()
+	ActionOverride("WIillase",StartDialogueNoSet(Player1))
+END

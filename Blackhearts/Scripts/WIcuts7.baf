@@ -1,0 +1,26 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+	CutSceneId(Player1)
+	Wait(1)
+	DisplayStringHead("WIDRYAD1",~Sister, do you feel it?~)
+	Wait(2)
+	DisplayStringHead("WIDRYAD2",~Yes. A rumbling in the earth.~)
+	Wait(2)
+	DisplayStringHead("WIDRYAD1",~We must hide, quickly!~)
+	Wait(2)
+	DisplayStringHead("WIDRYAD2",~City dwellers, beware. Something comes.~)
+	Wait(2)
+	ActionOverride("WIDRYAD1",ForceSpell(myself,WIZARD_INVISIBILITY))
+	ActionOverride("WIDRYAD2",ForceSpell(myself,WIZARD_INVISIBILITY))
+	ScreenShake([2377.1941],12)
+	Wait(1)
+	CreateCreature("WIANKHE1",[2046.1861],S)
+	CreateCreature("WIANKHE1",[2585.1674],S)
+	CreateCreature("WIANKHE1",[2840.2205],S)
+	CreateCreature("WIANKHE1",[2329.2324],S)
+	CreateCreature("WIANKHE1",[2033.2252],S)
+	AddJournalEntry(@74,QUEST)
+	EndCutSceneMode()
+END

@@ -1,0 +1,14 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+	CutSceneId(Player1)
+	Kill("WICOMM01")
+	Kill("WIREDWIZ")
+	CreateCreature("WISPID01",[440.778],S)
+	CreateCreature("WISPID01",[445.778],S)
+	CreateCreature("WISPID01",[440.773],S)
+	CreateCreature("WISPID01",[440.782],S)
+	CreateCreature("WISPID02",[435.778],S)
+	EndCutSceneMode()
+END
