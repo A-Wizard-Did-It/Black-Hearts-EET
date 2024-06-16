@@ -2,6 +2,8 @@
 Black Hearts BG1 - The Huntress v1.04
 *****************************************
 
+### A mod for BGEE, BG2EE and EET
+
 **Introduction**
 Black Hearts is a new Quest mod for Baldur’s Gate Enhanced Edition that follows a plotline involving a character from Throne of Bhaal, Illasera, and a Red Wizard plot involving a dangerous new ally that has joined Sarevok’s cause. This mod repurposes fights from the Black Pits module, using those as a basis for various objectives given to players for the questline (with some modifications to them in some cases). 
 
@@ -62,3 +64,14 @@ Beamdog for their work to maintain Baldur’s Gate as a game. You all aren’t a
 
 **Contact**
 For any issues had with the mod, send me a message through the beamdog site or contact me at mandatorymarley@sbcglobal.net and I'll get back to you when I can.
+
+
+**Version**
+
+- One version for all games using cpmvars
+- Correct typo for [WIillase.d and WIPORTAL.d](https://forums.beamdog.com/discussion/comment/1208723/#Comment_1208723)
+- Remove [duplicate scripts](https://forums.beamdog.com/discussion/comment/1206781/#Comment_1206781) 
+- Update WeiDU
+- Add InfinityAutoPackager thanks to AL|EN
+- Add metadata and label for Project Infinity
+- Traify four forgotten lines
