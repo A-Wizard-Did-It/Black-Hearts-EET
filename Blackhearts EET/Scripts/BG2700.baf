@@ -1,33 +1,27 @@
 IF
-Global("BHBG1Quest4spawn","BG2700",0) 
-Global("BHBG1Quest","GLOBAL",4)
-
+	Global("BHBG1Quest4spawn","%LionsWay%",0) 
+	Global("BHBG1Quest","GLOBAL",4)
 THEN
-RESPONSE #100 
-
-CreateCreature("WIGENTLE",[2778.1279],S)
-SetGlobal("BHBG1Quest4spawn","BG2700",1)
-
+	RESPONSE #100 
+		CreateCreature("WIGENTLE",[2778.1279],S)
+		SetGlobal("BHBG1Quest4spawn","%LionsWay%",1)
 END
 
 IF 
-Global("BHBG1Quest4spawn","BG2700",2)
-
+	Global("BHBG1Quest4spawn","%LionsWay%",2)
 THEN
-RESPONSE #100
-	
-	SetGlobal("BHBG1Quest4spawn","BG2700",3)
-	CreateVisualEffect("spdimndr",[2903.1252]) 
-	CreateVisualEffect("spdimndr",[2993.1252])
-	CreateVisualEffect("spdimndr",[3069.1255])
-	CreateVisualEffect("spdimndr",[2681.1335]) 
-	CreateVisualEffect("spdimndr",[2629.1402])
-	CreateVisualEffect("spdimndr",[2586.1482])
-	CreateCreature("WIOGRE01",[2903.1252],S) 
-	CreateCreature("WIOGRE01",[2993.1252],S) 
-	CreateCreature("WIOGRE01",[3069.1255],S) 
-	CreateCreature("WIOGRE01",[2681.1335],S)  
-	CreateCreature("WIOGRE01",[2629.1402],S) 
-	CreateCreature("WIOGRE01",[2586.1482],S)
-	
+	RESPONSE #100
+		SetGlobal("BHBG1Quest4spawn","%LionsWay%",3)
+		CreateVisualEffect("spdimndr",[2903.1252]) 
+		CreateVisualEffect("spdimndr",[2993.1252])
+		CreateVisualEffect("spdimndr",[3069.1255])
+		CreateVisualEffect("spdimndr",[2681.1335]) 
+		CreateVisualEffect("spdimndr",[2629.1402])
+		CreateVisualEffect("spdimndr",[2586.1482])
+		CreateCreature("WIOGRE01",[2903.1252],S) 
+		CreateCreature("WIOGRE01",[2993.1252],S) 
+		CreateCreature("WIOGRE01",[3069.1255],S) 
+		CreateCreature("WIOGRE01",[2681.1335],S)  
+		CreateCreature("WIOGRE01",[2629.1402],S) 
+		CreateCreature("WIOGRE01",[2586.1482],S)
 END

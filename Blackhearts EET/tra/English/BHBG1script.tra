@@ -2543,14 +2543,14 @@
 @2638=~Imoen, pink as always. I am well enough. It is... "nice" that <CHARNAME> has kept you around this long.~
 @2639=~A projected image? Clever. That is not an easy spell to master.~
 @2640=~What's this? Are you here or...?~
-@2641=~I would have come to the gates to greet you personally, but I'm entertaining a glass of wine and a guest right now. If you have the time, I'd like you to come and meet him. I believe he may have some information you would find valuable. You can find me at the Eversong tavern, in this district.~
+@2641=~I would have come to the gates to greet you personally, but I'm entertaining a glass of wine and a guest right now. If you have the time, I'd like you to come and meet him. I believe he may have some information you would find valuable. You can find me at the Elfsong tavern, in this district.~
 @2642=~I understand you may have some important business in the city, but you should come quickly. I cannot guarantee they will be able to remain with me much longer. Besides that, my wine glass is nearly empty.~
-@2643=~I am no novice mage. I would have come to the gates to greet you personally, but I'm entertaining a glass of wine and a guest right now. If you have the time, I'd like you to come and meet him. I believe he may have some information you would find valuable. You can find me at the Eversong tavern, in this district.~
+@2643=~I am no novice mage. I would have come to the gates to greet you personally, but I'm entertaining a glass of wine and a guest right now. If you have the time, I'd like you to come and meet him. I believe he may have some information you would find valuable. You can find me at the Elfsong tavern, in this district.~
 @2644=~I understand you may have some important business in the city, but you should come quickly. I cannot guarantee they will be able to remain with me much longer. Besides that, my wine glass is nearly empty.~
 @2645=~<CHARNAME>, I found something.~
 @2646=~Nerys, I assume? Were you able to find out where Riezen is hiding?~
 @2647=~Nerys, this is Illasera. Sort of. Nerys informed us there was an old gorge Harpers used to use as a hideout somewhere outside the city. We're not sure where it is though.~
-@2648=~Lucky for you then, I know exactly where the gorge in question is. Come back to the Eversong Tavern. I can show you the location and fill you in on some things I've learned about this Red Wizard plot.~ 
+@2648=~Lucky for you then, I know exactly where the gorge in question is. Come back to the Elfsong Tavern. I can show you the location and fill you in on some things I've learned about this Red Wizard plot.~ 
 @2649=~We don't have time for this. Fine, just get here quickly.~
 
 // Interjection File
@@ -3272,3 +3272,15 @@
 @5017=~I fully accept that this battle may not even end in my favor, and with a chance significantly higher than I usually allow. But I can bear this suspense no longer. I -must- know which of us is truly the strongest. If you should prevail here, know that you'll have my utmost respect, for what that's worth.~
 @5018=~I've run from my destiny for long enough. Some things are inescapable. If it at least intends for me to achieve greatness, why should I not let it lead me there?~
 @5019=~*snort* Please. You don't expect for me to lay out the details of our 'master plan' to you so effortlessly, do you? I owe no such information to you.~
+
+
+// WIcuts18.baf
+
+@5020 = ~*Imoen shares a few more stories from Candlekeep as you all drink together*~
+@5021 = ~"Thank you both for sharing a drink with me. This has been pleasant. I must get to work on our final attack on Cherise, but I will contact you when I am ready. Be well."~
+
+
+// BG0167.baf
+
+@5022 = ~Now lets see here. I have all my Harper correspondences and records here. Gimmie a minute~
+@5023 = ~Ok, got them!~

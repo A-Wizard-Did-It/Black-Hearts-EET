@@ -1,9 +1,7 @@
 IF
-Global("BPBG1IllaSpawn","BG3351",0)
-
-THEN RESPONSE #100
-
-CreateCreature("WIILLASE",[569.493],S)
-
-SetGlobal("BPBG1IllaSpawn","BG3351",1)
+	Global("BPBG1IllaSpawn","%Beregost_FeldepostsInn_L1%",0)
+THEN
+	RESPONSE #100
+		CreateCreature("WIILLASE",[569.493],S)
+		SetGlobal("BPBG1IllaSpawn","%Beregost_FeldepostsInn_L1%",1)
 END

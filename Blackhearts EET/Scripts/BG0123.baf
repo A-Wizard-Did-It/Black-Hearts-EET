@@ -1,11 +1,11 @@
 IF
-	Global("BHBGNOQUEST","BG0123",0)
+	Global("BHBGNOQUEST","%Undercity%",0)
 	OR(2)
 	GlobalLT("BHBG1Quest","GLOBAL",21)
 	Global("BHBG1Quest","GLOBAL",99)
 THEN
 RESPONSE #100
-	SetGlobal("BHBGNOQUEST","BG0123",1)
+	SetGlobal("BHBGNOQUEST","%Undercity%",1)
 	CreateCreature("WICHERI2",[4117.1138],S)
 	CreateCreature("WIELAN",[4171.1229],S)
 	CreateCreature("WITHARDE",[4077.1060],S)

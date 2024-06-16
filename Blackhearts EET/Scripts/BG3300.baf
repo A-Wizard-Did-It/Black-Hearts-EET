@@ -1,10 +1,8 @@
 IF
-Global("BHBG1Elenairspawn","BG3300",0) 
-Global("BHBG1Quest","GLOBAL",2)
-
-THEN RESPONSE #100
-
-CreateCreature("WIELENAI",[4291.596],S) 
-
-SetGlobal("BHBG1Elenairspawn","BG3300",1)
+	Global("BHBG1Elenairspawn","%Beregost%",0) 
+	Global("BHBG1Quest","GLOBAL",2)
+THEN
+	RESPONSE #100
+		CreateCreature("WIELENAI",[4291.596],S) 
+		SetGlobal("BHBG1Elenairspawn","%Beregost%",1)
 END

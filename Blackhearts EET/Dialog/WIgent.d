@@ -63,7 +63,7 @@ END
 		++ @521 + ge4.12
 
 CHAIN WIgent ge4.7
-	@522 DO ~Enemy() ApplySpell(Myself,WIZARD_INVISIBILITY) SetGlobal("BHBG1Quest4spawn","BG2700",2)~ EXIT
+	@522 DO ~Enemy() ApplySpell(Myself,WIZARD_INVISIBILITY) SetGlobal("BHBG1Quest4spawn","%LionsWay%",2)~ EXIT
 
 CHAIN WIgent ge4.8
 	@523

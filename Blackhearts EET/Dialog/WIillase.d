@@ -480,7 +480,7 @@ CHAIN IF ~IsGabber("Neera") GlobalGT("BHBG1Quest","GLOBAL",1) Global("IllaNeeraB
 	== NEERAJ_ @1005
 	== WIillase @1006
 	== NEERAJ_ @1007
-	== WIillase 1008
+	== WIillase @1008
 	== NEERAJ_ @1009 DO ~SetGlobal("IllaNeeraBanter","GLOBAL",1)~ EXIT
 
 CHAIN IF ~IsGabber("Neera") GlobalGT("BHBG1Quest","GLOBAL",6) Global("IllaNeeraBanter","GLOBAL",1)~ THEN WIillase ilNe2
@@ -1872,10 +1872,10 @@ END
 		++ @1673 + il5.22
 
 CHAIN WIillase il5.21
-	@1674 DO ~AddJournalEntry(@65,QUEST) SetGlobal("BHBG1Quest","GLOBAL",6) CreateVisualEffectObject("spdimndr",myself) MoveBetweenAreas("BG0705",[419.873],6)~ EXIT
+	@1674 DO ~AddJournalEntry(@65,QUEST) SetGlobal("BHBG1Quest","GLOBAL",6) CreateVisualEffectObject("spdimndr",myself) MoveBetweenAreas("%EBaldursGate_ElfsongTavern_L1%",[419.873],6)~ EXIT
 
 CHAIN WIillase il5.22
-	@1675 DO ~AddJournalEntry(@65,QUEST) SetGlobal("BHBG1Quest","GLOBAL",6) CreateVisualEffectObject("spdimndr",myself) MoveBetweenAreas("BG0705",[419.873],6)~ EXIT
+	@1675 DO ~AddJournalEntry(@65,QUEST) SetGlobal("BHBG1Quest","GLOBAL",6) CreateVisualEffectObject("spdimndr",myself) MoveBetweenAreas("%EBaldursGate_ElfsongTavern_L1%",[419.873],6)~ EXIT
 	
 CHAIN WIillase il5.23
 	@1676
@@ -1900,23 +1900,23 @@ END
 		++ @1687 + il6.6
 
 CHAIN WIillase il6.1
-	@1688 DO ~SetGlobal("WIRubyWine","BG3351",1)~ EXTERN WIBARMAI WIBarmaid4
+	@1688 DO ~SetGlobal("WIRubyWine","%Beregost_FeldepostsInn_L1%",1)~ EXTERN WIBARMAI WIBarmaid4
 
 CHAIN WIillase il6.2
-	@1689 DO ~SetGlobal("WIBerduskan","BG3351",1)~ EXTERN WIBARMAI WIBarmaid4
+	@1689 DO ~SetGlobal("WIBerduskan","%Beregost_FeldepostsInn_L1%",1)~ EXTERN WIBARMAI WIBarmaid4
 	
 CHAIN WIillase il6.3
 	@1690
-	= @1691 DO ~SetGlobal("WIEvermead","BG3351",1)~ EXTERN WIBARMAI WIBarmaid4
+	= @1691 DO ~SetGlobal("WIEvermead","%Beregost_FeldepostsInn_L1%",1)~ EXTERN WIBARMAI WIBarmaid4
 
 CHAIN WIillase il6.4
-	@1692 DO ~SetGlobal("WIFeldTea","BG3351",1)~ EXTERN WIBARMAI WIBarmaid4
+	@1692 DO ~SetGlobal("WIFeldTea","%Beregost_FeldepostsInn_L1%",1)~ EXTERN WIBARMAI WIBarmaid4
 	
 CHAIN WIillase il6.5
-	@1693 DO ~SetGlobal("WIFeldAle","BG3351",1)~ EXTERN WIBARMAI WIBarmaid4
+	@1693 DO ~SetGlobal("WIFeldAle","%Beregost_FeldepostsInn_L1%",1)~ EXTERN WIBARMAI WIBarmaid4
 
 CHAIN WIillase il6.6
-	@1694 DO ~SetGlobal("WIFeldWater","BG3351",1)~ EXTERN WIBARMAI WIBarmaid4
+	@1694 DO ~SetGlobal("WIFeldWater","%Beregost_FeldepostsInn_L1%",1)~ EXTERN WIBARMAI WIBarmaid4
 	
 CHAIN IF ~Global("IllaseraScene1","GLOBAL",2)~ THEN WIillase il6.7
 	@1695
@@ -2484,13 +2484,13 @@ END
 		++ @1951 + il6.97
 		
 CHAIN WIillase il6.95
-	@1952 DO ~SetGlobal("IllaseraScene1","GLOBAL",4) AddJournalEntry(@65,QUEST) SetGlobal("IllaseraFriendship","GLOBAL",1) CreateVisualEffectObject("spdimndr",myself) MoveBetweenAreas("BG0705",[419.873],6)~ EXIT
+	@1952 DO ~SetGlobal("IllaseraScene1","GLOBAL",4) AddJournalEntry(@65,QUEST) SetGlobal("IllaseraFriendship","GLOBAL",1) CreateVisualEffectObject("spdimndr",myself) MoveBetweenAreas("%EBaldursGate_ElfsongTavern_L1%",[419.873],6)~ EXIT
 	
 CHAIN WIillase il6.96
-	@1953 DO ~SetGlobal("IllaseraScene1","GLOBAL",4) AddJournalEntry(@65,QUEST) SetGlobal("IllaseraFriendship","GLOBAL",1) CreateVisualEffectObject("spdimndr",myself) MoveBetweenAreas("BG0705",[419.873],6)~ EXIT
+	@1953 DO ~SetGlobal("IllaseraScene1","GLOBAL",4) AddJournalEntry(@65,QUEST) SetGlobal("IllaseraFriendship","GLOBAL",1) CreateVisualEffectObject("spdimndr",myself) MoveBetweenAreas("%EBaldursGate_ElfsongTavern_L1%",[419.873],6)~ EXIT
 	
 CHAIN WIillase il6.97
-	@1954 DO ~SetGlobal("IllaseraScene1","GLOBAL",4) AddJournalEntry(@65,QUEST) SetGlobal("IllaseraFriendship","GLOBAL",1) CreateVisualEffectObject("spdimndr",myself) MoveBetweenAreas("BG0705",[419.873],6)~ EXIT
+	@1954 DO ~SetGlobal("IllaseraScene1","GLOBAL",4) AddJournalEntry(@65,QUEST) SetGlobal("IllaseraFriendship","GLOBAL",1) CreateVisualEffectObject("spdimndr",myself) MoveBetweenAreas("%EBaldursGate_ElfsongTavern_L1%",[419.873],6)~ EXIT
 	
 CHAIN WIillase il6.98
 	@1955

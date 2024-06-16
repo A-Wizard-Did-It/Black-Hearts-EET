@@ -1,10 +1,10 @@
 IF
 	Global("BHBG1Quest","GLOBAL",21)
-	Global("BHBG1QuestFinal","BG0125",0)
+	Global("BHBG1QuestFinal","%Undercity_TempleofBhaal%",0)
 	
 THEN
 RESPONSE #100
-	SetGlobal("BHBG1QuestFinal","BG0125",1)
+	SetGlobal("BHBG1QuestFinal","%Undercity_TempleofBhaal%",1)
 	CreateCreature("WIILLASE",[764.1086],SE) 
 	
 END

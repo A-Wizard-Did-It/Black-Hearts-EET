@@ -1,11 +1,11 @@
 IF
 	Global("BHBG1Quest","GLOBAL",21)
 	Global("WIHarperBook","GLOBAL",2)
-	Global("BHBG1NerysSpawn","BG0200",0)
+	Global("BHBG1NerysSpawn","%NBaldursGate%",0)
 
 THEN
 RESPONSE #100
-	SetGlobal("BHBG1NerysSpawn","BG0200",1)
+	SetGlobal("BHBG1NerysSpawn","%NBaldursGate%",1)
 	CreateCreature("WINERY2",[1775.2927],SE)
 	
 END

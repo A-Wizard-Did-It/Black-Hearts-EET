@@ -10,7 +10,7 @@ CHAIN IF ~NumTimesTalkedToGT(0)~ THEN WIPORTAL WIPO4
 	@3132
 END
 	++ @3130 EXIT
-	+ ~PartyHasItem("WIMISC07") PartyHasItem("WIMISC08") PartyHasItem("WIMISC09") PartyHasItem("WIMISC10")~ + ~@3131~ + WIPO2
+	+ ~PartyHasItem("WIMISC07") PartyHasItem("WIMISC08") PartyHasItem("WIMISC09") PartyHasItem("WIMISC10")~ + @3131 + WIPO2
 
 CHAIN WIPORTAL WIPO2
 	@3133

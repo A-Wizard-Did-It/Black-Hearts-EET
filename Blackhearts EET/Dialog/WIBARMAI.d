@@ -24,12 +24,12 @@ CHAIN WIBARMAI WIBarmaid4
 CHAIN IF ~Global("IllaseraScene1","GLOBAL",2)~ THEN WIBARMAI WIBarmaid5
 	@213 
 END
-		+ ~Global("WIRubyWine","BG3351",1)~ + @214 + WIBarmaid6
-		+ ~Global("WIBerduskan","BG3351",1)~ + @215 + WIBarmaid7
-		+ ~Global("WIEvermead","BG3351",1)~ + @216 + WIBarmaid8
-		+ ~Global("WIFeldTea","BG3351",1)~ + @217 + WIBarmaid9
-		+ ~Global("WIFeldAle","BG3351",1)~ + @218 + WIBarmaid10
-		+ ~Global("WIFeldWater","BG3351",1)~ + @219 + WIBarmaid11
+		+ ~Global("WIRubyWine","%Beregost_FeldepostsInn_L1%",1)~ + @214 + WIBarmaid6
+		+ ~Global("WIBerduskan","%Beregost_FeldepostsInn_L1%",1)~ + @215 + WIBarmaid7
+		+ ~Global("WIEvermead","%Beregost_FeldepostsInn_L1%",1)~ + @216 + WIBarmaid8
+		+ ~Global("WIFeldTea","%Beregost_FeldepostsInn_L1%",1)~ + @217 + WIBarmaid9
+		+ ~Global("WIFeldAle","%Beregost_FeldepostsInn_L1%",1)~ + @218 + WIBarmaid10
+		+ ~Global("WIFeldWater","%Beregost_FeldepostsInn_L1%",1)~ + @219 + WIBarmaid11
 
 CHAIN WIBARMAI WIBarmaid6
 	@220 EXTERN WIillase il6.41

@@ -2,12 +2,12 @@ IF
 	GlobalLT("BHBG1Quest","GLOBAL",14)
 THEN
 	RESPONSE #100
-		ActionOverride(Player1,LeaveAreaLUA("BG0226","",[807.2752],NE))  // BG Sewers, eastern area (ogre mage for Scar)
-		ActionOverride(Player2,LeaveAreaLUA("BG0226","",[774.2798],NE))  // BG Sewers, eastern area (ogre mage for Scar)
-		ActionOverride(Player3,LeaveAreaLUA("BG0226","",[751.2788],NE))  // BG Sewers, eastern area (ogre mage for Scar)
-		ActionOverride(Player4,LeaveAreaLUA("BG0226","",[727.2740],NE))  // BG Sewers, eastern area (ogre mage for Scar)
-		ActionOverride(Player5,LeaveAreaLUA("BG0226","",[681.2727],NE))  // BG Sewers, eastern area (ogre mage for Scar)
-		ActionOverride(Player6,LeaveAreaLUA("BG0226","",[663.2776],NE))  // BG Sewers, eastern area (ogre mage for Scar)
+		ActionOverride(Player1,LeaveAreaLUA("%ESewers%","",[807.2752],NE))  // BG Sewers, eastern area (ogre mage for Scar)
+		ActionOverride(Player2,LeaveAreaLUA("%ESewers%","",[774.2798],NE))  // BG Sewers, eastern area (ogre mage for Scar)
+		ActionOverride(Player3,LeaveAreaLUA("%ESewers%","",[751.2788],NE))  // BG Sewers, eastern area (ogre mage for Scar)
+		ActionOverride(Player4,LeaveAreaLUA("%ESewers%","",[727.2740],NE))  // BG Sewers, eastern area (ogre mage for Scar)
+		ActionOverride(Player5,LeaveAreaLUA("%ESewers%","",[681.2727],NE))  // BG Sewers, eastern area (ogre mage for Scar)
+		ActionOverride(Player6,LeaveAreaLUA("%ESewers%","",[663.2776],NE))  // BG Sewers, eastern area (ogre mage for Scar)
 END
 
 IF

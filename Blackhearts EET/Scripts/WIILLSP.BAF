@@ -2,7 +2,7 @@ IF
 	Global("Chapter","GLOBAL",7)
 	Global("BHBG1Quest","GLOBAL",16)
 	Global("IllaseraCellerBuff","LOCALS",0)
-	AreaCheck("AR0112")  // Undercellars (Slythe, Krystin)
+	AreaCheck("%BaldursGate_Undercellars%")  // Undercellars (Slythe, Krystin)
 THEN
 	RESPONSE #100
 		SetGlobal("IllaseraCellerBuff","LOCALS",1)
@@ -16,7 +16,7 @@ IF
 	Dead("Slythe")  // Slythe
 	Dead("Krystin")  // Krystin
 	Global("WIIllaseCallout","LOCALS",0)
-	AreaCheck("AR0112")  // Undercellars (Slythe, Krystin)
+	AreaCheck("%BaldursGate_Undercellars%")  // Undercellars (Slythe, Krystin)
 THEN
 	RESPONSE #100
 		SetGlobal("WIIllaseCallout","LOCALS",1)
