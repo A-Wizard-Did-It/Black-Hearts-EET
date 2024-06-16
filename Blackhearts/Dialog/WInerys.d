@@ -2,7 +2,7 @@ BEGIN WInerys
 
 CHAIN IF ~Global("WINerysMet","GLOBAL",0) Global("BHBG1Quest","GLOBAL",8)~ THEN WInerys ne8.0
 	@2905
-	== MINSCJ_ IF ~InParty("Minsc") InMyArea("Minsc") !StateCheck("Minsc",CD_STATE_NOTVALID)~ THEN @2906
+	== %MINSC_JOINED% IF ~InParty("Minsc") InMyArea("Minsc") !StateCheck("Minsc",CD_STATE_NOTVALID)~ THEN @2906
 	== SHARTJ IF ~InParty("SharTeel") InMyArea("SharTeel") !StateCheck("SharTeel",CD_STATE_NOTVALID)~ THEN @2907
 END
 		++ @2908 EXTERN WIthief1 WIthief1.1
@@ -32,7 +32,7 @@ CHAIN WInerys ne8.7
 CHAIN IF ~Global("WINerysMet","GLOBAL",1) Global("BHBG1Quest","GLOBAL",8)~ THEN WInerys ne8.8
 	@2917
 	== KAGAIJ IF ~InParty("Kagain") InMyArea("Kagain") !StateCheck("Kagain",CD_STATE_NOTVALID)~ THEN @2918
-	== NEERAJ_ IF ~InParty("Neera") InMyArea("Neera") !StateCheck("Neera",CD_STATE_NOTVALID)~ THEN @2919
+	== %NEERA_JOINED% IF ~InParty("Neera") InMyArea("Neera") !StateCheck("Neera",CD_STATE_NOTVALID)~ THEN @2919
 END
 		++ @2920 + ne8.9
 		++ @2921 + ne8.10
@@ -89,8 +89,8 @@ END
 
 CHAIN WInerys ne8.16
 	@2947
-	== IMOEN2_ IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2948
-	== IMOEN2_ IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2949
+	== %IMOEN_JOINED% IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2948
+	== %IMOEN_JOINED% IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2949
 END
 		++ @2950 + ne8.19
 		++ @2951 + ne8.19

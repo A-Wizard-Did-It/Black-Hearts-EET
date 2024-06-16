@@ -47,7 +47,7 @@ END
 
 CHAIN WIRiezen ri9.6
 	@3251
-	== NEERAJ_ IF ~InParty("Neera") InMyArea("Neera") !StateCheck("Neera",CD_STATE_NOTVALID)~ THEN @3252
+	== %NEERA_JOINED% IF ~InParty("Neera") InMyArea("Neera") !StateCheck("Neera",CD_STATE_NOTVALID)~ THEN @3252
 END
 		++ @3253 + ri9.9
 		++ @3254 + ri9.5

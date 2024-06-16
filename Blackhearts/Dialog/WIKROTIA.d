@@ -25,7 +25,7 @@ END
 		++ @2831 + WIKrotia5
 		+ ~CheckStatLT(Player1,14,CHR)~ + @2832 + WIKrotia6
 		+ ~CheckStatGT(Player1,13,CHR)~ + @2832 + WIKrotia25
-		+ ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ + @2833 EXTERN EDWINJ_ BHEdwinInt4
+		+ ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ + @2833 EXTERN %EDWIN_JOINED% BHEdwinInt4
 
 CHAIN WIKROTIA WIKrotia5
 	@2834
@@ -42,7 +42,7 @@ CHAIN WIKROTIA WIKrotia6
 	
 CHAIN WIKROTIA WIKrotia7
 	@2842
-	== RASAADJ_ IF ~InParty("Rasaad") InMyArea("Rasaad") !StateCheck("Rasaad",CD_STATE_NOTVALID)~ THEN @2843
+	== %RASAAD_JOINED% IF ~InParty("Rasaad") InMyArea("Rasaad") !StateCheck("Rasaad",CD_STATE_NOTVALID)~ THEN @2843
 END
 		++ @2844 + WIKrotia9
 		++ @2845 + WIKrotia8
@@ -56,7 +56,7 @@ END
 
 CHAIN WIKROTIA WIKrotia9
 	@2848
-	== RASAADJ_ IF ~InParty("Rasaad") InMyArea("Rasaad") !StateCheck("Rasaad",CD_STATE_NOTVALID)~ THEN @2843
+	== %RASAAD_JOINED% IF ~InParty("Rasaad") InMyArea("Rasaad") !StateCheck("Rasaad",CD_STATE_NOTVALID)~ THEN @2843
 END
 		++ @2849 + WIKrotia11
 		++ @2850 + WIKrotia12

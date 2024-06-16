@@ -2,7 +2,7 @@ BEGIN WIELENAI
 
 CHAIN IF ~NumTimesTalkedTo(0) Global("BHBG1Quest","GLOBAL",2)~ THEN WIELENAI WIelenai0
 	@389
-	== NEERAJ_ IF ~InParty("Neera") InMyArea("Neera") !StateCheck("Neera",CD_STATE_NOTVALID)~ THEN @390
+	== %NEERA_JOINED% IF ~InParty("Neera") InMyArea("Neera") !StateCheck("Neera",CD_STATE_NOTVALID)~ THEN @390
 END
 		++ @391 + WIelenai1
 		++ @392 + WIelenai2
@@ -43,7 +43,7 @@ CHAIN WIELENAI WIelenai5
 
 CHAIN WIELENAI WIelenai6
 	@413
-	== MINSCJ_ IF ~InParty("Minsc") InMyArea("Minsc") !StateCheck("Minsc",CD_STATE_NOTVALID)~ THEN @414
+	== %MINSC_JOINED% IF ~InParty("Minsc") InMyArea("Minsc") !StateCheck("Minsc",CD_STATE_NOTVALID)~ THEN @414
 END
 		++ @415 + WIelenai7
 		++ @416 + WIelenai7

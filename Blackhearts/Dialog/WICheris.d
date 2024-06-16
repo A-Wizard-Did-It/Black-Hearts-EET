@@ -25,7 +25,7 @@ CHAIN WICheris Ch1.5
 	@242
 	== ELDOTJ IF ~InParty("Eldoth") InMyArea("Eldoth") !StateCheck("Eldoth",CD_STATE_NOTVALID)~ THEN @243
 	== TIAXJ IF ~InParty("Tiax") InMyArea("Tiax") !StateCheck("Tiax",CD_STATE_NOTVALID)~ THEN @244
-	== RASAADJ_ IF ~InParty("Rasaad") InMyArea("Rasaad") !StateCheck("Rasaad",CD_STATE_NOTVALID)~ THEN @245
+	== %RASAAD_JOINED% IF ~InParty("Rasaad") InMyArea("Rasaad") !StateCheck("Rasaad",CD_STATE_NOTVALID)~ THEN @245
 	== SAFANJ IF ~InParty("Safana") InMyArea("Safana") !StateCheck("Safana",CD_STATE_NOTVALID)~ THEN @246
 END
 		++ @247 + Ch1.6
@@ -100,7 +100,7 @@ END
 CHAIN WICheris Ch2.8
 	@276
 	=@277
-	== DORNJ_ IF ~InParty("Dorn") InMyArea("Dorn") !StateCheck("Dorn",CD_STATE_NOTVALID)~ THEN @278
+	== %DORN_JOINED% IF ~InParty("Dorn") InMyArea("Dorn") !StateCheck("Dorn",CD_STATE_NOTVALID)~ THEN @278
 END
 		++ @279 + Ch2.9
 		+ ~CheckStatGT(Player1,13,WIS)~ + @280 + Ch2.10

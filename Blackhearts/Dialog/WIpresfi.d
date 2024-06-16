@@ -56,7 +56,7 @@ END
 		
 CHAIN IF ~Global("WIpresfiSave","GLOBAL",1)~ THEN WIpresfi pr5.7
 	@3158
-	== IMOEN2_ IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @3159
+	== %IMOEN_JOINED% IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @3159
 END
 		++ @3160 + pr5.8
 		++ @3161 + pr5.9

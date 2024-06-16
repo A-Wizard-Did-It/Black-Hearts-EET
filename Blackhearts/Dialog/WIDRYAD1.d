@@ -60,7 +60,7 @@ CHAIN WIDRYAD1 DR17.13
 
 CHAIN WIDRYAD1 DR17.14
 	@322
-	== DORNJ_ IF ~InParty("Dorn") InMyArea("Dorn") !StateCheck("Dorn",CD_STATE_NOTVALID)~ THEN @323
+	== %DORN_JOINED% IF ~InParty("Dorn") InMyArea("Dorn") !StateCheck("Dorn",CD_STATE_NOTVALID)~ THEN @323
 END
 		++ @324 + DR17.15
 		

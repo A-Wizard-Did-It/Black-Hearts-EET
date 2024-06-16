@@ -5,7 +5,7 @@ CHAIN IF ~NumTimesTalkedTo(0)~ THEN WIREDWIZ WIREDWIZ0
 	
 CHAIN WIREDWIZ WIREDWIZ1
 	@3199
-	== EDWINJ_ IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @3200 EXTERN WIREDWIZ WIREDWIZ3
+	== %EDWIN_JOINED% IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @3200 EXTERN WIREDWIZ WIREDWIZ3
 
 CHAIN WIREDWIZ WIREDWIZ2
 	@3201 EXTERN WIREDWIZ WIREDWIZ3
@@ -13,7 +13,7 @@ CHAIN WIREDWIZ WIREDWIZ2
 CHAIN WIREDWIZ WIREDWIZ3
 	@3202
 	== DYNAHJ IF ~InParty("Dynaheir") InMyArea("Dynaheir") !StateCheck("Dynaheir",CD_STATE_NOTVALID)~ THEN @3203
-	== MINSCJ_ IF ~InParty("Dynaheir") InMyArea("Dynaheir") !StateCheck("Dynaheir",CD_STATE_NOTVALID) InParty("Minsc") InMyArea("Minsc") !StateCheck("Minsc",CD_STATE_NOTVALID)~ THEN @3204
+	== %MINSC_JOINED% IF ~InParty("Dynaheir") InMyArea("Dynaheir") !StateCheck("Dynaheir",CD_STATE_NOTVALID) InParty("Minsc") InMyArea("Minsc") !StateCheck("Minsc",CD_STATE_NOTVALID)~ THEN @3204
 END
 		++ @3205 + WIREDWIZ6
 		++ @3206 + WIREDWIZ7
@@ -26,7 +26,7 @@ CHAIN WIREDWIZ WIREDWIZ5
 
 CHAIN WIREDWIZ WIREDWIZ6
 	@3209
-	== EDWINJ_ IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @3210
+	== %EDWIN_JOINED% IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @3210
 	== WIREDWIZ IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @3211
 END
 		++ @3212 + WIREDWIZ8
@@ -35,7 +35,7 @@ END
 	
 CHAIN WIREDWIZ WIREDWIZ7
 	@3215
-	== EDWINJ_ IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @3210
+	== %EDWIN_JOINED% IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @3210
 	== WIREDWIZ IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @3211
 END
 		++ @3212 + WIREDWIZ8
@@ -47,5 +47,5 @@ CHAIN WIREDWIZ WIREDWIZ8
 	
 CHAIN WIREDWIZ WIREDWIZ9
 	@3217
-	== NEERAJ_ IF ~InParty("Neera") InMyArea("Neera") !StateCheck("Neera",CD_STATE_NOTVALID)~ THEN @3218
+	== %NEERA_JOINED% IF ~InParty("Neera") InMyArea("Neera") !StateCheck("Neera",CD_STATE_NOTVALID)~ THEN @3218
 	== WIREDWIZ @3219 DO ~StartCutSceneEx("WIcuts6",TRUE) StartCutSceneMode()~ EXIT

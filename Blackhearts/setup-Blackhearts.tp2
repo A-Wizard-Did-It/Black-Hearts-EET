@@ -10,8 +10,6 @@ ALWAYS
 	END ELSE ACTION_IF GAME_IS ~eet~ BEGIN
 		INCLUDE ~eet/other/cpmvars/eet_cpmvars.tpa~
 	END
-	
-		INCLUDE ~Blackhearts/Lib/gw_functions.tpa~
 END	
 
 LANGUAGE
@@ -123,7 +121,6 @@ COPY_EXISTING ~%Farmlands%.are~ ~override~
   END 
   ADD_MAP_NOTE #2857 #66 ~gray~ @79
 
-
 COPY_EXISTING ~%ESewers%.are~ ~override~
   LPF fj_are_structure
     INT_VAR
@@ -157,7 +154,45 @@ COPY_EXISTING ~%ESewers%.are~ ~override~
 COPY_EXISTING ~WI0004.ARE~ ~override/WI0004.ARE~
 	WRITE_ASCIIE 0x94 ~%NWBaldursGate_PheirkasHouse_L1%~ (8) // Area script BG0167 / AR0167
 
+COPY_EXISTING ~WI0002.are~ ~override~
+  LPF  ALTER_AREA_REGION
+    STR_VAR
+    region_name              = Door1900 
+    destination_area =  EVAL ~%CoastWay%~
+  END
 
+COPY_EXISTING ~WI0003.are~ ~override~
+  LPF  ALTER_AREA_REGION
+    STR_VAR
+    region_name              = Travel 
+    destination_area =  EVAL ~%Farmlands%~
+  END
+
+COPY_EXISTING ~WI0004.are~ ~override~
+  LPF  ALTER_AREA_REGION
+    STR_VAR
+    region_name              = Door0100 
+    destination_area =  EVAL ~%NWBaldursGate%~
+  END
+  LPF  ALTER_AREA_REGION
+    STR_VAR
+    region_name              = Door0168 
+    destination_area =  EVAL ~%NWBaldursGate_PheirkasHouse_L2%~
+  END
+
+COPY_EXISTING ~WI0005.are~ ~override~
+  LPF  ALTER_AREA_REGION
+    STR_VAR
+    region_name              = Door1200 
+    destination_area =  EVAL ~%BaldursGateDocks%~
+  END
+
+COPY_EXISTING ~WI0006.are~ ~override~
+  LPF  ALTER_AREA_REGION
+    STR_VAR
+    region_name              = SewerExit 
+    destination_area =  EVAL ~%ESewers%~
+  END
 
 COMPILE ~Blackhearts/Scripts/GENTLSUM.baf~
 COMPILE ~Blackhearts/Scripts/PRESFIEL.baf~

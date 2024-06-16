@@ -11,7 +11,7 @@ END
 
 CHAIN WIAMARAN WIAmaran2
 	@184
-	== RASAADJ_ IF ~InParty("Rasaad") InMyArea("Rasaad") !StateCheck("Rasaad",CD_STATE_NOTVALID)~ THEN @185
+	== %RASAAD_JOINED% IF ~InParty("Rasaad") InMyArea("Rasaad") !StateCheck("Rasaad",CD_STATE_NOTVALID)~ THEN @185
 END
 		++ @186 + WIAmaran3
 		
@@ -46,7 +46,7 @@ END
 		
 CHAIN WIAMARAN WIAmaran7
 	@204
-	== EDWINJ_ IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @205
+	== %EDWIN_JOINED% IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @205
 	== DYNAHJ IF ~InParty("Dynaheir") InMyArea("Dynaheir") !StateCheck("Dynaheir",CD_STATE_NOTVALID)~ THEN @206
 END
 		++ @203 + WIAmaran5

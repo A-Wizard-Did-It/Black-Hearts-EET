@@ -102,22 +102,22 @@ CHAIN IF ~IsGabber("Coran") GlobalGT("BHBG1Quest","GLOBAL",16) Global("IllaCoran
 
 CHAIN IF ~IsGabber("Dorn") GlobalGT("BHBG1Quest","GLOBAL",1) Global("IllaDornBanter","GLOBAL",0)~ THEN WIillase ilDo1
 	@734
-	== DORNJ_ @735
+	== %DORN_JOINED% @735
 	== WIillase @736
-	== DORNJ_ @737
+	== %DORN_JOINED% @737
 	== WIillase @738
-	== DORNJ_ @739
+	== %DORN_JOINED% @739
 	== WIillase @740 DO ~SetGlobal("IllaDornBanter","GLOBAL",1)~ EXIT
 
 CHAIN IF ~IsGabber("Dorn") GlobalGT("BHBG1Quest","GLOBAL",6) Global("IllaDornBanter","GLOBAL",1)~ THEN WIillase ilDo2
 	@741
-	== DORNJ_ @742
+	== %DORN_JOINED% @742
 	== WIillase @743
-	== DORNJ_ @744 DO ~SetGlobal("IllaDornBanter","GLOBAL",2)~ EXIT	
+	== %DORN_JOINED% @744 DO ~SetGlobal("IllaDornBanter","GLOBAL",2)~ EXIT	
 
 CHAIN IF ~IsGabber("Dorn") GlobalGT("BHBG1Quest","GLOBAL",16) Global("IllaDornBanter","GLOBAL",2)~ THEN WIillase ilDo3
 	@745
-	== DORNJ_ @746
+	== %DORN_JOINED% @746
 	= @747
 	== WIillase @748 DO ~SetGlobal("IllaDornBanter","GLOBAL",3)~ EXIT	
 	
@@ -153,32 +153,32 @@ CHAIN IF ~IsGabber("Dynaheir") GlobalGT("BHBG1Quest","GLOBAL",16) Global("IllaDy
 
 CHAIN IF ~IsGabber("Edwin") GlobalGT("BHBG1Quest","GLOBAL",1) Global("IllaEdwinBanter","GLOBAL",0)~ THEN WIillase ilEd1
 	@769
-	== EDWINJ_ @770
+	== %EDWIN_JOINED% @770
 	== WIillase @771
-	== EDWINJ_ @772
+	== %EDWIN_JOINED% @772
 	== WIillase @773
-	== EDWINJ_ @774 DO ~SetGlobal("IllaEdwinBanter","GLOBAL",1)~ EXIT
+	== %EDWIN_JOINED% @774 DO ~SetGlobal("IllaEdwinBanter","GLOBAL",1)~ EXIT
 
 CHAIN IF ~IsGabber("Edwin") GlobalGT("BHBG1Quest","GLOBAL",6) Global("IllaEdwinBanter","GLOBAL",1)~ THEN WIillase ilEd2
 	@775
-	== EDWINJ_ @776
+	== %EDWIN_JOINED% @776
 	== WIillase @777
-	== EDWINJ_ @778
+	== %EDWIN_JOINED% @778
 	== WIillase @779
-	== EDWINJ_ @780
+	== %EDWIN_JOINED% @780
 	== WIillase @781
-	== EDWINJ_ @782
+	== %EDWIN_JOINED% @782
 	== WIillase @783 DO ~SetGlobal("IllaEdwinBanter","GLOBAL",2)~ EXIT	
 
 CHAIN IF ~IsGabber("Edwin") GlobalGT("BHBG1Quest","GLOBAL",16) Global("IllaEdwinBanter","GLOBAL",2)~ THEN WIillase ilEd3	
 	@784
-	== EDWINJ_ @785
+	== %EDWIN_JOINED% @785
 	== WIillase @786
-	== EDWINJ_ @787
+	== %EDWIN_JOINED% @787
 	== WIillase @788
-	== EDWINJ_ @789
+	== %EDWIN_JOINED% @789
 	== WIillase @790
-	== EDWINJ_ @791 DO ~SetGlobal("IllaEdwinBanter","GLOBAL",3)~ EXIT	
+	== %EDWIN_JOINED% @791 DO ~SetGlobal("IllaEdwinBanter","GLOBAL",3)~ EXIT	
 	
 // Eldoth Banters
 
@@ -271,49 +271,49 @@ CHAIN IF ~IsGabber("Garrick") GlobalGT("BHBG1Quest","GLOBAL",16) Global("IllaGar
 
 CHAIN IF ~IsGabber("IMOEN2") GlobalGT("BHBG1Quest","GLOBAL",1) Global("IllaImoenBanter","GLOBAL",0)~ THEN WIillase ilIm1
 	@857
-	== IMOEN2_ @858
+	== %IMOEN_JOINED% @858
 	== WIillase @859
-	== IMOEN2_ @860
+	== %IMOEN_JOINED% @860
 	== WIillase @861
-	== IMOEN2_ @862
+	== %IMOEN_JOINED% @862
 	== WIillase @863
-	== IMOEN2_ @864
+	== %IMOEN_JOINED% @864
 	== WIillase @865
-	== IMOEN2_ @866
+	== %IMOEN_JOINED% @866
 	= @867
 	== WIillase @868 DO ~SetGlobal("IllaImoenBanter","GLOBAL",1)~ EXIT
 
 CHAIN IF ~IsGabber("IMOEN2") GlobalGT("BHBG1Quest","GLOBAL",6) Global("IllaImoenBanter","GLOBAL",1)~ THEN WIillase ilIm2
 	@869
-	== IMOEN2_ @870
+	== %IMOEN_JOINED% @870
 	== WIillase @871
-	== IMOEN2_ @872
+	== %IMOEN_JOINED% @872
 	== WIillase @873
-	== IMOEN2_ @874
+	== %IMOEN_JOINED% @874
 	== WIillase @875
-	== IMOEN2_ @876
+	== %IMOEN_JOINED% @876
 	== WIillase @877
-	== IMOEN2_ @878
+	== %IMOEN_JOINED% @878
 	== WIillase @879
-	== IMOEN2_ @880 DO ~SetGlobal("IllaImoenBanter","GLOBAL",2)~ EXIT
+	== %IMOEN_JOINED% @880 DO ~SetGlobal("IllaImoenBanter","GLOBAL",2)~ EXIT
 
 CHAIN IF ~IsGabber("IMOEN2") GlobalGT("BHBG1Quest","GLOBAL",16) Global("IllaImoenBanter","GLOBAL",2)~ THEN WIillase ilIm3
 	@881
-	== IMOEN2_ @882
+	== %IMOEN_JOINED% @882
 	== WIillase @883
-	== IMOEN2_ @884
+	== %IMOEN_JOINED% @884
 	== WIillase @885
-	== IMOEN2_ @886
+	== %IMOEN_JOINED% @886
 	== WIillase @887
-	== IMOEN2_ @888
+	== %IMOEN_JOINED% @888
 	== WIillase @889
-	== IMOEN2_ @890
+	== %IMOEN_JOINED% @890
 	== WIillase @891
-	== IMOEN2_ @892
+	== %IMOEN_JOINED% @892
 	== WIillase @893
-	== IMOEN2_ @894
+	== %IMOEN_JOINED% @894
 	== WIillase @895
-	== IMOEN2_ @896
+	== %IMOEN_JOINED% @896
 	== WIillase @897 DO ~SetGlobal("IllaImoenBanter","GLOBAL",3)~ EXIT
 
 // Jaheira Banters
@@ -435,19 +435,19 @@ CHAIN IF ~IsGabber("Kivan") GlobalGT("BHBG1Quest","GLOBAL",16) Global("IllaKivan
 
 CHAIN IF ~IsGabber("Minsc") GlobalGT("BHBG1Quest","GLOBAL",1) Global("IllaMinscBanter","GLOBAL",0)~ THEN WIillase ilMi1
 	@981
-	== MINSCJ_ @982
+	== %MINSC_JOINED% @982
 	== WIillase @983 DO ~SetGlobal("IllaMinscBanter","GLOBAL",1)~ EXIT
 
 CHAIN IF ~IsGabber("Minsc") GlobalGT("BHBG1Quest","GLOBAL",6) Global("IllaMinscBanter","GLOBAL",1)~ THEN WIillase ilMi2
 	@984
-	== MINSCJ_ @985
+	== %MINSC_JOINED% @985
 	== WIillase @986 DO ~SetGlobal("IllaMinscBanter","GLOBAL",2)~ EXIT
 
 CHAIN IF ~IsGabber("Minsc") GlobalGT("BHBG1Quest","GLOBAL",16) Global("IllaMinscBanter","GLOBAL",2)~ THEN WIillase ilMi3
 	@987
-	== MINSCJ_ @988
+	== %MINSC_JOINED% @988
 	== WIillase @989
-	== MINSCJ_ @990
+	== %MINSC_JOINED% @990
 END
 		++ @991 + ilMi4
 
@@ -477,29 +477,29 @@ CHAIN IF ~IsGabber("Montaron") GlobalGT("BHBG1Quest","GLOBAL",16) Global("IllaMo
 
 CHAIN IF ~IsGabber("Neera") GlobalGT("BHBG1Quest","GLOBAL",1) Global("IllaNeeraBanter","GLOBAL",0)~ THEN WIillase ilNe1
 	@1004
-	== NEERAJ_ @1005
+	== %NEERA_JOINED% @1005
 	== WIillase @1006
-	== NEERAJ_ @1007
+	== %NEERA_JOINED% @1007
 	== WIillase @1008
-	== NEERAJ_ @1009 DO ~SetGlobal("IllaNeeraBanter","GLOBAL",1)~ EXIT
+	== %NEERA_JOINED% @1009 DO ~SetGlobal("IllaNeeraBanter","GLOBAL",1)~ EXIT
 
 CHAIN IF ~IsGabber("Neera") GlobalGT("BHBG1Quest","GLOBAL",6) Global("IllaNeeraBanter","GLOBAL",1)~ THEN WIillase ilNe2
 	@1010
-	== NEERAJ_ @1011
+	== %NEERA_JOINED% @1011
 	== WIillase @1012
-	== NEERAJ_ @1013
+	== %NEERA_JOINED% @1013
 	== WIillase @1014
-	== NEERAJ_ @1015
+	== %NEERA_JOINED% @1015
 	== WIillase @1016
-	== NEERAJ_ @1017 DO ~SetGlobal("IllaNeeraBanter","GLOBAL",2)~ EXIT
+	== %NEERA_JOINED% @1017 DO ~SetGlobal("IllaNeeraBanter","GLOBAL",2)~ EXIT
 
 CHAIN IF ~IsGabber("Neera") GlobalGT("BHBG1Quest","GLOBAL",16) Global("IllaNeeraBanter","GLOBAL",2)~ THEN WIillase ilNe3
 	@1018
-	== NEERAJ_ @1019
+	== %NEERA_JOINED% @1019
 	== WIillase @1020
-	== NEERAJ_ @1021
+	== %NEERA_JOINED% @1021
 	== WIillase @1022
-	== NEERAJ_ @1023 DO ~SetGlobal("IllaNeeraBanter","GLOBAL",3)~ EXIT
+	== %NEERA_JOINED% @1023 DO ~SetGlobal("IllaNeeraBanter","GLOBAL",3)~ EXIT
 
 // Quayle Banters
 
@@ -536,21 +536,21 @@ CHAIN IF ~IsGabber("Quayle") GlobalGT("BHBG1Quest","GLOBAL",16) Global("IllaQuay
 
 CHAIN IF ~IsGabber("Rasaad") GlobalGT("BHBG1Quest","GLOBAL",1) Global("IllaRasaadBanter","GLOBAL",0)~ THEN WIillase ilRa1
 	@1049
-	== RASAADJ_ @1050
+	== %RASAAD_JOINED% @1050
 	== WIillase @1051
-	== RASAADJ_ @1052
+	== %RASAAD_JOINED% @1052
 	== WIillase @1053 DO ~SetGlobal("IllaRasaadBanter","GLOBAL",1)~ EXIT
 
 CHAIN IF ~IsGabber("Rasaad") GlobalGT("BHBG1Quest","GLOBAL",6) Global("IllaRasaadBanter","GLOBAL",1)~ THEN WIillase ilRa2
 	@1054
-	== RASAADJ_ @1055
+	== %RASAAD_JOINED% @1055
 	== WIillase @1056
-	== RASAADJ_ @1057
+	== %RASAAD_JOINED% @1057
 	== WIillase @1058 DO ~SetGlobal("IllaRasaadBanter","GLOBAL",2)~ EXIT
 
 CHAIN IF ~IsGabber("Rasaad") GlobalGT("BHBG1Quest","GLOBAL",16) Global("IllaRasaadBanter","GLOBAL",2)~ THEN WIillase ilRa3
 	@1059
-	== RASAADJ_ @1060
+	== %RASAAD_JOINED% @1060
 	== WIillase @1061 DO ~SetGlobal("IllaRasaadBanter","GLOBAL",3)~ EXIT
 
 // Safana Banters
@@ -575,14 +575,14 @@ CHAIN IF ~IsGabber("Safana") GlobalGT("BHBG1Quest","GLOBAL",6) Global("IllaSafan
 	== AJANTJ IF ~InParty("Ajantis") InMyArea("Ajantis") !StateCheck("Ajantis",CD_STATE_NOTVALID)~ THEN @1076
 	== CORANJ IF ~InParty("Coran") InMyArea("Coran") !StateCheck("Coran",CD_STATE_NOTVALID)~ THEN @1077
 	== VICONJ IF ~InParty("Viconia") InMyArea("Viconia") !StateCheck("Viconia",CD_STATE_NOTVALID)~ THEN @1078
-	== IMOEN2_ IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @1079
+	== %IMOEN_JOINED% IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @1079
 	== SAFANJ @1080 DO ~StartCutSceneEx("WIcuts26",TRUE) StartCutSceneMode()~ EXIT
 
 CHAIN IF ~InMyArea("Safana") GlobalGT("BHBG1Quest","GLOBAL",6) Global("IllaSafanaBanter","GLOBAL",2)~ THEN WIillase ilSa3
 	@1081
 	== SAFANJ @1082
 	== WIillase @1083
-	== IMOEN2_ IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @1084
+	== %IMOEN_JOINED% IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @1084
 	== SAFANJ @1085
 	== WIillase @1086
 	== SAFANJ @1087
@@ -710,7 +710,7 @@ CHAIN IF ~IsGabber("Xan") GlobalGT("BHBG1Quest","GLOBAL",6) Global("IllaXanBante
 	== XANJ @1172
 	== WIillase @1173
 	== XANJ @1174
-	== IMOEN2_ IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @1175
+	== %IMOEN_JOINED% IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @1175
 	== WIillase @1176
 	== XANJ @1177 DO ~SetGlobal("IllaXanBanter","GLOBAL",2)~ EXIT
 
@@ -773,7 +773,7 @@ END
 
 CHAIN IF ~NumTimesTalkedTo(0) !Dead("Marl") GlobalLT("Chapter","GLOBAL",3)~ THEN WIillase il0.1
 	@1214
-	== IMOEN2_ IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @1215
+	== %IMOEN_JOINED% IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @1215
 	== WIillase IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @1216
 END
 		++ @1217 + il0.5
@@ -956,7 +956,7 @@ END
 
 CHAIN WIillase il0.25
 	@1295
-	== IMOEN2_ IF ~InParty("IMOEN2")~ THEN @1296
+	== %IMOEN_JOINED% IF ~InParty("IMOEN2")~ THEN @1296
 END	
 		++ @1297 + il0.26
 		++ @1298 + il0.26
@@ -1001,7 +1001,7 @@ END
 
 CHAIN WIillase il0.31
 	@1317
-	== NEERAJ_ IF ~InParty("Neera") InMyArea("Neera") !StateCheck("Neera",CD_STATE_NOTVALID)~ THEN @1318
+	== %NEERA_JOINED% IF ~InParty("Neera") InMyArea("Neera") !StateCheck("Neera",CD_STATE_NOTVALID)~ THEN @1318
 END
 		++ @1319 + il0.32
 		++ @1320 + il0.17
@@ -1021,7 +1021,7 @@ CHAIN IF ~NumTimesTalkedToGT(0) GlobalLT("Chapter","GLOBAL",3)~ THEN WIillase il
 
 CHAIN IF ~NumTimesTalkedTo(0) GlobalGT("Chapter","GLOBAL",2) Global("BHBG1Quest","GLOBAL",0)~ THEN WIillase il1.0
 	@1326
-	== MINSCJ_ IF ~InParty("Minsc") InMyArea("Minsc") !StateCheck("Minsc",CD_STATE_NOTVALID)~ THEN @1327
+	== %MINSC_JOINED% IF ~InParty("Minsc") InMyArea("Minsc") !StateCheck("Minsc",CD_STATE_NOTVALID)~ THEN @1327
 	== XANJ IF ~InParty("Xan") InMyArea("Xan") !StateCheck("Xan",CD_STATE_NOTVALID)~ THEN @1328
 END
 		++ @1329 + il1.1
@@ -1031,7 +1031,7 @@ END
 CHAIN WIillase il1.1
 	@1332
 	= @1333
-	== EDWINJ_ IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @1334
+	== %EDWIN_JOINED% IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @1334
 END	
 		++ @1335 + il1.4
 		++ @1336 + il1.4
@@ -1040,7 +1040,7 @@ END
 CHAIN WIillase il1.2
 	@1338
 	= @1339
-	== EDWINJ_ IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @1334
+	== %EDWIN_JOINED% IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @1334
 END			
 		++ @1335 + il1.4
 		++ @1336 + il1.4
@@ -1049,7 +1049,7 @@ END
 CHAIN WIillase il1.3
 	@1340
 	= @1341
-	== EDWINJ_ IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @1334
+	== %EDWIN_JOINED% IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @1334
 END
 		++ @1335 + il1.4
 		++ @1336 + il1.4
@@ -1063,7 +1063,7 @@ END
 
 CHAIN WIillase il1.5
 	@1345
-	== RASAADJ_ IF ~InParty("Rasaad") InMyArea("Rasaad") !StateCheck("Rasaad",CD_STATE_NOTVALID)~ THEN @1346
+	== %RASAAD_JOINED% IF ~InParty("Rasaad") InMyArea("Rasaad") !StateCheck("Rasaad",CD_STATE_NOTVALID)~ THEN @1346
 	== WIillase IF ~InParty("Rasaad") InMyArea("Rasaad") !StateCheck("Rasaad",CD_STATE_NOTVALID)~ THEN @1347
 END
 		++ @1348 + il1.7
@@ -1136,7 +1136,7 @@ END
 CHAIN IF ~NumTimesTalkedToGT(0) GlobalGT("Chapter","GLOBAL",2) Global("BHBG1Quest","GLOBAL",0)~ THEN WIillase il1.13
 	@1383
 	= @1384
-	== MINSCJ_ IF ~InParty("Minsc") InMyArea("Minsc") !StateCheck("Minsc",CD_STATE_NOTVALID)~ THEN @1327
+	== %MINSC_JOINED% IF ~InParty("Minsc") InMyArea("Minsc") !StateCheck("Minsc",CD_STATE_NOTVALID)~ THEN @1327
 	== XANJ IF ~InParty("Xan") InMyArea("Xan") !StateCheck("Xan",CD_STATE_NOTVALID)~ THEN @1328
 END
 		++ @1385 + il1.14
@@ -1146,7 +1146,7 @@ END
 CHAIN WIillase il1.14
 	@1387
 	= @1339
-	== EDWINJ_ IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @1334
+	== %EDWIN_JOINED% IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @1334
 END	
 		++ @1388 + il1.4
 		++ @1389 + il1.4
@@ -1156,9 +1156,9 @@ CHAIN WIillase il1.15
 	@1391
 	= @1392
 	== GARRIJ IF ~InParty("Garrick") InMyArea("Garrick") !StateCheck("Garrick",CD_STATE_NOTVALID)~ THEN @1393
-	== IMOEN2_ IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID) InParty("Garrick") InMyArea("Garrick") !StateCheck("Garrick",CD_STATE_NOTVALID)~ THEN @1394
+	== %IMOEN_JOINED% IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID) InParty("Garrick") InMyArea("Garrick") !StateCheck("Garrick",CD_STATE_NOTVALID)~ THEN @1394
 	== GARRIJ IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID) InParty("Garrick") InMyArea("Garrick") !StateCheck("Garrick",CD_STATE_NOTVALID)~ THEN @1395
-	== IMOEN2_ IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID) InParty("Garrick") InMyArea("Garrick") !StateCheck("Garrick",CD_STATE_NOTVALID)~ THEN @1396
+	== %IMOEN_JOINED% IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID) InParty("Garrick") InMyArea("Garrick") !StateCheck("Garrick",CD_STATE_NOTVALID)~ THEN @1396
 END
 		++ @1397 + il1.16
 		++ @1398 + il1.17
@@ -1236,8 +1236,8 @@ CHAIN IF ~Global("BHBG1Quest","GLOBAL",1) !PartyHasItem("WIHELM01")~ THEN WIilla
 
 CHAIN IF ~Global("BHBG1Quest","GLOBAL",1) PartyHasItem("WIHELM01")~ THEN WIillase il2.0
 	@1421
-	== MINSCJ_ IF ~InParty("Minsc") InMyArea("Minsc") !StateCheck("Minsc",CD_STATE_NOTVALID)~ THEN @1422
-	== DORNJ_ IF ~InParty("Dorn") InMyArea("Dorn") !StateCheck("Dorn",CD_STATE_NOTVALID)~ THEN @1423
+	== %MINSC_JOINED% IF ~InParty("Minsc") InMyArea("Minsc") !StateCheck("Minsc",CD_STATE_NOTVALID)~ THEN @1422
+	== %DORN_JOINED% IF ~InParty("Dorn") InMyArea("Dorn") !StateCheck("Dorn",CD_STATE_NOTVALID)~ THEN @1423
 	== WIillase IF ~InParty("Dorn") InMyArea("Dorn") !StateCheck("Dorn",CD_STATE_NOTVALID)~ THEN @1424
 END
 		++ @1425 + il2.2
@@ -1386,9 +1386,9 @@ END
 
 CHAIN WIillase il3.1
 	@1487
-	== RASAADJ_ IF ~InParty("Rasaad") InMyArea("Rasaad") !StateCheck("Rasaad",CD_STATE_NOTVALID)~ THEN @1488
+	== %RASAAD_JOINED% IF ~InParty("Rasaad") InMyArea("Rasaad") !StateCheck("Rasaad",CD_STATE_NOTVALID)~ THEN @1488
 	== WIillase IF ~InParty("Rasaad") InMyArea("Rasaad") !StateCheck("Rasaad",CD_STATE_NOTVALID)~ THEN @1489
-	== RASAADJ_ IF ~InParty("Rasaad") InMyArea("Rasaad") !StateCheck("Rasaad",CD_STATE_NOTVALID)~ THEN @1490
+	== %RASAAD_JOINED% IF ~InParty("Rasaad") InMyArea("Rasaad") !StateCheck("Rasaad",CD_STATE_NOTVALID)~ THEN @1490
 END	
 		++ @1491 + il3.2
 		+ ~Class(Player1,MAGE_ALL)~ + @1492 + il3.19
@@ -1560,7 +1560,7 @@ END
 
 CHAIN WIillase il4.6
 	@1554
-	== EDWINJ_ IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @1555
+	== %EDWIN_JOINED% IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @1555
 END
 		++ @1548 + il4.7
 		++ @1549 + il4.8
@@ -1572,7 +1572,7 @@ CHAIN WIillase il4.8
 	@1556
 	= @1557
 	== DYNAHJ IF ~InParty("Dynaheir") InMyArea("Dynaheir") !StateCheck("Dynaheir",CD_STATE_NOTVALID)~ THEN @1558
-	== EDWINJ_ IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @1559
+	== %EDWIN_JOINED% IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @1559
 END
 		++ @1560 + il4.7
 		++ @1561 + il1.8
@@ -1589,7 +1589,7 @@ END
 
 CHAIN WIillase il4.10
 	@1569
-	== IMOEN2_ IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @1570
+	== %IMOEN_JOINED% IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @1570
 END
 		++ @1571 + il4.11
 		++ @1566 + il4.14
@@ -1663,7 +1663,7 @@ CHAIN IF ~Global("BHBG1Quest","GLOBAL",4) !PartyHasItem("WIBOOK03")~ THEN WIilla
 
 CHAIN WIillase il4.19
 	@1585
-	== IMOEN2_ IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @1586
+	== %IMOEN_JOINED% IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @1586
 END
 		++ @1587 + il4.20
 		++ @1588 + il4.21
@@ -1694,7 +1694,7 @@ END
 		
 CHAIN WIillase il4.23
 	@1594
-	== RASAADJ_ IF ~InParty("Rasaad") InMyArea("Rasaad") !StateCheck("Rasaad",CD_STATE_NOTVALID)~ THEN @1595
+	== %RASAAD_JOINED% IF ~InParty("Rasaad") InMyArea("Rasaad") !StateCheck("Rasaad",CD_STATE_NOTVALID)~ THEN @1595
 	== AJANTJ IF ~InParty("Ajantis") InMyArea("Ajantis") !StateCheck("Ajantis",CD_STATE_NOTVALID)~ THEN @1596
 END			
 			++ @1597 + il4.25
@@ -1702,7 +1702,7 @@ END
 CHAIN WIillase il4.24
 	@1598
 	== KIVANJ IF ~InParty("Kivan") InMyArea("Kivan") !StateCheck("Kivan",CD_STATE_NOTVALID)~ THEN @1599
-	== EDWINJ_ IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @1600
+	== %EDWIN_JOINED% IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @1600
 END
 		++ @1601 + il4.25
 		++ @1602 + il4.25
@@ -1731,7 +1731,7 @@ END
 		
 CHAIN WIillase il5.1
 	@1616
-	== IMOEN2_ IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @1617
+	== %IMOEN_JOINED% IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @1617
 	== WIillase @1618
 END
 		++ @1612 + il5.2
@@ -1753,7 +1753,7 @@ CHAIN WIillase il5.3
 	@1621
 	== MONTAJ IF ~InParty("Montaron") InMyArea("Montaron") !StateCheck("Montaron",CD_STATE_NOTVALID)~ THEN @1622
 	== VICONJ IF ~InParty("Viconia") InMyArea("Viconia") !StateCheck("Viconia",CD_STATE_NOTVALID)~ THEN @1623
-	== DORNJ_ IF ~InParty("Dorn") InMyArea("Dorn") !StateCheck("Dorn",CD_STATE_NOTVALID)~ THEN @1624
+	== %DORN_JOINED% IF ~InParty("Dorn") InMyArea("Dorn") !StateCheck("Dorn",CD_STATE_NOTVALID)~ THEN @1624
 	== WIillase @1625
 END
 		++ @1611 + il5.1
@@ -1813,7 +1813,7 @@ END
 
 CHAIN WIillase il5.11
 	@1646
-	== DORNJ_ IF ~InParty("Dorn") InMyArea("Dorn") !StateCheck("Dorn",CD_STATE_NOTVALID)~ THEN @1647
+	== %DORN_JOINED% IF ~InParty("Dorn") InMyArea("Dorn") !StateCheck("Dorn",CD_STATE_NOTVALID)~ THEN @1647
 	== WIILLASE IF ~InParty("Dorn") InMyArea("Dorn") !StateCheck("Dorn",CD_STATE_NOTVALID)~ THEN @1648
 	= @1649 DO ~GiveGoldForce(960) TakePartyItem("WIMISC01")~ EXTERN WIillase il5.20
 
@@ -2636,7 +2636,7 @@ END
 
 CHAIN IF ~Global("BHBG1Quest","GLOBAL",6) Global("IllaseraFriendship","GLOBAL",1)~ THEN WIillase il7.1
 	@2003
-	== IMOEN2_ IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2004
+	== %IMOEN_JOINED% IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2004
 END
 		++ @2005 + il7.4
 		++ @2006 + il7.5
@@ -2645,23 +2645,23 @@ END
 
 CHAIN WIillase il7.2
 	@2009
-	== NEERAJ_ IF ~InParty("Neera") InMyArea("Neera") !StateCheck("Neera",CD_STATE_NOTVALID)~ THEN @2010
-	== EDWINJ_ IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @2011
+	== %NEERA_JOINED% IF ~InParty("Neera") InMyArea("Neera") !StateCheck("Neera",CD_STATE_NOTVALID)~ THEN @2010
+	== %EDWIN_JOINED% IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @2011
 	== WIillase @2012
 END
 		+ ~CheckStatGT(Player1,14,INT)~ + @2013 EXTERN WIREDWIZ WIREDWIZ2
-		+ ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ + @2014 EXTERN EDWINJ_ BHEdwinInt3
+		+ ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ + @2014 EXTERN %EDWIN_JOINED% BHEdwinInt3
 		++ @2015 EXTERN WIREDWIZ WIREDWIZ4
 		++ @2016 EXTERN WIREDWIZ WIREDWIZ5
 
 CHAIN WIillase il7.3
 	@2017
-	== NEERAJ_ IF ~InParty("Neera") InMyArea("Neera") !StateCheck("Neera",CD_STATE_NOTVALID)~ THEN @2010
-	== EDWINJ_ IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @2011
+	== %NEERA_JOINED% IF ~InParty("Neera") InMyArea("Neera") !StateCheck("Neera",CD_STATE_NOTVALID)~ THEN @2010
+	== %EDWIN_JOINED% IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @2011
 	== WIillase @2012
 END
 		+ ~CheckStatGT(Player1,14,INT)~ + @2013 EXTERN WIREDWIZ WIREDWIZ2
-		+ ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ + @2014 EXTERN EDWINJ_ BHEdwinInt3
+		+ ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ + @2014 EXTERN %EDWIN_JOINED% BHEdwinInt3
 		++ @2015 EXTERN WIREDWIZ WIREDWIZ4
 		++ @2016 EXTERN WIREDWIZ WIREDWIZ5
 
@@ -2673,34 +2673,34 @@ END
 
 CHAIN WIillase il7.5
 	@2021
-	== NEERAJ_ IF ~InParty("Neera") InMyArea("Neera") !StateCheck("Neera",CD_STATE_NOTVALID)~ THEN @2010
-	== EDWINJ_ IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @2011
+	== %NEERA_JOINED% IF ~InParty("Neera") InMyArea("Neera") !StateCheck("Neera",CD_STATE_NOTVALID)~ THEN @2010
+	== %EDWIN_JOINED% IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @2011
 	== WIillase @2012
 END
 		+ ~CheckStatGT(Player1,14,INT)~ + @2013 EXTERN WIREDWIZ WIREDWIZ2
-		+ ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ + @2014 EXTERN EDWINJ_ BHEdwinInt3
+		+ ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ + @2014 EXTERN %EDWIN_JOINED% BHEdwinInt3
 		++ @2015 EXTERN WIREDWIZ WIREDWIZ4
 		++ @2016 EXTERN WIREDWIZ WIREDWIZ5
 		
 CHAIN WIillase il7.6
 	@2022
-	== NEERAJ_ IF ~InParty("Neera") InMyArea("Neera") !StateCheck("Neera",CD_STATE_NOTVALID)~ THEN @2010
-	== EDWINJ_ IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @2011
+	== %NEERA_JOINED% IF ~InParty("Neera") InMyArea("Neera") !StateCheck("Neera",CD_STATE_NOTVALID)~ THEN @2010
+	== %EDWIN_JOINED% IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @2011
 	== WIillase @2012
 END
 		+ ~CheckStatGT(Player1,14,INT)~ + @2013 EXTERN WIREDWIZ WIREDWIZ2
-		+ ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ + @2014 EXTERN EDWINJ_ BHEdwinInt3
+		+ ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ + @2014 EXTERN %EDWIN_JOINED% BHEdwinInt3
 		++ @2015 EXTERN WIREDWIZ WIREDWIZ4
 		++ @2016 EXTERN WIREDWIZ WIREDWIZ5
 		
 CHAIN WIillase il7.7 
 	@2023
-	== NEERAJ_ IF ~InParty("Neera") InMyArea("Neera") !StateCheck("Neera",CD_STATE_NOTVALID)~ THEN @2010
-	== EDWINJ_ IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @2011
+	== %NEERA_JOINED% IF ~InParty("Neera") InMyArea("Neera") !StateCheck("Neera",CD_STATE_NOTVALID)~ THEN @2010
+	== %EDWIN_JOINED% IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @2011
 	== WIillase @2012
 END
 		+ ~CheckStatGT(Player1,14,INT)~ + @2013 EXTERN WIREDWIZ WIREDWIZ2
-		+ ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ + @2014 EXTERN EDWINJ_ BHEdwinInt3
+		+ ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ + @2014 EXTERN %EDWIN_JOINED% BHEdwinInt3
 		++ @2015 EXTERN WIREDWIZ WIREDWIZ4
 		++ @2016 EXTERN WIREDWIZ WIREDWIZ5
 		
@@ -2718,45 +2718,45 @@ END
 
 CHAIN WIillase il7.10
 	@2030
-	== NEERAJ_ IF ~InParty("Neera") InMyArea("Neera") !StateCheck("Neera",CD_STATE_NOTVALID)~ THEN @2010
-	== EDWINJ_ IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @2011
+	== %NEERA_JOINED% IF ~InParty("Neera") InMyArea("Neera") !StateCheck("Neera",CD_STATE_NOTVALID)~ THEN @2010
+	== %EDWIN_JOINED% IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @2011
 	== WIillase @2012
 END
 		+ ~CheckStatGT(Player1,14,INT)~ + @2013 EXTERN WIREDWIZ WIREDWIZ2
-		+ ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ + @2014 EXTERN EDWINJ_ BHEdwinInt3
+		+ ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ + @2014 EXTERN %EDWIN_JOINED% BHEdwinInt3
 		++ @2015 EXTERN WIREDWIZ WIREDWIZ4
 		++ @2016 EXTERN WIREDWIZ WIREDWIZ5
 		
 CHAIN WIillase il7.11
 	@2031
-	== NEERAJ_ IF ~InParty("Neera") InMyArea("Neera") !StateCheck("Neera",CD_STATE_NOTVALID)~ THEN @2010
-	== EDWINJ_ IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @2011
+	== %NEERA_JOINED% IF ~InParty("Neera") InMyArea("Neera") !StateCheck("Neera",CD_STATE_NOTVALID)~ THEN @2010
+	== %EDWIN_JOINED% IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @2011
 	== WIillase @2012
 END
 		+ ~CheckStatGT(Player1,14,INT)~ + @2013 EXTERN WIREDWIZ WIREDWIZ2
-		+ ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ + @2014 EXTERN EDWINJ_ BHEdwinInt3
+		+ ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ + @2014 EXTERN %EDWIN_JOINED% BHEdwinInt3
 		++ @2015 EXTERN WIREDWIZ WIREDWIZ4
 		++ @2016 EXTERN WIREDWIZ WIREDWIZ5
 
 CHAIN WIillase il7.12
 	@2032
-	== NEERAJ_ IF ~InParty("Neera") InMyArea("Neera") !StateCheck("Neera",CD_STATE_NOTVALID)~ THEN @2010
-	== EDWINJ_ IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @2011
+	== %NEERA_JOINED% IF ~InParty("Neera") InMyArea("Neera") !StateCheck("Neera",CD_STATE_NOTVALID)~ THEN @2010
+	== %EDWIN_JOINED% IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @2011
 	== WIillase @2012
 END
 		+ ~CheckStatGT(Player1,14,INT)~ + @2013 EXTERN WIREDWIZ WIREDWIZ2
-		+ ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ + @2014 EXTERN EDWINJ_ BHEdwinInt3
+		+ ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ + @2014 EXTERN %EDWIN_JOINED% BHEdwinInt3
 		++ @2015 EXTERN WIREDWIZ WIREDWIZ4
 		++ @2016 EXTERN WIREDWIZ WIREDWIZ5
 		
 CHAIN WIillase il7.13
 	@2033
-	== NEERAJ_ IF ~InParty("Neera") InMyArea("Neera") !StateCheck("Neera",CD_STATE_NOTVALID)~ THEN @2010
-	== EDWINJ_ IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @2011
+	== %NEERA_JOINED% IF ~InParty("Neera") InMyArea("Neera") !StateCheck("Neera",CD_STATE_NOTVALID)~ THEN @2010
+	== %EDWIN_JOINED% IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @2011
 	== WIillase @2012
 END
 		+ ~CheckStatGT(Player1,14,INT)~ + @2013 EXTERN WIREDWIZ WIREDWIZ2
-		+ ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ + @2014 EXTERN EDWINJ_ BHEdwinInt3
+		+ ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ + @2014 EXTERN %EDWIN_JOINED% BHEdwinInt3
 		++ @2015 EXTERN WIREDWIZ WIREDWIZ4
 		++ @2016 EXTERN WIREDWIZ WIREDWIZ5
 		
@@ -2806,7 +2806,7 @@ END
 
 CHAIN WIillase il7.20
 	@2058
-	== EDWINJ_ IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @2059
+	== %EDWIN_JOINED% IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @2059
 	== VICONJ IF ~InParty("Viconia") InMyArea("Viconia") !StateCheck("Viconia",CD_STATE_NOTVALID)~ THEN @2060
 	== JAHEIJ IF ~InParty("Jaheira") InMyArea("Jaheira") !StateCheck("Jaheira",CD_STATE_NOTVALID)~ THEN @2061
 	== FALDOJ IF ~InParty("Faldorn") InMyArea("Faldorn") !StateCheck("Faldorn",CD_STATE_NOTVALID)~ THEN @2062
@@ -2818,7 +2818,7 @@ END
 
 CHAIN WIillase il7.205
 	@2067
-	== EDWINJ_ IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @2059
+	== %EDWIN_JOINED% IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @2059
 	== VICONJ IF ~InParty("Viconia") InMyArea("Viconia") !StateCheck("Viconia",CD_STATE_NOTVALID)~ THEN @2060
 	== JAHEIJ IF ~InParty("Jaheira") InMyArea("Jaheira") !StateCheck("Jaheira",CD_STATE_NOTVALID)~ THEN @2061
 	== FALDOJ IF ~InParty("Faldorn") InMyArea("Faldorn") !StateCheck("Faldorn",CD_STATE_NOTVALID)~ THEN @2062
@@ -2830,7 +2830,7 @@ END
 
 CHAIN WIillase il7.21
 	@2068
-	== EDWINJ_ IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @2059
+	== %EDWIN_JOINED% IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @2059
 	== VICONJ IF ~InParty("Viconia") InMyArea("Viconia") !StateCheck("Viconia",CD_STATE_NOTVALID)~ THEN @2060
 	== JAHEIJ IF ~InParty("Jaheira") InMyArea("Jaheira") !StateCheck("Jaheira",CD_STATE_NOTVALID)~ THEN @2061
 	== FALDOJ IF ~InParty("Faldorn") InMyArea("Faldorn") !StateCheck("Faldorn",CD_STATE_NOTVALID)~ THEN @2062
@@ -2935,7 +2935,7 @@ END
 
 CHAIN WIillase il8.2
 	@2115
-	== EDWINJ_ IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @2116
+	== %EDWIN_JOINED% IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @2116
 END
 		++ @2117 + il8.5
 		++ @2118 + il8.7
@@ -2943,7 +2943,7 @@ END
 		
 CHAIN WIillase il8.3
 	@2120
-	== EDWINJ_ IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @2116
+	== %EDWIN_JOINED% IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @2116
 END
 		++ @2117 + il8.5
 		++ @2118 + il8.7
@@ -2952,7 +2952,7 @@ END
 CHAIN WIillase il8.4
 	@2121
 	= @2122
-	== EDWINJ_ IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @2116
+	== %EDWIN_JOINED% IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @2116
 END
 		++ @2117 + il8.5
 		++ @2118 + il8.7
@@ -3038,7 +3038,7 @@ CHAIN WIillase il10.10
 	
 CHAIN IF ~Global("BHBG1Quest","GLOBAL",12)~ THEN WIillase il12.0
 	@2154
-	== DORNJ_ IF ~InParty("Dorn") InMyArea("Dorn") !StateCheck("Dorn",CD_STATE_NOTVALID)~ THEN @2155
+	== %DORN_JOINED% IF ~InParty("Dorn") InMyArea("Dorn") !StateCheck("Dorn",CD_STATE_NOTVALID)~ THEN @2155
 END
 		++ @2156 + il12.1
 		++ @2157 + il12.2
@@ -3051,7 +3051,7 @@ END
 
 CHAIN WIillase il12.2
 	@2161
-	== IMOEN2_ IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2162
+	== %IMOEN_JOINED% IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2162
 END
 		++ @2163 + il12.4
 		
@@ -3065,7 +3065,7 @@ END
 
 CHAIN WIillase il12.4
 	@2169
-	== IMOEN2_ IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2162
+	== %IMOEN_JOINED% IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2162
 END
 		++ @2163 + il12.3
 		
@@ -3092,7 +3092,7 @@ CHAIN WIillase il12.7
 		
 CHAIN WIillase il12.8
 	@2177
-	== MINSCJ_ IF ~InParty("Minsc") InMyArea("Minsc") !StateCheck("Minsc",CD_STATE_NOTVALID)~ THEN @2178
+	== %MINSC_JOINED% IF ~InParty("Minsc") InMyArea("Minsc") !StateCheck("Minsc",CD_STATE_NOTVALID)~ THEN @2178
 END
 		++ @2166 + il12.6
 		++ @2167 + il12.7
@@ -3199,7 +3199,7 @@ CHAIN WIillase il15.13
 	@2219
 	= @2220
 	= @2221
-	== EDWINJ_ IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @2222
+	== %EDWIN_JOINED% IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @2222
 END
 		++ @2223 + il15.14
 		++ @2224 + il15.14
@@ -3216,7 +3216,7 @@ END
 		
 CHAIN WIillase il15.15
 	@2232
-	== IMOEN2_ IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2233
+	== %IMOEN_JOINED% IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2233
 END
 		++ @2234 + il15.16
 		++ @2235 + il15.18
@@ -3677,11 +3677,11 @@ CHAIN WIillase il15.95
 	@2447 DO ~SetGlobal("BHBG1ImoenJoin","GLOBAL",1) StartCutSceneEx("WIcuts16",TRUE) StartCutSceneMode()~ EXIT
 
 CHAIN IF ~Global("BHBG1ImoenJoin","GLOBAL",1) Global("IllaseraScene2","GLOBAL",1)~ THEN WIillase il15.96
-	@2448 EXTERN IMOEN2_ BHImoenPub1
+	@2448 EXTERN %IMOEN_JOINED% BHImoenPub1
 
 CHAIN WIillase il15.97
 	@2449
-	== IMOEN2_ IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2450
+	== %IMOEN_JOINED% IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2450
 END
 		++ @2451 + il15.99
 		++ @2452 + il15.99
@@ -3694,57 +3694,57 @@ END
 
 CHAIN WIillase il15.98
 	@2459
-	== IMOEN2_ IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2460
+	== %IMOEN_JOINED% IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2460
 	== WIillase IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2461
-	== IMOEN2_ IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2462 EXTERN WIillase il15.97
+	== %IMOEN_JOINED% IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2462 EXTERN WIillase il15.97
 
 CHAIN WIillase il15.99
 	@2463
-	== IMOEN2_ IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2464
+	== %IMOEN_JOINED% IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2464
 	== WIillase IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2465
-	== IMOEN2_ IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2466
+	== %IMOEN_JOINED% IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2466
 	== WIillase IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2467
-	== IMOEN2_ IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2468
+	== %IMOEN_JOINED% IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2468
 	== WIillase IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2469
-	== IMOEN2_ IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2470
-	== IMOEN2_ IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2471
+	== %IMOEN_JOINED% IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2470
+	== %IMOEN_JOINED% IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2471
 END
-		+ ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ + @2472 EXTERN IMOEN2_ BHImoenPub7
+		+ ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ + @2472 EXTERN %IMOEN_JOINED% BHImoenPub7
 		+ ~!InParty("IMOEN2") !InMyArea("IMOEN2")~ + @2473 + il15.101
 		
 CHAIN WIillase il15.100
 	@2474
-	== IMOEN2_ IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2475
+	== %IMOEN_JOINED% IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2475
 	== WIillase IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2476
-	== IMOEN2_ IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2477
+	== %IMOEN_JOINED% IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2477
 	== WIillase IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2467
-	== IMOEN2_ IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2468
+	== %IMOEN_JOINED% IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2468
 	== WIillase IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2469
-	== IMOEN2_ IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2470
-	== IMOEN2_ IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2471
+	== %IMOEN_JOINED% IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2470
+	== %IMOEN_JOINED% IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2471
 END
-		+ ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ + @2472 EXTERN IMOEN2_ BHImoenPub7
+		+ ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ + @2472 EXTERN %IMOEN_JOINED% BHImoenPub7
 		+ ~!InParty("IMOEN2") !InMyArea("IMOEN2")~ + @2473 + il15.101
 		
 CHAIN WIillase il15.101
 	@2478 DO ~SetGlobal("IllaseraScene2","GLOBAL",3) SetGlobal("BHBG1Quest","GLOBAL",16) StartCutSceneEx("WIcuts17",TRUE) StartCutSceneMode()~ EXIT
 
 CHAIN WIillase il15.102
-	@2479 EXTERN IMOEN2_ BHImoenPub13
+	@2479 EXTERN %IMOEN_JOINED% BHImoenPub13
 
 CHAIN WIillase il15.103
-	@2480 EXTERN IMOEN2_ BHImoenPub14
+	@2480 EXTERN %IMOEN_JOINED% BHImoenPub14
 
 CHAIN WIillase il15.104
-	@2481 EXTERN IMOEN2_ BHImoenPub16
+	@2481 EXTERN %IMOEN_JOINED% BHImoenPub16
 
 CHAIN WIillase il15.105
-	@2482 EXTERN IMOEN2_ BHImoenPub17
+	@2482 EXTERN %IMOEN_JOINED% BHImoenPub17
 
 CHAIN WIillase il15.106
 	@2483
 END
-		++ ~Well...~ EXTERN IMOEN2_ BHImoenPub24
+		++ ~Well...~ EXTERN %IMOEN_JOINED% BHImoenPub24
 
 // Section 6, start of Act 3
 		
@@ -3938,7 +3938,7 @@ END
 	
 CHAIN WIillase il18.2
 	@2554
-	== EDWINJ_ IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @2555
+	== %EDWIN_JOINED% IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @2555
 END
 		++ @2556 + il18.7
 		++ @2557 + il18.8
@@ -4046,7 +4046,7 @@ END
 
 CHAIN IF ~Global("BHBG1Quest","GLOBAL",21) NumTimesTalkedTo(0)~ THEN WIillase il19.0
 	@2594
-	== IMOEN2_ IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2595
+	== %IMOEN_JOINED% IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2595
 	== WIILLASE IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2596
 END
 		++ @2597 + il19.1
