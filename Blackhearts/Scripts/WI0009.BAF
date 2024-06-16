@@ -16,11 +16,21 @@ THEN
 		Kill("WIRWWIZ4")  // Error
 		CreateCreature("WIRWWIZ7",[1218.1033],S)  // Error
 		CreateCreature("WIRWBARB",[1134.981],S)  // Thayan Bodyguard
-		CreateCreature("WIRWBLGD",[1188.942],S)
+		CreateCreature("WIRWBKGD",[1188.942],S)
 		CreateCreature("WIRWTHI2",[1184.1107],S)  // Error
 		CreateCreature("WIJELLY",[2498.3370],SW)  // Error
 		CreateCreature("WIPINATA",[2066.3498],S)  // Error
 		SetGlobal("BHBG1AR0009Spawn","WI0009",1)
 END
+
+IF
+	Global("BHBG1Quest18spawn3","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("WIRWBKG2",[818.3494],S)
+		SetGlobal("BHBG1Quest18spawn3","GLOBAL",1)
+END
+
+
 
 

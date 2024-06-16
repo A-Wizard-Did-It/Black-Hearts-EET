@@ -1,0 +1,24 @@
+IF
+	Global("BHBG1Quest18spawn1","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("WITROLL",[1489.2928],S)
+		CreateCreature("WITROLL",[1662.2916],S)
+		CreateCreature("BPSLFS01",[1525.2869],S)
+		CreateCreature("BPSLFS01",[1699.2843],S)
+		SetGlobal("BHBG1Quest18spawn1","GLOBAL",1)
+END
+
+IF
+	Global("WIMIMICTRAP","WI0008",1)
+	Dead("BDMIMIC")
+THEN
+	RESPONSE #100
+		SetInterrupt(FALSE)
+		SetGlobal("WIMIMICTRAP","WI0008",2)
+		ContainerEnable("Mimic",TRUE)
+		SmallWait(5)
+		Unlock("Mimic")
+		SetInterrupt(TRUE)
+END
+

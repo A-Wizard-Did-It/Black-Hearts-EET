@@ -15,14 +15,8 @@ The mod includes:
 - Eighteen new items with unique magical properties.
 
 **Installation**
-For BG:EE
-Download Blackhearts_BG1.zip and unzip the mod into your Baldur’s Gate EE directory, making sure that the folder “Blackhearts_BG1” and file Setup-Blackhearts_BG1 is in your base game directory (the same location as the chitin.key. Run the Setup-Blackhearts_BG1 weidu exe file to start installation.
-
-For BG2:EE (patch file for additional Illasera dialogue)
-Download Blackhearts_BG2 Patch.zip and unzip the mod into your Baldur’s Gate 2 EE directory, making sure that the folder “Blackhearts_BG2 Patch” and file Setup-Blackhearts_BG2 Patch is in your base game directory (the same location as the chitin.key. Run the Setup-Blackhearts_BG2 Patch weidu exe file to start installation.
-
-For EET
-Download Blackhearts_EET.zip and unzip the mod into your EET Baldur’s Gate 2 EET directory, making sure that the folder “Blackhearts_EET” and file Setup-Blackhearts_EET is in your base game directory (the same location as the chitin.key. Run the Setup-Blackhearts_EET weidu exe file to start installation.
+For All game
+Download Blackhearts.zip and unzip the mod into your Baldur’s Gate EE directory, making sure that the folder “Blackhearts” and file Setup-Blackhearts is in your base game directory (the same location as the chitin.key. Run the Setup-Blackhearts weidu exe file to start installation.
 
 Note:
 The mod should only be played on a fresh save. Uninstalling the mod and loading up a save that had been installed will probably not totally break your save, but may result in weirdness. 

@@ -40,7 +40,7 @@ COPY ~Blackhearts/WAV~ ~override~
 
 COPY ~Blackhearts/Areas/ARE~ ~override~
 COPY ~Blackhearts/Areas/WED~ ~override~
-COPY ~Blackhearts/Areas/BCS~ ~override~
+//COPY ~Blackhearts/Areas/BCS~ ~override~
 COPY ~Blackhearts/Areas/BMP~ ~override~
 COPY ~Blackhearts/Areas/MOS~ ~override~
 COPY ~Blackhearts/Areas/TIS~ ~override~
