@@ -1,4 +1,4 @@
-BACKUP ~Blackhearts/Backup~
+BACKUP ~weidu_external/Blackhearts/Backup~
 AUTHOR ~AWizardDidIt~
 
 VERSION ~v1.1~
@@ -213,7 +213,7 @@ COMPILE ~Blackhearts/Scripts/WIcuts12.baf~
 COMPILE ~Blackhearts/Scripts/WIcuts13.baf~
 COMPILE ~Blackhearts/Scripts/WIcuts14.baf~
 COMPILE ~Blackhearts/Scripts/WIcuts15.baf~ EVALUATE_BUFFER
-COMPILE ~Blackhearts/Scripts/WIcuts16.baf~
+COMPILE ~Blackhearts/Scripts/WIcuts16.baf~ EVALUATE_BUFFER
 COMPILE ~Blackhearts/Scripts/WIcuts17.baf~ EVALUATE_BUFFER
 COMPILE ~Blackhearts/Scripts/WIcuts18.baf~ EVALUATE_BUFFER
 COMPILE ~Blackhearts/Scripts/WIcuts19.baf~

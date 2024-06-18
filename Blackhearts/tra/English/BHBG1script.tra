@@ -3273,14 +3273,28 @@
 @5018=~I've run from my destiny for long enough. Some things are inescapable. If it at least intends for me to achieve greatness, why should I not let it lead me there?~
 @5019=~*snort* Please. You don't expect for me to lay out the details of our 'master plan' to you so effortlessly, do you? I owe no such information to you.~
 
-
 // WIcuts18.baf
 
 @5020 = ~*Imoen shares a few more stories from Candlekeep as you all drink together*~
 @5021 = ~"Thank you both for sharing a drink with me. This has been pleasant. I must get to work on our final attack on Cherise, but I will contact you when I am ready. Be well."~
 
-
 // BG0167.baf
 
 @5022 = ~Now lets see here. I have all my Harper correspondences and records here. Gimmie a minute~
 @5023 = ~Ok, got them!~
+
+// WIillase.d-d-diamond
+
+@5024 = ~Well...~
+
+// WIcuts7.baf
+
+@5025 = ~Sister, do you feel it?~
+@5026 = ~Yes. A rumbling in the earth.~
+@5027 = ~We must hide, quickly!~
+@5028 = ~City dwellers, beware. Something comes.~
+
+// WIcuts16.baf 
+
+@5029 = ~Boooooored now.~
+@5030 = ~This conversation has gotta be way better than what they're talking about out there.~

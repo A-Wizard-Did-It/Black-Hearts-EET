@@ -269,7 +269,7 @@ CHAIN IF ~IsGabber("Garrick") GlobalGT("BHBG1Quest","GLOBAL",16) Global("IllaGar
 
 // Imoen Banters	
 
-CHAIN IF ~IsGabber("IMOEN2") GlobalGT("BHBG1Quest","GLOBAL",1) Global("IllaImoenBanter","GLOBAL",0)~ THEN WIillase ilIm1
+CHAIN IF ~IsGabber("%IMOEN_DV%") GlobalGT("BHBG1Quest","GLOBAL",1) Global("IllaImoenBanter","GLOBAL",0)~ THEN WIillase ilIm1
 	@857
 	== %IMOEN_JOINED% @858
 	== WIillase @859
@@ -283,7 +283,7 @@ CHAIN IF ~IsGabber("IMOEN2") GlobalGT("BHBG1Quest","GLOBAL",1) Global("IllaImoen
 	= @867
 	== WIillase @868 DO ~SetGlobal("IllaImoenBanter","GLOBAL",1)~ EXIT
 
-CHAIN IF ~IsGabber("IMOEN2") GlobalGT("BHBG1Quest","GLOBAL",6) Global("IllaImoenBanter","GLOBAL",1)~ THEN WIillase ilIm2
+CHAIN IF ~IsGabber("%IMOEN_DV%") GlobalGT("BHBG1Quest","GLOBAL",6) Global("IllaImoenBanter","GLOBAL",1)~ THEN WIillase ilIm2
 	@869
 	== %IMOEN_JOINED% @870
 	== WIillase @871
@@ -297,7 +297,7 @@ CHAIN IF ~IsGabber("IMOEN2") GlobalGT("BHBG1Quest","GLOBAL",6) Global("IllaImoen
 	== WIillase @879
 	== %IMOEN_JOINED% @880 DO ~SetGlobal("IllaImoenBanter","GLOBAL",2)~ EXIT
 
-CHAIN IF ~IsGabber("IMOEN2") GlobalGT("BHBG1Quest","GLOBAL",16) Global("IllaImoenBanter","GLOBAL",2)~ THEN WIillase ilIm3
+CHAIN IF ~IsGabber("%IMOEN_DV%") GlobalGT("BHBG1Quest","GLOBAL",16) Global("IllaImoenBanter","GLOBAL",2)~ THEN WIillase ilIm3
 	@881
 	== %IMOEN_JOINED% @882
 	== WIillase @883
@@ -575,14 +575,14 @@ CHAIN IF ~IsGabber("Safana") GlobalGT("BHBG1Quest","GLOBAL",6) Global("IllaSafan
 	== AJANTJ IF ~InParty("Ajantis") InMyArea("Ajantis") !StateCheck("Ajantis",CD_STATE_NOTVALID)~ THEN @1076
 	== CORANJ IF ~InParty("Coran") InMyArea("Coran") !StateCheck("Coran",CD_STATE_NOTVALID)~ THEN @1077
 	== VICONJ IF ~InParty("Viconia") InMyArea("Viconia") !StateCheck("Viconia",CD_STATE_NOTVALID)~ THEN @1078
-	== %IMOEN_JOINED% IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @1079
+	== %IMOEN_JOINED% IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @1079
 	== SAFANJ @1080 DO ~StartCutSceneEx("WIcuts26",TRUE) StartCutSceneMode()~ EXIT
 
 CHAIN IF ~InMyArea("Safana") GlobalGT("BHBG1Quest","GLOBAL",6) Global("IllaSafanaBanter","GLOBAL",2)~ THEN WIillase ilSa3
 	@1081
 	== SAFANJ @1082
 	== WIillase @1083
-	== %IMOEN_JOINED% IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @1084
+	== %IMOEN_JOINED% IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @1084
 	== SAFANJ @1085
 	== WIillase @1086
 	== SAFANJ @1087
@@ -710,7 +710,7 @@ CHAIN IF ~IsGabber("Xan") GlobalGT("BHBG1Quest","GLOBAL",6) Global("IllaXanBante
 	== XANJ @1172
 	== WIillase @1173
 	== XANJ @1174
-	== %IMOEN_JOINED% IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @1175
+	== %IMOEN_JOINED% IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @1175
 	== WIillase @1176
 	== XANJ @1177 DO ~SetGlobal("IllaXanBanter","GLOBAL",2)~ EXIT
 
@@ -773,8 +773,8 @@ END
 
 CHAIN IF ~NumTimesTalkedTo(0) !Dead("Marl") GlobalLT("Chapter","GLOBAL",3)~ THEN WIillase il0.1
 	@1214
-	== %IMOEN_JOINED% IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @1215
-	== WIillase IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @1216
+	== %IMOEN_JOINED% IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @1215
+	== WIillase IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @1216
 END
 		++ @1217 + il0.5
 		++ @1218 + il0.6
@@ -956,7 +956,7 @@ END
 
 CHAIN WIillase il0.25
 	@1295
-	== %IMOEN_JOINED% IF ~InParty("IMOEN2")~ THEN @1296
+	== %IMOEN_JOINED% IF ~InParty("%IMOEN_DV%")~ THEN @1296
 END	
 		++ @1297 + il0.26
 		++ @1298 + il0.26
@@ -1156,9 +1156,9 @@ CHAIN WIillase il1.15
 	@1391
 	= @1392
 	== GARRIJ IF ~InParty("Garrick") InMyArea("Garrick") !StateCheck("Garrick",CD_STATE_NOTVALID)~ THEN @1393
-	== %IMOEN_JOINED% IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID) InParty("Garrick") InMyArea("Garrick") !StateCheck("Garrick",CD_STATE_NOTVALID)~ THEN @1394
-	== GARRIJ IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID) InParty("Garrick") InMyArea("Garrick") !StateCheck("Garrick",CD_STATE_NOTVALID)~ THEN @1395
-	== %IMOEN_JOINED% IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID) InParty("Garrick") InMyArea("Garrick") !StateCheck("Garrick",CD_STATE_NOTVALID)~ THEN @1396
+	== %IMOEN_JOINED% IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID) InParty("Garrick") InMyArea("Garrick") !StateCheck("Garrick",CD_STATE_NOTVALID)~ THEN @1394
+	== GARRIJ IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID) InParty("Garrick") InMyArea("Garrick") !StateCheck("Garrick",CD_STATE_NOTVALID)~ THEN @1395
+	== %IMOEN_JOINED% IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID) InParty("Garrick") InMyArea("Garrick") !StateCheck("Garrick",CD_STATE_NOTVALID)~ THEN @1396
 END
 		++ @1397 + il1.16
 		++ @1398 + il1.17
@@ -1589,7 +1589,7 @@ END
 
 CHAIN WIillase il4.10
 	@1569
-	== %IMOEN_JOINED% IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @1570
+	== %IMOEN_JOINED% IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @1570
 END
 		++ @1571 + il4.11
 		++ @1566 + il4.14
@@ -1663,7 +1663,7 @@ CHAIN IF ~Global("BHBG1Quest","GLOBAL",4) !PartyHasItem("WIBOOK03")~ THEN WIilla
 
 CHAIN WIillase il4.19
 	@1585
-	== %IMOEN_JOINED% IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @1586
+	== %IMOEN_JOINED% IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @1586
 END
 		++ @1587 + il4.20
 		++ @1588 + il4.21
@@ -1731,7 +1731,7 @@ END
 		
 CHAIN WIillase il5.1
 	@1616
-	== %IMOEN_JOINED% IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @1617
+	== %IMOEN_JOINED% IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @1617
 	== WIillase @1618
 END
 		++ @1612 + il5.2
@@ -2501,8 +2501,8 @@ END
 CHAIN WIillase il6.99
 	@1958
 END
-		+ ~!InParty("IMOEN2")~ + @1959 + il6.100
-		+ ~InParty("IMOEN2")~ + @1960 + il6.101
+		+ ~!InParty("%IMOEN_DV%")~ + @1959 + il6.100
+		+ ~InParty("%IMOEN_DV%")~ + @1960 + il6.101
 		++ @1961 + il6.102
 		++ @1962 + il6.103
 		++ @1963 + il6.102
@@ -2636,7 +2636,7 @@ END
 
 CHAIN IF ~Global("BHBG1Quest","GLOBAL",6) Global("IllaseraFriendship","GLOBAL",1)~ THEN WIillase il7.1
 	@2003
-	== %IMOEN_JOINED% IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2004
+	== %IMOEN_JOINED% IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @2004
 END
 		++ @2005 + il7.4
 		++ @2006 + il7.5
@@ -3051,7 +3051,7 @@ END
 
 CHAIN WIillase il12.2
 	@2161
-	== %IMOEN_JOINED% IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2162
+	== %IMOEN_JOINED% IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @2162
 END
 		++ @2163 + il12.4
 		
@@ -3065,7 +3065,7 @@ END
 
 CHAIN WIillase il12.4
 	@2169
-	== %IMOEN_JOINED% IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2162
+	== %IMOEN_JOINED% IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @2162
 END
 		++ @2163 + il12.3
 		
@@ -3216,7 +3216,7 @@ END
 		
 CHAIN WIillase il15.15
 	@2232
-	== %IMOEN_JOINED% IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2233
+	== %IMOEN_JOINED% IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @2233
 END
 		++ @2234 + il15.16
 		++ @2235 + il15.18
@@ -3670,8 +3670,8 @@ CHAIN WIillase il15.93
 CHAIN WIillase il15.94
 	@2444
 END
-		+ ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ + @2445 + il15.95
-		+ ~!InParty("IMOEN2") !InMyArea("IMOEN2")~ + @2446 + il15.97
+		+ ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ + @2445 + il15.95
+		+ ~!InParty("%IMOEN_DV%") !InMyArea("%IMOEN_DV%")~ + @2446 + il15.97
 
 CHAIN WIillase il15.95
 	@2447 DO ~SetGlobal("BHBG1ImoenJoin","GLOBAL",1) StartCutSceneEx("WIcuts16",TRUE) StartCutSceneMode()~ EXIT
@@ -3681,7 +3681,7 @@ CHAIN IF ~Global("BHBG1ImoenJoin","GLOBAL",1) Global("IllaseraScene2","GLOBAL",1
 
 CHAIN WIillase il15.97
 	@2449
-	== %IMOEN_JOINED% IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2450
+	== %IMOEN_JOINED% IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @2450
 END
 		++ @2451 + il15.99
 		++ @2452 + il15.99
@@ -3694,37 +3694,37 @@ END
 
 CHAIN WIillase il15.98
 	@2459
-	== %IMOEN_JOINED% IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2460
-	== WIillase IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2461
-	== %IMOEN_JOINED% IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2462 EXTERN WIillase il15.97
+	== %IMOEN_JOINED% IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @2460
+	== WIillase IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @2461
+	== %IMOEN_JOINED% IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @2462 EXTERN WIillase il15.97
 
 CHAIN WIillase il15.99
 	@2463
-	== %IMOEN_JOINED% IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2464
-	== WIillase IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2465
-	== %IMOEN_JOINED% IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2466
-	== WIillase IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2467
-	== %IMOEN_JOINED% IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2468
-	== WIillase IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2469
-	== %IMOEN_JOINED% IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2470
-	== %IMOEN_JOINED% IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2471
+	== %IMOEN_JOINED% IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @2464
+	== WIillase IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @2465
+	== %IMOEN_JOINED% IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @2466
+	== WIillase IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @2467
+	== %IMOEN_JOINED% IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @2468
+	== WIillase IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @2469
+	== %IMOEN_JOINED% IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @2470
+	== %IMOEN_JOINED% IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @2471
 END
-		+ ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ + @2472 EXTERN %IMOEN_JOINED% BHImoenPub7
-		+ ~!InParty("IMOEN2") !InMyArea("IMOEN2")~ + @2473 + il15.101
+		+ ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ + @2472 EXTERN %IMOEN_JOINED% BHImoenPub7
+		+ ~!InParty("%IMOEN_DV%") !InMyArea("%IMOEN_DV%")~ + @2473 + il15.101
 		
 CHAIN WIillase il15.100
 	@2474
-	== %IMOEN_JOINED% IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2475
-	== WIillase IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2476
-	== %IMOEN_JOINED% IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2477
-	== WIillase IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2467
-	== %IMOEN_JOINED% IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2468
-	== WIillase IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2469
-	== %IMOEN_JOINED% IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2470
-	== %IMOEN_JOINED% IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2471
+	== %IMOEN_JOINED% IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @2475
+	== WIillase IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @2476
+	== %IMOEN_JOINED% IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @2477
+	== WIillase IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @2467
+	== %IMOEN_JOINED% IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @2468
+	== WIillase IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @2469
+	== %IMOEN_JOINED% IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @2470
+	== %IMOEN_JOINED% IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @2471
 END
-		+ ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ + @2472 EXTERN %IMOEN_JOINED% BHImoenPub7
-		+ ~!InParty("IMOEN2") !InMyArea("IMOEN2")~ + @2473 + il15.101
+		+ ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ + @2472 EXTERN %IMOEN_JOINED% BHImoenPub7
+		+ ~!InParty("%IMOEN_DV%") !InMyArea("%IMOEN_DV%")~ + @2473 + il15.101
 		
 CHAIN WIillase il15.101
 	@2478 DO ~SetGlobal("IllaseraScene2","GLOBAL",3) SetGlobal("BHBG1Quest","GLOBAL",16) StartCutSceneEx("WIcuts17",TRUE) StartCutSceneMode()~ EXIT
@@ -3744,7 +3744,7 @@ CHAIN WIillase il15.105
 CHAIN WIillase il15.106
 	@2483
 END
-		++ ~Well...~ EXTERN %IMOEN_JOINED% BHImoenPub24
+		++ @5024 EXTERN %IMOEN_JOINED% BHImoenPub24
 
 // Section 6, start of Act 3
 		
@@ -4046,8 +4046,8 @@ END
 
 CHAIN IF ~Global("BHBG1Quest","GLOBAL",21) NumTimesTalkedTo(0)~ THEN WIillase il19.0
 	@2594
-	== %IMOEN_JOINED% IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2595
-	== WIILLASE IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @2596
+	== %IMOEN_JOINED% IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @2595
+	== WIILLASE IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @2596
 END
 		++ @2597 + il19.1
 		++ @2598 + il19.2

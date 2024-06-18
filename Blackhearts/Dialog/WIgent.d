@@ -11,7 +11,7 @@ END
 	
 CHAIN WIgent ge4.1
 	@490
-	== %IMOEN_JOINED% IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @491
+	== %IMOEN_JOINED% IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @491
 	== WIgent @492
 	== %RASAAD_JOINED% IF ~InParty("Rasaad") InMyArea("Rasaad") !StateCheck("Rasaad",CD_STATE_NOTVALID)~ THEN @493
 END
@@ -36,7 +36,7 @@ END
 	
 CHAIN WIgent ge4.4
 	@506
-	== %IMOEN_JOINED% IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @507
+	== %IMOEN_JOINED% IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @507
 	== AJANTJ IF ~InParty("Ajantis") InMyArea("Ajantis") !StateCheck("Ajantis",CD_STATE_NOTVALID)~ THEN @508
 	== KIVANJ IF ~InParty("Kivan") InMyArea("Kivan") !StateCheck("Kivan",CD_STATE_NOTVALID)~ THEN @509
 END
@@ -74,8 +74,8 @@ END
 
 CHAIN WIgent ge4.9
 	@527
-	== %IMOEN_JOINED% IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @528
-	== WIgent IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @529
+	== %IMOEN_JOINED% IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @528
+	== WIgent IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @529
 END
 		++ @530 + ge4.13
 		++ @531 + ge4.14
@@ -89,7 +89,7 @@ END
 		
 CHAIN WIgent ge4.11
 	@536 DO ~SetGlobal("GentleArgument3","LOCALS",1)~
-	== %IMOEN_JOINED% IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @537
+	== %IMOEN_JOINED% IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @537
 END
 		++ @538 + ge4.17
 		+ ~CheckStatGT(Player1,13,CHR)~ + @539 + ge4.19
@@ -123,22 +123,22 @@ END
 		
 CHAIN WIgent ge4.15
 	@558 DO ~SetGlobal("GentleArgument2","LOCALS",1)~
-	== %IMOEN_JOINED% IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @559
+	== %IMOEN_JOINED% IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @559
 	== %EDWIN_JOINED% IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @560
 END
 		+ ~CheckStatLT(Player1,16,INT)~ + @561 + ge4.29
 		+ ~CheckStatGT(Player1,15,INT)~ + @562 + ge4.30
-		+ ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ + @563 EXTERN %IMOEN_JOINED% BHImoenInt1
+		+ ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ + @563 EXTERN %IMOEN_JOINED% BHImoenInt1
 		+ ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ + @564 EXTERN %EDWIN_JOINED% BHEdwinInt1
 
 CHAIN WIgent ge4.16
 	@565 DO ~SetGlobal("GentleArgument2","LOCALS",1)~
-	== %IMOEN_JOINED% IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @566
+	== %IMOEN_JOINED% IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @566
 	== %EDWIN_JOINED% IF ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @567
 END
 		+ ~CheckStatLT(Player1,16,INT)~ + @561 + ge4.29
 		+ ~CheckStatGT(Player1,15,INT)~ + @562 + ge4.30
-		+ ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ + @563 EXTERN %IMOEN_JOINED% BHImoenInt1
+		+ ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ + @563 EXTERN %IMOEN_JOINED% BHImoenInt1
 		+ ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ + @564 EXTERN %EDWIN_JOINED% BHEdwinInt1
 		
 CHAIN WIgent ge4.17
@@ -283,7 +283,7 @@ CHAIN WIgent ge4.41
 
 CHAIN WIgent ge4.42
 	@628
-	== %IMOEN_JOINED% IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @629
+	== %IMOEN_JOINED% IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @629
 	== WIgent @630
 	= @631
 END
@@ -291,7 +291,7 @@ END
 
 CHAIN WIgent ge4.43
 	@633
-	== %IMOEN_JOINED% IF ~InParty("IMOEN2") InMyArea("IMOEN2") !StateCheck("IMOEN2",CD_STATE_NOTVALID)~ THEN @634
+	== %IMOEN_JOINED% IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @634
 	== %NEERA_JOINED% IF ~InParty("Neera") InMyArea("Neera") !StateCheck("Neera",CD_STATE_NOTVALID)~ THEN @635
 	== WIgent @636
 END
