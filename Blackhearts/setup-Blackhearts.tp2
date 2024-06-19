@@ -23,6 +23,16 @@ LANGUAGE
 ~Blackhearts/tra/English/BHBG1items.tra~
 ~Blackhearts/tra/English/BHBG1script.tra~
 
+LANGUAGE ~Simplified Chinese (translation: Lzw104522773)~
+         ~schinese~
+~Blackhearts/tra/schinese/BHBG1setup.tra~
+~Blackhearts/tra/schinese/BHBG1names.tra~
+~Blackhearts/tra/schinese/BHBG1sounds.tra~
+~Blackhearts/tra/schinese/BHBG1quests.tra~
+~Blackhearts/tra/schinese/BHBG1items.tra~
+~Blackhearts/tra/schinese/BHBG1script.tra~
+
+
 BEGIN @1
 DESIGNATED 1
 LABEL ~AWizardDidIt-Blackhearts_BG1~
