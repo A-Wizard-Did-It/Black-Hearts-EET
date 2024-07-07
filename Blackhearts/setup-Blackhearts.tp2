@@ -164,6 +164,9 @@ COPY_EXISTING ~%ESewers%.are~ ~override~
 COPY_EXISTING ~WI0004.ARE~ ~override/WI0004.ARE~
 	WRITE_ASCIIE 0x94 ~%NWBaldursGate_PheirkasHouse_L1%~ (8) // Area script BG0167 / AR0167
 
+COPY_EXISTING ~WI0002.wed~ ~override~
+	WRITE_ASCIIE 0x24 ~%BanditCamp_GnollCave%~ (8)
+
 COPY_EXISTING ~WI0002.are~ ~override~
   LPF  ALTER_AREA_REGION
     STR_VAR
@@ -179,6 +182,7 @@ COPY_EXISTING ~WI0003.are~ ~override~
   END
 
 COPY_EXISTING ~WI0004.are~ ~override~
+	WRITE_ASCIIE 0x08 ~%NWBaldursGate_PheirkasHouse_L1%~ (8)
   LPF  ALTER_AREA_REGION
     STR_VAR
     region_name              = Door0100 
@@ -191,6 +195,7 @@ COPY_EXISTING ~WI0004.are~ ~override~
   END
 
 COPY_EXISTING ~WI0005.are~ ~override~
+	WRITE_ASCIIE 0x08 ~%BaldursGateDocks_NoraleesWarehouse%~ (8)
   LPF  ALTER_AREA_REGION
     STR_VAR
     region_name              = Door1200 
