@@ -65,13 +65,29 @@ Beamdog for their work to maintain Baldur’s Gate as a game. You all aren’t a
 **Contact**
 For any issues had with the mod, send me a message through the beamdog site or contact me at mandatorymarley@sbcglobal.net and I'll get back to you when I can.
 
-
-**Version**
+**Version in progress**
 
 - One version for all games using cpmvars
-- Correct typo for [WIillase.d and WIPORTAL.d](https://forums.beamdog.com/discussion/comment/1208723/#Comment_1208723)
-- Remove [duplicate scripts](https://forums.beamdog.com/discussion/comment/1206781/#Comment_1206781) 
-- Update WeiDU
-- Add InfinityAutoPackager thanks to AL|EN
-- Add metadata and label for Project Infinity
-- Traify four forgotten lines
+- Correct typos for [WIillase.d and WIPORTAL.d](https://forums.beamdog.com/discussion/comment/1208723/#Comment_1208723)  
+- Remove [duplicate scripts](https://forums.beamdog.com/discussion/comment/1206781/#Comment_1206781)   
+- Update WeiDU  
+- Add InfinityAutoPackager thanks to AL|EN  
+- Add metadata and label for Project Infinity  
+- Traify [four forgotten lines](https://forums.beamdog.com/discussion/comment/1208757/#Comment_1208757)  
+- Chinese translation  
+- Typo [in WIillase.d](https://forums.beamdog.com/discussion/comment/1209004/#Comment_1209004)
+- Correct DLG name on creatures (WIRWBARB.cre, WIRWBKG2.cre and WIRWTHIF.cre)  
+- Correct different ressources for EET and BGEE (WISW1H06.itm, WISW1H05.itm, WISW1H03.itm, and WISW1H02.itm)  
+- cpmvars for WI0004.wed (unused but just in case)  
+- Correct misplaced items on creatures (WIAMARAN.CRE, WIDRYAD1.CRE, WIDRYAD2.CRE, WIFIRGIA.CRE, WIILLAS1.CRE, WINERYS.CRE, WIRWTHIF.CRE, and WISPID02.CRE)  
+- Change [PC] to Player1 for wipresfi.d [PC] seem to [ not working well with GENDER)](https://forums.beamdog.com/discussion/comment/1209271/#Comment_1209271) 
+
+**Special thanks for reporting issues and helping**
+
+- Graion Dilach  
+- lzw104522773  
+- Incrementis  
+- Trouveur  
+- Sylvanas, Maus, Thrasymachus  
+- Sour  
+- Many other people from the Beamdog thread  

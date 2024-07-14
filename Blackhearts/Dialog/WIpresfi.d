@@ -12,8 +12,8 @@ END
 		+ ~InParty("Branwen") InMyArea("Branwen") !StateCheck("Branwen",CD_STATE_NOTVALID)~ + @3143 EXTERN BRANWJ BHBranwenInt1
 		+ ~InParty("Ajantis") InMyArea("Ajantis") !StateCheck("Ajantis",CD_STATE_NOTVALID)~ + @3144 EXTERN AJANTJ BHAjantisInt1
 		+ ~InParty("Yeslick") InMyArea("Yeslick") !StateCheck("Yeslick",CD_STATE_NOTVALID)~ + @3145 EXTERN YESLIJ BHYeslickInt1
-		+ ~Class(Player1,CLERIC_ALL) Gender([PC],Female)~ + @3146 + pr5.4
-		+ ~Class(Player1,CLERIC_ALL) Gender([PC],Male)~ + @3147 + pr5.5
+		+ ~Class(Player1,CLERIC_ALL) Gender(Player1,Female)~ + @3146 + pr5.4
+		+ ~Class(Player1,CLERIC_ALL) Gender(Player1,Male)~ + @3147 + pr5.5
 		++ @3148 + pr5.2
 	
 CHAIN WIpresfi pr5.1
@@ -50,8 +50,8 @@ END
 		+ ~InParty("Branwen") InMyArea("Branwen") !StateCheck("Branwen",CD_STATE_NOTVALID)~ + @3143 EXTERN BRANWJ BHBranwenInt1
 		+ ~InParty("Ajantis") InMyArea("Ajantis") !StateCheck("Ajantis",CD_STATE_NOTVALID)~ + @3144 EXTERN AJANTJ BHAjantisInt1
 		+ ~InParty("Yeslick") InMyArea("Yeslick") !StateCheck("Yeslick",CD_STATE_NOTVALID)~ + @3145 EXTERN YESLIJ BHYeslickInt1
-		+ ~Class(Player1,CLERIC_ALL) Gender([PC],Female)~ + @3146 + pr5.4
-		+ ~Class(Player1,CLERIC_ALL) Gender([PC],Male)~ + @3147 + pr5.5
+		+ ~Class(Player1,CLERIC_ALL) Gender(Player1,Female)~ + @3146 + pr5.4
+		+ ~Class(Player1,CLERIC_ALL) Gender(Player1,Male)~ + @3147 + pr5.5
 		++ @3148 + pr5.2
 		
 CHAIN IF ~Global("WIpresfiSave","GLOBAL",1)~ THEN WIpresfi pr5.7
