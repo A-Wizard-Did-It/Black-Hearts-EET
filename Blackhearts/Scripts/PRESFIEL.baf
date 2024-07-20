@@ -1,10 +1,7 @@
-IF 
+IF
 	HPPercentLT(Myself,30)
-	
 THEN
 	RESPONSE #100
-	
-	ChangeEnemyAlly(Myself,NEUTRAL)
-	PlayDead(9999)
-	
+		ChangeEnemyAlly(Myself,NEUTRAL)
+		PlayDead(9999)
 END

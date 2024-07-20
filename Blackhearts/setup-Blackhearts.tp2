@@ -222,7 +222,7 @@ COPY_EXISTING ~WI0006.are~ ~override~
     destination_area =  EVAL ~%ESewers%~
   END
 
-COMPILE ~Blackhearts/Scripts/GENTLSUM.baf~
+COMPILE ~Blackhearts/Scripts/GENTLSUM.baf~ EVALUATE_BUFFER // Should not be needed to compile this one, only used to extend WISIGHT
 COMPILE ~Blackhearts/Scripts/PRESFIEL.baf~
 COMPILE ~Blackhearts/Scripts/WIILLSP.baf~ EVALUATE_BUFFER
 COMPILE ~Blackhearts/Scripts/WIcuts0.baf~
@@ -253,7 +253,6 @@ COMPILE ~Blackhearts/Scripts/WIcuts24.baf~ EVALUATE_BUFFER
 COMPILE ~Blackhearts/Scripts/WIcuts25.baf~ EVALUATE_BUFFER
 COMPILE ~Blackhearts/Scripts/WIcuts26.baf~
 COMPILE ~Blackhearts/Scripts/WISIGHT.baf~
-COMPILE ~Blackhearts/Scripts/PRESFIEL.baf~
 COMPILE ~Blackhearts/Scripts/WIRIEZEN.baf~
 COMPILE ~Blackhearts/Scripts/WINIGKNI.baf~
 COMPILE ~Blackhearts/Scripts/WITALK.baf~
@@ -277,9 +276,9 @@ EXTEND_TOP ~%NashkelMines_L3_BCS%.bcs~ ~Blackhearts/Scripts/BG5403.baf~ EVALUATE
 EXTEND_TOP ~%NashkelMines_L2_BCS%.bcs~ ~Blackhearts/Scripts/BG5402.baf~ EVALUATE_BUFFER
 EXTEND_TOP ~%NashkelMines_L1_BCS%.bcs~ ~Blackhearts/Scripts/BG5401.baf~ EVALUATE_BUFFER
 EXTEND_TOP ~%LionsWay_BCS%.bcs~ ~Blackhearts/Scripts/BG2700.baf~ EVALUATE_BUFFER
-EXTEND_TOP ~WISIGHT.bcs~ ~Blackhearts/Scripts/GENTLSUM.baf~
+EXTEND_TOP ~WISIGHT.bcs~ ~Blackhearts/Scripts/GENTLSUM.baf~ EVALUATE_BUFFER
 EXTEND_TOP ~%CoastWay_BCS%.bcs~ ~Blackhearts/Scripts/BG2800.baf~ EVALUATE_BUFFER
-EXTEND_TOP ~PRESFIEL.bcs~ ~Blackhearts/Scripts/PRESFIEL.baf~
+// EXTEND_TOP ~PRESFIEL.bcs~ ~Blackhearts/Scripts/PRESFIEL.baf~ // Duplicate script...
 EXTEND_TOP ~%EBaldursGate_BCS%.bcs~ ~Blackhearts/Scripts/BG0800.baf~ EVALUATE_BUFFER
 EXTEND_TOP ~%EBaldursGate_ElfsongTavern_L1_BCS%.bcs~ ~Blackhearts/Scripts/BG0705.baf~ EVALUATE_BUFFER
 EXTEND_TOP ~%EBaldursGate_ElfsongTavern_L2_BCS%.bcs~ ~Blackhearts/Scripts/BG0706.baf~
@@ -604,6 +603,7 @@ COPY ~Blackhearts/CRE/WIGENTLE.cre~ ~override/WIGENTLE.cre~
 	SAY NAME1 @30
 	SAY NAME2 @30
 WRITE_ASCII DIALOG ~WIgent~
+WRITE_ASCII DEATHVAR ~WIGENTLE~
 WRITE_ASCII SCRIPT_OVERRIDE ~WISIGHT~
 
 COPY ~Blackhearts/CRE/WIPRESFI.cre~ ~override/WIPRESFI.cre~
@@ -980,8 +980,8 @@ COPY ~Blackhearts/CRE/WIPINATA.cre~ ~override/WIPINATA.cre~
 WRITE_ASCII DEATHVAR ~WIPINATA~
 ADD_CRE_ITEM ~WISHLD01~ #0 #0 #0 ~none~ ~INV~
 
-EXTEND_TOP ~WISIGHT.bcs~ ~Blackhearts/Scripts/GENTLSUM.baf~
-EXTEND_TOP ~PRESFIEL.bcs~ ~Blackhearts/Scripts/PRESFIEL.baf~
+// EXTEND_TOP ~WISIGHT.bcs~ ~Blackhearts/Scripts/GENTLSUM.baf~ // Duplicate script...
+// EXTEND_TOP ~PRESFIEL.bcs~ ~Blackhearts/Scripts/PRESFIEL.baf~ // Duplicate script...
 
 APPEND ~mastarea.2da~
 ~WI0003  value~
