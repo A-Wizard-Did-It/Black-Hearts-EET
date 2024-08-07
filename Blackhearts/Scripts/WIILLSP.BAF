@@ -19,6 +19,7 @@ IF
 	AreaCheck("%BaldursGate_Undercellars%")  // Undercellars (Slythe, Krystin)
 THEN
 	RESPONSE #100
+		ApplySpell(Myself,CLERIC_INVISIBILITY_PURGE)
 		SetGlobal("WIIllaseCallout","LOCALS",1)
 		StartDialogNoSet(Player1)
 		Continue()

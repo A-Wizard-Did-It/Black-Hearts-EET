@@ -80,7 +80,12 @@ For any issues had with the mod, send me a message through the beamdog site or c
 - Correct different ressources for EET and BGEE (WISW1H06.itm, WISW1H05.itm, WISW1H03.itm, and WISW1H02.itm)  
 - cpmvars for WI0004.wed (unused but just in case)  
 - Correct misplaced items on creatures (WIAMARAN.CRE, WIDRYAD1.CRE, WIDRYAD2.CRE, WIFIRGIA.CRE, WIILLAS1.CRE, WINERYS.CRE, WIRWTHIF.CRE, and WISPID02.CRE)  
-- Change [PC] to Player1 for wipresfi.d [PC] seem to [ not working well with GENDER)](https://forums.beamdog.com/discussion/comment/1209271/#Comment_1209271) 
+- Change [PC] to Player1 for wipresfi.d [PC] seem to [ not working well with GENDER)](https://forums.beamdog.com/discussion/comment/1209271/#Comment_1209271)
+- Typo for [Artin](https://forums.beamdog.com/discussion/comment/1209381/#Comment_1209381)  
+- Correct GENTLSUM.baf Global was not set properly.  
+- DeathWar for WIGENTLE.cre to prevent using the same as an existing creature.  
+
+
 
 **Special thanks for reporting issues and helping**
 

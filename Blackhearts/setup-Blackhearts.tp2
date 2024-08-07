@@ -171,9 +171,6 @@ COPY_EXISTING ~%ESewers%.are~ ~override~
     fj_name           = WIRedWiExit
   END
 
-COPY_EXISTING ~WI0004.ARE~ ~override/WI0004.ARE~
-	WRITE_ASCIIE 0x94 ~%NWBaldursGate_PheirkasHouse_L1%~ (8) // Area script BG0167 / AR0167
-
 COPY_EXISTING ~WI0002.wed~ ~override~
 	WRITE_ASCIIE 0x24 ~%BanditCamp_GnollCave%~ (8)
 
@@ -196,6 +193,7 @@ COPY_EXISTING ~WI0004.wed~ ~override~
 
 COPY_EXISTING ~WI0004.are~ ~override~
 	WRITE_ASCIIE 0x08 ~%NWBaldursGate_PheirkasHouse_L1%~ (8)
+	WRITE_ASCIIE 0x94 ~%NWBaldursGate_PheirkasHouse_L1%~ (8) // Area script BG0167 / AR0167
   LPF  ALTER_AREA_REGION
     STR_VAR
     region_name              = Door0100 
