@@ -2805,7 +2805,7 @@
 @2891=~Kill the creatures? I thought they were to be given to Sarevok?~
 @2892=~What are these gemstones?~
 @2893=~Someone we never expected who had power enough to challenge even my master. We never saw her coming and she left before we could form an effective response. Hence the current crisis.~ 
-@2894=~We believe she is working with an enemy of your own master, <CHARNAME>. Together, those two have proved quite the irritation for both of us.~
+@2894=~We believe she is working with an enemy of your own master, Rasaesh. Together, those two have proved quite the irritation for both of us.~
 @2895=~We've lost that opportunity. I'll leave the begging for forgiveness to Cherise. They must now be put down and this demesne secured before their rampage destroys what little standing ground we have!~
 @2896=~Cherise feared that someone might attack her directly, so warded her sanctum with powerful magic. It only will open when all four of the gemstones she assigned to us are brought together again and presented at the foot of the fortress.~
 @2897=~Then I think I'll just be taking yours. Hand it over.~
@@ -3052,8 +3052,8 @@
 
 // Portal
 
-@3129=~*A magical veil swirls about in the space before the Sanctum. Yet it seems too thin to pass through.~
-@3130=~*Step away~
+@3129=~*A magical veil swirls about in the space before the Sanctum. Yet it seems too thin to pass through.*~
+@3130=~*Step away*~
 @3131=~*Present the gemstones gathered in the demiplane before the portal*~
 @3132=~*A magical veil swirls about in the space before the Sanctum. Yet it seems too thin to pass through.~
 @3133=~*With the gemstones presented before it, the veil thickens and forms a portalway into the Sanctum. You sense that if you step in now, there will be no going back.~
