@@ -15,7 +15,7 @@ ALWAYS
 ACTION_IF GAME_IS ~eet~ BEGIN
 			OUTER_SPRINT "MISC56" "MISC56_"
 			OUTER_SPRINT "ISW1H09" "ISW1H09_"
-	END ELSE  BEGIN
+	END ELSE BEGIN
 			OUTER_SPRINT "MISC56" "MISC56"
 			OUTER_SPRINT "ISW1H09" "ISW1H09"
 END
@@ -319,14 +319,45 @@ COPY ~Blackhearts/items/WIHELM01.itm~ ~override/WIHELM01.itm~
 	SAY UNIDENTIFIED_DESC @17
 	SAY DESC @19
 	
-COPY ~Blackhearts/items/WISW1H01.itm~ ~override/WISW1H01.itm~
+COPY ~Blackhearts/items/WISW1H01.itm~ ~override/WISW1H01.itm~ // humanbane
 	SAY NAME2 @22
 	SAY DESC @23
+	LPF ALTER_ITEM_HEADER 
+		INT_VAR 
+			check_headers = 1
+		STR_VAR 
+			icon = ~WISW1H01~
+	END
 	
-COPY ~Blackhearts/items/WISW1H02.itm~ ~override/WISW1H02.itm~
+	ACTION_IF GAME_IS ~eet~ BEGIN
+
+COPY ~Blackhearts/items/WISW1H02.itm~ ~override/WISW1H02.itm~  // bloodletting blade
+	SAY NAME1 #225005
+	SAY NAME2 @62
+	SAY UNIDENTIFIED_DESC #226713
+	SAY DESC @63
+	WRITE_ASCIIE 0x10 ~%MISC56%~ (8)
+	LPF ALTER_ITEM_HEADER 
+		INT_VAR 
+			check_headers = 1
+		STR_VAR 
+			icon = ~WISW1H02~
+	END
+	
+	END ELSE BEGIN
+
+COPY ~Blackhearts/items/WISW1H02.itm~ ~override/WISW1H02.itm~  // bloodletting blade
 	SAY NAME2 @62
 	SAY DESC @63
 	WRITE_ASCIIE 0x10 ~%MISC56%~ (8)
+	LPF ALTER_ITEM_HEADER 
+		INT_VAR 
+			check_headers = 1
+		STR_VAR 
+			icon = ~WISW1H02~
+	END
+	
+END
 	
 	
 COPY ~Blackhearts/items/WIBOOK01.itm~ ~override/WIBOOK01.itm~
@@ -424,9 +455,21 @@ COPY ~Blackhearts/items/WIBOOK05.itm~ ~override/WIBOOK05.itm~
 	SAY DESC @104
 	SAY UNIDENTIFIED_DESC @104
 	
+	ACTION_IF GAME_IS ~eet~ BEGIN
+	
+COPY ~Blackhearts/items/WIHELM02.itm~ ~override/WIHELM02.itm~
+	SAY NAME1 #230682
+	SAY NAME2 @108
+	SAY UNIDENTIFIED_DESC #230683
+	SAY DESC @109
+	
+	END ELSE BEGIN
+	
 COPY ~Blackhearts/items/WIHELM02.itm~ ~override/WIHELM02.itm~
 	SAY NAME2 @108
 	SAY DESC @109
+	
+END
 	
 COPY ~Blackhearts/items/WIMISC06.itm~ ~override/WIMISC06.itm~
 	SAY NAME1 @110
@@ -449,6 +492,12 @@ COPY_EXISTING ~SCRL2I.ITM~ ~override/WISCRL02.itm~
 COPY ~Blackhearts/items/WIMACE01.itm~ ~override/WIMACE01.itm~
 	SAY NAME2 @116
 	SAY DESC @117
+	LPF ALTER_ITEM_HEADER 
+		INT_VAR 
+			check_headers = 1
+		STR_VAR 
+			icon = ~WIBLUN01~
+	END
 	
 COPY ~Blackhearts/items/WIARMO02.itm~ ~override/WIARMO02.itm~
 	SAY NAME2 @137
@@ -460,13 +509,31 @@ COPY ~Blackhearts/items/WIMISC04.itm~ ~override/WIMISC04.itm~
 	SAY UNIDENTIFIED_DESC @3325
 	SAY DESC @3325
 	
+	ACTION_IF GAME_IS ~eet~ BEGIN
+	
+COPY ~Blackhearts/items/WISPER01.itm~ ~override/WISPER01.itm~
+	SAY NAME1 #225745
+	SAY NAME2 @139
+	SAY UNIDENTIFIED_DESC #225874
+	SAY DESC @140
+	
+	END ELSE BEGIN
+	
 COPY ~Blackhearts/items/WISPER01.itm~ ~override/WISPER01.itm~
 	SAY NAME2 @139
 	SAY DESC @140
+	
+END
 
 COPY ~Blackhearts/items/WISTAF01.itm~ ~override/WISTAF01.itm~
 	SAY NAME2 @141
-	SAY DESC @142	
+	SAY DESC @142
+	LPF ALTER_ITEM_HEADER 
+		INT_VAR 
+			check_headers = 1
+		STR_VAR 
+			icon = ~WISTAF01~
+	END
 	
 COPY ~Blackhearts/items/WISW1H05.itm~ ~override/WISW1H05.itm~
 	SAY NAME1 @3325
@@ -474,6 +541,12 @@ COPY ~Blackhearts/items/WISW1H05.itm~ ~override/WISW1H05.itm~
 	SAY DESC @147
 	SAY UNIDENTIFIED_DESC @3326
 	WRITE_ASCIIE 0x10 ~%MISC56%~ (8)
+	LPF ALTER_ITEM_HEADER 
+		INT_VAR 
+			check_headers = 1
+		STR_VAR 
+			icon = ~WISW1H03~
+	END
 	
 COPY ~Blackhearts/items/WISW1H06.itm~ ~override/WISW1H06.itm~
 	SAY NAME1 @3323
@@ -481,14 +554,32 @@ COPY ~Blackhearts/items/WISW1H06.itm~ ~override/WISW1H06.itm~
 	SAY DESC @149
 	SAY UNIDENTIFIED_DESC @3324
 	WRITE_ASCIIE 0x10 ~%MISC56%~ (8)
+	LPF ALTER_ITEM_HEADER 
+		INT_VAR 
+			check_headers = 1
+		STR_VAR 
+			icon = ~WISW1H04~
+	END
 
 COPY ~Blackhearts/items/WIROBE01.itm~ ~override/WIROBE01.itm~
 	SAY NAME2 @150
 	SAY DESC @151
 	
-COPY ~Blackhearts/items/WISHLD01.itm~ ~override/WISHLD01.itm~
+	ACTION_IF GAME_IS ~eet~ BEGIN
+	
+COPY ~Blackhearts/items/WISHLD01.itm~ ~override/WISHLD01.itm~ // Tempest Targe
+	SAY NAME1 #230280
+	SAY NAME2 @163
+	SAY UNIDENTIFIED_DESC #230282
+	SAY DESC @164
+	
+	END ELSE BEGIN
+	
+COPY ~Blackhearts/items/WISHLD01.itm~ ~override/WISHLD01.itm~ // Tempest Targe
 	SAY NAME2 @163
 	SAY DESC @164
+	
+END
 	
 COPY ~Blackhearts/items/WISW1H04.itm~ ~override/WISW1H04.itm~
 	SAY NAME1 @118
