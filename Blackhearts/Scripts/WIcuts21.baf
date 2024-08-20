@@ -12,6 +12,7 @@ THEN
 	CreateCreature("WIELFIR1",[427.1817],E)
 	CreateVisualEffect("SPRDRASI",[529.1907])	
 	CreateCreature("WIELFIR1",[529.1907],E)
+	ActionOverride("WIFIREG2",Enemy())
 	EndCutSceneMode()	
 END
 

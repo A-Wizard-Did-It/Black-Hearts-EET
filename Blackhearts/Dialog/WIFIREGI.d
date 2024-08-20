@@ -94,4 +94,12 @@ CHAIN WIFIREGI WIFG17
 	@482 EXIT
 	
 CHAIN WIFIREGI WIFG18
-	@483 DO ~StartCutSceneEx("WIcuts20",TRUE) StartCutSceneMode()~ EXIT
+	@483 DO ~
+	ClearActions(Player2)
+	ClearActions(Player3)
+	ClearActions(Player4)
+	ClearActions(Player5)
+	ClearActions(Player6)
+	ClearActions(Player1)
+	StartCutSceneEx("WIcuts20",TRUE)
+	StartCutSceneMode()~ EXIT

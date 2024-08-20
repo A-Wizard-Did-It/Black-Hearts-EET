@@ -84,6 +84,15 @@ For any issues had with the mod, send me a message through the beamdog site or c
 - Typo for [Artin](https://forums.beamdog.com/discussion/comment/1209381/#Comment_1209381)  
 - Correct GENTLSUM.baf Global was not set properly.  
 - DeathWar for WIGENTLE.cre to prevent using the same as an existing creature.  
+- Workaround for Illasera placement at Elfsong Tavern
+- Prevent Illasera to stay invisible after Chapter 7 Undercellars fight if game is BGEE without SoD
+- [Correct bam for some weapons header](https://forums.beamdog.com/discussion/comment/1210042/#Comment_1210042)
+- Use correct StingRef for EET
+- Make [PLAT04 and HELM06 undropppable for Thayan Subjugator](https://forums.beamdog.com/discussion/comment/1209747/#Comment_1209747)
+- [Rasaesh instead of Charname](https://forums.beamdog.com/discussion/comment/1209904/#Comment_1209904) if player lie about his identity to Krotia the Black
+- Prevent issues with cutscenes [here](https://forums.beamdog.com/discussion/comment/1210078/#Comment_1210078) and [here](https://forums.beamdog.com/discussion/comment/1210089/#Comment_1210089)
+- Make undroppable some equipement for WIRWBKGD (thayans subjugators)
+- Add nightfall to journal entry @87
 
 
 
@@ -95,4 +104,5 @@ For any issues had with the mod, send me a message through the beamdog site or c
 - Trouveur  
 - Sylvanas, Maus, Thrasymachus  
 - Sour  
+- Leith
 - Many other people from the Beamdog thread  

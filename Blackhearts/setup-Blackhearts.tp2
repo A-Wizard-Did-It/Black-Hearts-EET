@@ -908,6 +908,8 @@ COPY ~Blackhearts/CRE/WIRWBKGD.cre~ ~override/WIRWBKGD.cre~
 	SAY NAME1 @98
 	SAY NAME2 @98
 WRITE_ASCII DEATHVAR ~WIRWBKGD~
+  REPLACE_CRE_ITEM ~PLAT04~ #0 #0 #0 ~unstealable&undroppable~ ~armor~
+  REPLACE_CRE_ITEM ~HELM06~ #0 #0 #0 ~unstealable&undroppable~ ~helmet~
 
 COPY ~Blackhearts/CRE/WIRWBKG2.cre~ ~override/WIRWBKG2.cre~
 	SAY NAME1 @122

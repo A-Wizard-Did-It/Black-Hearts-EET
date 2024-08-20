@@ -11,5 +11,6 @@ THEN
 	CreateCreature("WIFIRGI2",[616.1763],E)
 	Wait(1)
 	FadeFromColor([20.0],0)
+	ActionOverride("WIFIRGI2",Enemy())
 	EndCutSceneMode()	
 END
