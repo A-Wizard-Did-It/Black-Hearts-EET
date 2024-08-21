@@ -93,6 +93,9 @@ For any issues had with the mod, send me a message through the beamdog site or c
 - Prevent issues with cutscenes [here](https://forums.beamdog.com/discussion/comment/1210078/#Comment_1210078) and [here](https://forums.beamdog.com/discussion/comment/1210089/#Comment_1210089)
 - Make undroppable some equipement for WIRWBKGD (thayans subjugators)
 - Add nightfall to journal entry @87
+- Cutscene for WIyondak and move some scripts prior others, [issues report here](https://forums.beamdog.com/discussion/comment/1210089/#Comment_1210089)
+- Duplicate string number for [two different items.](https://forums.beamdog.com/discussion/comment/1210132/#Comment_1210132).
+
 
 
 
