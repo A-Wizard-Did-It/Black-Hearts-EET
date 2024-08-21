@@ -14,5 +14,4 @@ THEN
 	CreateCreature("WISHADO1",[400.250],S)
 	FadeFromColor([20.0],0)
 	EndCutSceneMode()
-	
 END

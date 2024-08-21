@@ -2,12 +2,6 @@ IF
   True()
 THEN
   RESPONSE #100
-	ClearActions(Player2)
-	ClearActions(Player3)
-	ClearActions(Player4)
-	ClearActions(Player5)
-	ClearActions(Player6)
-	ClearActions(Player1)
 	ActionOverride("WIYONDAK",ForceSpell(Myself,WIZARD_STONE_SKIN))
 	CreateVisualEffect("SPSTRENH",[3226.1108])
 	CreateVisualEffect("SPSTRENH",[3191.1011])
@@ -25,4 +19,6 @@ THEN
 	CreateCreature("WIPORTA1",[3226.866],S)
 	CreateCreature("WIPORTA1",[3026.1059],S)
 	ActionOverride("WIYONDAK",ChangeAIScript("BPSIGHT",OVERRIDE)
+	ActionOverride("WIYONDAK",Enemy())
+	EndCutSceneMode()
 END
