@@ -2,6 +2,7 @@ IF
   True()
 THEN
   RESPONSE #100
+	SmallWait(5)
 	ActionOverride("WIYONDAK",ForceSpell(Myself,WIZARD_STONE_SKIN))
 	CreateVisualEffect("SPSTRENH",[3226.1108])
 	CreateVisualEffect("SPSTRENH",[3191.1011])
