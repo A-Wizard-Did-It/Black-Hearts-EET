@@ -95,6 +95,10 @@ For any issues had with the mod, send me a message through the beamdog site or c
 - Add nightfall to journal entry @87
 - Cutscene for WIyondak and move some scripts prior others, [issues report here](https://forums.beamdog.com/discussion/comment/1210089/#Comment_1210089)
 - Duplicate string number for [two different items.](https://forums.beamdog.com/discussion/comment/1210132/#Comment_1210132).
+- little corrections for three items
+	- WISPER01.ITM (30% chance wasn't effective)
+	- WISW1H06.ITM (effects both weapons if dual wielding)
+	- WISW1H01.ITM add a file WISW1H01.eff to make +3 damage to human work (Parameter 3 wasn't activable in raw item)
 
 
 

@@ -16,7 +16,7 @@ THEN
 	CreateCreature("WISPID03",[850.806],S)
 	CreateCreature("WISPID01",[641.885],S)
 	CreateCreature("WISPID01",[637.885],S)
-	ActionOverride("WIRIEZEN",ChangeAIScript("BPAVNG1",CLASS)
+	ActionOverride("WIRIEZEN",ChangeAIScript("BPAVNG1",CLASS))
 	ActionOverride("WIRIEZEN",Enemy())
 	EndCutSceneMode()	
 END

@@ -46,7 +46,7 @@ IF
 	Exists("WINERYS")
 THEN
 	RESPONSE #100
-		ActionOverride("WINERYS",MoveBetweenAreas("WI0005",[844.173],0)
+		ActionOverride("WINERYS",MoveBetweenAreas("WI0005",[844.173],0))
 END
 
 IF

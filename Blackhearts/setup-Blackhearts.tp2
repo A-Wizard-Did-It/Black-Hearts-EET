@@ -319,6 +319,8 @@ COPY ~Blackhearts/items/WIHELM01.itm~ ~override/WIHELM01.itm~
 	SAY UNIDENTIFIED_DESC @17
 	SAY DESC @19
 	
+COPY ~Blackhearts/items/WISW1H01.eff~ ~override/WISW1H01.eff~
+	
 COPY ~Blackhearts/items/WISW1H01.itm~ ~override/WISW1H01.itm~ // humanbane
 	SAY NAME2 @22
 	SAY DESC @23
