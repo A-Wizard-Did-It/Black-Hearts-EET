@@ -1,5 +1,5 @@
 IF
-	Global("BHBG1Quest","GLOBAL",9)
+	GlobalGT("BHBG1Quest","GLOBAL",8)
 	Global("BHFarmlandsOpen","MYAREA",0)
 THEN
 	RESPONSE #100
