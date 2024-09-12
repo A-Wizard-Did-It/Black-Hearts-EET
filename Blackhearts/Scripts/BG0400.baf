@@ -1,0 +1,19 @@
+IF
+	Global("BHBG1Quest","GLOBAL",9)
+	Global("BHFarmlandsOpen","MYAREA",0)
+THEN
+	RESPONSE #100
+		TriggerActivation("WIgorgeEnt",TRUE)
+		AddMapNoteColor([2857.66],@79,RED)
+		SetGlobal("BHFarmlandsOpen","MYAREA",1)
+END
+
+IF
+	GlobalLT("BHBG1Quest","GLOBAL",9)
+	Global("BHFarmlandsClosed","MYAREA",0)
+THEN
+	RESPONSE #100
+		TriggerActivation("WIgorgeEnt",FALSE)
+		RemoveMapNote([2857.66],@79)
+		SetGlobal("BHFarmlandsClosed","MYAREA",1)
+END

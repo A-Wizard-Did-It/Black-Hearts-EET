@@ -100,6 +100,7 @@ For any issues had with the mod, send me a message through the beamdog site or c
 	- WISW1H06.ITM (effects both weapons if dual wielding)
 	- WISW1H01.ITM add a file WISW1H01.eff to make +3 damage to human work (Parameter 3 wasn't activable in raw item)
 - WI0007, [modified search map](https://forums.beamdog.com/discussion/comment/1210306/#Comment_1210306) to prevent enemies not seeing the party.
+- [Prevent acces to Hidden Gorge](https://forums.beamdog.com/discussion/comment/1210504/#Comment_1210504) before Global("BHBG1Quest","GLOBAL",9)
 
 
 

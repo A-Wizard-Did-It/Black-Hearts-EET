@@ -296,6 +296,9 @@ EXTEND_TOP ~WI0008.bcs~ ~Blackhearts/Scripts/WI0008.baf~
 EXTEND_TOP ~WI0009.bcs~ ~Blackhearts/Scripts/WI0009.baf~
 EXTEND_TOP ~WI0010.bcs~ ~Blackhearts/Scripts/WI0010.baf~
 
+// Prevent acces to Hidden Gorge before Global("BHBG1Quest","GLOBAL",9)
+EXTEND_TOP ~%Farmlands_BCS%.bcs~ ~Blackhearts/Scripts/BG0400.baf~
+
 COPY ~Blackhearts/Scripts/WISHOUT.BCS~ ~override/WISHOUT.BCS~
 
 ACTION_IF NOT FILE_EXISTS_IN_GAME ~BDFMAG20.BCS~ BEGIN
