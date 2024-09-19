@@ -29,7 +29,7 @@ END
 
 CHAIN WIKROTIA WIKrotia5
 	@2834
-	== FALDOJ IF  ~InParty("Edwin") InMyArea("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @2835
+	== FALDOJ IF  ~InParty("Faldorn") InMyArea("Faldorn") !StateCheck("Faldorn",CD_STATE_NOTVALID)~ THEN @2835
 	== SHARTJ IF ~InParty("SharTeel") InMyArea("SharTeel") !StateCheck("SharTeel",CD_STATE_NOTVALID)~ THEN @2836
 END	
 		++ @2837 + WIKrotia7

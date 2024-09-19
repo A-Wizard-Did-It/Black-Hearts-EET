@@ -424,8 +424,8 @@ COPY ~Blackhearts/items/WIBOOK04.itm~ ~override/WIBOOK04.itm~
 COPY ~Blackhearts/items/WIBOOK04.itm~ ~override/WIBOOK06.itm~
 	SAY NAME1 @165
 	SAY NAME2 @165
-	SAY DESC @166
-	SAY UNIDENTIFIED_DESC @166
+	SAY DESC @10001
+	SAY UNIDENTIFIED_DESC @10001
 
 COPY ~Blackhearts/items/WISW1H03.itm~ ~override/WISW1H03.itm~
 	SAY NAME2 @92
