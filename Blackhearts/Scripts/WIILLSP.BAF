@@ -29,6 +29,7 @@ IF
 	Global("BHBG1QuestFinal","%Undercity_TempleofBhaal%",1)
 	HPPercentLT(Myself,10)
 	!Dead("Sarevok")
+	!StateCheck("WIILLASE",CD_STATE_NOTVALID)
 THEN
 	RESPONSE #100	
 		SetGlobal("BHBG1QuestFinal","%Undercity_TempleofBhaal%",2)
@@ -41,9 +42,11 @@ END
 IF
 	Global("BHBG1QuestFinal","%Undercity_TempleofBhaal%",1)
 	Dead("Sarevok")
+	!StateCheck("WIILLASE",CD_STATE_NOTVALID)
 THEN
 	RESPONSE #100	
 		SetGlobal("BHBG1QuestFinal","%Undercity_TempleofBhaal%",2)
+		MoveToObject(Player1)
 		ChangeEnemyAlly(Myself,NEUTRAL)
 		DisplayStringHead(Myself,~This BhaalSpawn have fallen... Farewell <CHARNAME>~)
 		SmallWait(3)

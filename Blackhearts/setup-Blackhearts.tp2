@@ -50,10 +50,27 @@ REQUIRE_PREDICATE GAME_IS ~bgee eet~ ~Require BGEE or EET~
 
 ADD_JOURNAL TITLE (@10000) @15 @20 @25 @28 @39 @63 @70 @74 @75 @77 @87 @88 @105 @107 @114 @123 @124 @133 @152 USING ~Blackhearts/English/BHBG1quests.tra~
 
+// Special compatibility with Gorgon Eye
+
+	ACTION_IF (NOT MOD_IS_INSTALLED ~SETUP-GORGON.TP2~ 0) BEGIN
+	
+		COMPILE ~Blackhearts/Dialog/JOh_WI.d~
+		PRINT ~Patch Alatos dialog for compatibility with Gorgon Eye
+		~
+		
+	END ELSE BEGIN
+	
+		PRINT ~ALATOS.dlg is already patched by Gorgon Eye mod for compatibility
+		~
+		
+END
+
+// Special compatibility with Gorgon Eye
+
 COMPILE EVALUATE_BUFFER ~Blackhearts/Dialog/~ USING ~Blackhearts/tra/%LANGUAGE%/BHBG1script.tra~
 
 	ACTION_IF GAME_IS ~eet~ BEGIN
-COMPILE ~Blackhearts/DialogBG2/IllaseraPatch.d~ USING ~Blackhearts/tra/%LANGUAGE%/BHBG1script.tra~
+COMPILE ~Blackhearts/DialogPatch/IllaseraPatch.d~ USING ~Blackhearts/tra/%LANGUAGE%/BHBG1script.tra~
 	END
 
 COPY ~Blackhearts/WAV~ ~override~
@@ -76,6 +93,12 @@ COPY ~Blackhearts/Areas/WI0009.are~ ~override~
 SAY 0x6dc @20004 /*~The hairs on your skin stick up as the yellow light from this crystal touches you. You decide it’s probably best not to touch or get too much closer to it.~*/
 
 COPY ~Blackhearts/Graphics~ ~override~
+
+COPY_EXISTING ~WIPW123.SPL~         ~override/WIPW123.SPL~
+		SAY NAME1 @20006 // = ~Portal~
+		SAY NAME2 @20006
+		SAY DESC @20006
+		SAY UNIDENTIFIED_DESC @20006
 
 LAF HANDLE_AUDIO END
 
@@ -304,7 +327,6 @@ COPY ~Blackhearts/Scripts/WISHOUT.BCS~ ~override/WISHOUT.BCS~
 ACTION_IF NOT FILE_EXISTS_IN_GAME ~BDFMAG20.BCS~ BEGIN
 	COPY ~Blackhearts/Scripts/BDFMAG20.BCS~ ~override/BDFMAG20.BCS~
 END
-
 
 COPY ~Blackhearts/items/WIRING01.itm~ ~override/WIRING01.itm~
 	SAY NAME2 @37
@@ -621,6 +643,7 @@ COPY ~Blackhearts/items/WIMISC11.itm~ ~override/WIMISC11.itm~
 	SAY NAME2 @135
 	SAY UNIDENTIFIED_DESC @136
 	SAY DESC @136
+	WRITE_SHORT 0x38 1
 
 COPY ~Blackhearts/CRE/WIILLASE.cre~ ~override/WIILLASE.cre~
 	SAY NAME1 @2
@@ -1109,5 +1132,5 @@ DESIGNATED 20005
 LABEL ~AWizardDidIt-Blackhearts_BG2~
 REQUIRE_PREDICATE GAME_IS ~bg2ee~ AND NOT GAME_IS ~eet~ ~Require BG2EE without EET~
 
-COMPILE ~Blackhearts/DialogBG2/IllaseraPatch.d~ USING ~Blackhearts/tra/%LANGUAGE%/BHBG1script.tra~
+COMPILE ~Blackhearts/DialogPatch/IllaseraPatch.d~ USING ~Blackhearts/tra/%LANGUAGE%/BHBG1script.tra~
 

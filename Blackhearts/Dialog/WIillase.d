@@ -3052,7 +3052,7 @@ CHAIN WIillase il12.2
 	@2161
 	== %IMOEN_JOINED% IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @2162
 END
-		++ @2163 + il12.4
+		++ @2163 + il12.3
 		
 CHAIN WIillase il12.3
 	@2164
@@ -3067,7 +3067,7 @@ CHAIN WIillase il12.4
 	== %IMOEN_JOINED% IF ~InParty("%IMOEN_DV%") InMyArea("%IMOEN_DV%") !StateCheck("%IMOEN_DV%",CD_STATE_NOTVALID)~ THEN @2162
 END
 		++ @2163 + il12.3
-		
+
 CHAIN WIillase il12.5
 	@2170
 	= @2171
@@ -4084,7 +4084,7 @@ END
 
 CHAIN WIillase il19.7
 	@2616
-	= @2617 DO ~EscapeArea()~ EXIT
+	= @2617 DO ~MoveToPointNoInterrupt([970.1143]) EscapeArea()~ EXIT
 
 CHAIN WIillase il19.8
 	@2618 DO ~Ally()~ EXIT

@@ -2,7 +2,7 @@ IF
   True()
 THEN
   RESPONSE #100
-	ClearAllActions()
+	// ClearAllActions()
 	StartCutSceneMode()
  	FadeToColor([20.0],0)
     Wait(2)
