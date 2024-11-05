@@ -14,5 +14,6 @@ THEN
 	ActionOverride(Player5,LeaveAreaLUA("WI0004","",[443.343],1))
 	ActionOverride(Player6,LeaveAreaLUA("WI0004","",[469.269],15))
 	FadeFromColor([20.0],0)
+	EndCutSceneMode()
 END
 

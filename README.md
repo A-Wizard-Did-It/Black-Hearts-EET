@@ -107,7 +107,7 @@ For any issues had with the mod, send me a message through the beamdog site or c
 - Some typos [here](https://forums.beamdog.com/discussion/comment/1211748/#Comment_1211748) and [here](https://forums.beamdog.com/discussion/comment/1211724/#Comment_1211724)
 - Move ClearAllActions to WIpresfi.d [instead of WIcuts0.baf and WIcuts1.baf] (https://forums.beamdog.com/discussion/comment/1211710/#Comment_1211710)
 - Typo in WIillase.d (CHAIN WIillase il12.2) [causing duplicated lines] (https://forums.beamdog.com/discussion/comment/1211710/#Comment_1211710)
-- [Compatibility issue with Gorgon Eye mod](https://forums.beamdog.com/discussion/comment/1211738/#Comment_1211738).
+- [Compatibility issue with Gorgon Eye mod](https://forums.beamdog.com/discussion/comment/1211738/#Comment_1211738). (addition of JOh_WI.d to patch Alatos dialog and prevent dead end)
 
 
 **Special thanks for reporting issues and helping**

@@ -33,10 +33,10 @@ END
 		++ @3156 EXIT
 	
 CHAIN WIpresfi pr5.4
-	@3157 DO ~ClearAllActions() SetGlobal("WIpresfiSave","GLOBAL",1) DestroySelf() StartCutSceneEx("WIcuts0",TRUE)~ EXIT
+	@3157 DO ~ClearAllActions() SetGlobal("WIpresfiSave","GLOBAL",1) DestroySelf() StartCutSceneEx("WIcuts0",TRUE) StartCutSceneMode()~ EXIT
 
 CHAIN WIpresfi pr5.5
-	@3157 DO ~ClearAllActions() SetGlobal("WIpresfiSave","GLOBAL",1) DestroySelf() StartCutSceneEx("WIcuts1",TRUE)~ EXIT
+	@3157 DO ~ClearAllActions() SetGlobal("WIpresfiSave","GLOBAL",1) DestroySelf() StartCutSceneEx("WIcuts1",TRUE) StartCutSceneMode()~ EXIT
 
 CHAIN IF ~NumTimesTalkedToGT(0) Global("WIpresfiSave","GLOBAL",0)~ THEN WIpresfi pr5.6
 	@3136
