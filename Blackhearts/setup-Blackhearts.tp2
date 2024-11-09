@@ -54,7 +54,7 @@ ADD_JOURNAL TITLE (@10000) @15 @20 @25 @28 @39 @63 @70 @74 @75 @77 @87 @88 @105 
 
 	ACTION_IF (NOT MOD_IS_INSTALLED ~SETUP-GORGON.TP2~ 0) BEGIN
 	
-		COMPILE ~Blackhearts/Dialog/JOh_WI.d~
+		COMPILE ~Blackhearts/DialogPatch/JOh_WI.d~
 		PRINT ~Patch Alatos dialog for compatibility with Gorgon Eye
 		~
 		
