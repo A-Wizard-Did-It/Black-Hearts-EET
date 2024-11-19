@@ -101,8 +101,13 @@ For any issues had with the mod, send me a message through the beamdog site or c
 	- WISW1H01.ITM add a file WISW1H01.eff to make +3 damage to human work (Parameter 3 wasn't activable in raw item)
 - WI0007, [modified search map](https://forums.beamdog.com/discussion/comment/1210306/#Comment_1210306) to prevent enemies not seeing the party.
 - [Prevent acces to Hidden Gorge](https://forums.beamdog.com/discussion/comment/1210504/#Comment_1210504) before Global("BHBG1Quest","GLOBAL",9)
-
-
+- Illasera leave if her [HP fall below 10](https://forums.beamdog.com/discussion/comment/1210727/#Comment_1210727). (To see if the talk is ok) And an alternative for Endless BG1 after the final fight.
+- Addition of WIPW123.spl to avoid [wrong line display when teleporting the party away](https://forums.beamdog.com/discussion/comment/1211299/#Comment_1211299). (Also a new line @20006 to display when casting the spell)
+- Flame Binding wardstone was stackable. (WRITE_SHORT 0x38 1 for WIMISC11.itm)
+- Some typos [here](https://forums.beamdog.com/discussion/comment/1211748/#Comment_1211748) and [here](https://forums.beamdog.com/discussion/comment/1211724/#Comment_1211724)
+- Move ClearAllActions to WIpresfi.d [instead of WIcuts0.baf and WIcuts1.baf](https://forums.beamdog.com/discussion/comment/1211710/#Comment_1211710)
+- Typo in WIillase.d (CHAIN WIillase il12.2) [causing duplicated lines](https://forums.beamdog.com/discussion/comment/1211710/#Comment_1211710)
+- [Compatibility issue with Gorgon Eye mod](https://forums.beamdog.com/discussion/comment/1211738/#Comment_1211738). (addition of JOh_WI.d to patch Alatos dialog and prevent dead end)
 
 
 **Special thanks for reporting issues and helping**

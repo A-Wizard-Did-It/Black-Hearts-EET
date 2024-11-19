@@ -121,7 +121,7 @@ END
 		++ @2964 + ne8.23
 
 CHAIN WInerys ne8.21
-	@2965 DO ~SetGlobal("WINerysMet","GLOBAL",2) StartCutSceneEx("WIcuts11",TRUE)~ EXIT
+	@2965 DO ~ClearAllActions() SetGlobal("WINerysMet","GLOBAL",2) StartCutSceneEx("WIcuts11",TRUE) StartCutSceneMode()~ EXIT
 
 CHAIN WInerys ne8.22
 	@2966
