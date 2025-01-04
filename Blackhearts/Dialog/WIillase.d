@@ -1086,7 +1086,7 @@ END
 
 CHAIN WIillase il1.8
 	@1359
-	= @1360 DO ~EscapeArea() SetGlobal("BHBG1Quest","GLOBAL",99)~ EXIT
+	= @1360 DO ~SetGlobal("BHBG1Quest","GLOBAL",99) EscapeArea()~ EXIT
 
 CHAIN WIillase il1.9
 	@1361

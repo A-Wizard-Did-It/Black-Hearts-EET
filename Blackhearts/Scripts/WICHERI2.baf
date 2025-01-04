@@ -1,0 +1,36 @@
+IF
+	Global("BHBGNOQUEST","%Undercity%",2)
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		StartCutSceneMode()
+		HideGUI()
+		SetGlobal("BHBGNOQUEST","%Undercity%",3)
+		Wait(1)
+		CreateCreatureDoor("WIELAN",[4171.1229],S)
+		CreateCreatureDoor("WITHARDE",[4077.1060],S)
+		CreateCreatureDoor("WIRWBKGD",[4238.1014],S)
+		CreateCreatureDoor("WIRWBARB",[4297.1108],S)
+		CreateCreatureDoor("WIRWWIZ2",[4267.1194],S)
+		Wait(1)
+		DisplayStringHead(Myself,@293) 
+		Wait(3)
+		ActionOverride("WIELAN",Face(Player1))
+		ActionOverride("WITHARDE",Face(Player1))
+		ActionOverride("WIRWBKGD",Face(Player1))
+		ActionOverride("WIRWBARB",Face(Player1))
+		ActionOverride("WIRWWIZ2",Face(Player1))
+		Enemy()
+		UnhideGUI()
+		EndCutSceneMode()
+END
+
+IF
+	Global("BHBGNOQUEST","%Undercity%",1)
+	See(Player1)
+THEN
+	RESPONSE #100
+		StartDialogue("WICHERI2",Player1)
+END
+
+

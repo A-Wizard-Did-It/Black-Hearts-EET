@@ -127,3 +127,10 @@ CHAIN WICheris Ch2.11
 CHAIN WICheris Ch2.12
 	@292
 	= @293 DO ~SetGlobal("BHBG1Quest","GLOBAL",19) Enemy() ChangeAIScript("WICHDETH",OVERRIDE)~ EXIT
+
+BEGIN ~WICHERI2~
+
+IF ~Global("BHBGNOQUEST","%Undercity%",1)~ THEN BEGIN 0
+  SAY ~Did you really think the Red Wizards wouldn't interfere, did you?~
+  IF ~~ THEN DO ~SetGlobal("BHBGNOQUEST","%Undercity%",2)~ EXIT
+END
