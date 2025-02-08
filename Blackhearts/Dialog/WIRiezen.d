@@ -31,14 +31,9 @@ END
 		
 CHAIN WIRiezen ri9.4
 	@3240 DO ~SetGlobal("BHBG1Quest","GLOBAL",10)
-	ClearActions(Player2)
-	ClearActions(Player3)
-	ClearActions(Player4)
-	ClearActions(Player5)
-	ClearActions(Player6)
-	ClearActions(Player1)
-	StartCutSceneEx("WIcuts12",TRUE)
-	StartCutSceneMode()~ EXIT
+	ClearAllActions()
+	StartCutSceneMode()
+	StartCutSceneEx("WIcuts12",TRUE)~ EXIT
 	
 CHAIN WIRiezen ri9.5
 	@3241

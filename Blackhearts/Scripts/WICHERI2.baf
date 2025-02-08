@@ -9,7 +9,7 @@ THEN
 		SetGlobal("BHBGNOQUEST","%Undercity%",2)
 		Wait(1)
 		FaceObject(Player1)
-		DisplayStringHead(Myself,~Did you really think the Red Wizards wouldn't interfere?~)
+		DisplayStringHead(Myself,@5033)
 		Wait(3)
 		CreateCreatureDoor("WIELAN",[4171.1229],S)
 		CreateCreatureDoor("WITHARDE",[4077.1060],S)
