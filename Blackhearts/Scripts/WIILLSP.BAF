@@ -34,7 +34,7 @@ THEN
 	RESPONSE #100	
 		SetGlobal("BHBG1QuestFinal","%Undercity_TempleofBhaal%",2)
 		ChangeEnemyAlly(Myself,NEUTRAL)
-		DisplayStringHead(Myself,~This BhaalSpawn won't be the end of me...~)
+		DisplayStringHead(Myself,@5031)
 		Wait(3)
 		ReallyForceSpell(Myself,DRYAD_TELEPORT)
 END
@@ -48,7 +48,7 @@ THEN
 		SetGlobal("BHBG1QuestFinal","%Undercity_TempleofBhaal%",2)
 		MoveToObject(Player1)
 		ChangeEnemyAlly(Myself,NEUTRAL)
-		DisplayStringHead(Myself,~This BhaalSpawn has fallen... Farewell <CHARNAME>~)
+		DisplayStringHead(Myself,@5032)
 		SmallWait(3)
 		ReallyForceSpell(Myself,DRYAD_TELEPORT)
 END
