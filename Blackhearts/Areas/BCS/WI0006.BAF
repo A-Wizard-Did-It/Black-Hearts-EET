@@ -1,0 +1,26 @@
+IF
+	GlobalLT("BHBG1Quest","GLOBAL",14)
+THEN
+	RESPONSE #100
+		ActionOverride(Player1,LeaveAreaLUA("AR0226","",[807.2752],NE))
+		ActionOverride(Player2,LeaveAreaLUA("AR0226","",[774.2798],NE))
+		ActionOverride(Player3,LeaveAreaLUA("AR0226","",[751.2788],NE))
+		ActionOverride(Player4,LeaveAreaLUA("AR0226","",[727.2740],NE))
+		ActionOverride(Player5,LeaveAreaLUA("AR0226","",[681.2727],NE))
+		ActionOverride(Player6,LeaveAreaLUA("AR0226","",[663.2776],NE))
+END
+
+IF
+	Global("BHBG1Quest","GLOBAL",14)
+	Global("BHBG1Quest14spawn1","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("BHBG1Quest14spawn1","GLOBAL",1)
+		CreateCreature("WIRWBKGD",[920.1642],SE)
+		CreateCreature("WIRWBKGD",[997.1759],SW)
+		CreateCreature("WIRWWIZ2",[2879.2184],NE)
+		CreateCreature("WIRWTHIF",[2995.2134],N)
+		CreateCreature("WIRWBARB",[3019.2309],W)
+		CreateCreature("WIOGMA01",[3283.1069],SW)
+END
+

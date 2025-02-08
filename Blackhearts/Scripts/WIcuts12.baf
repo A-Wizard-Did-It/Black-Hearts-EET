@@ -1,0 +1,22 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+	SmallWait(5)
+	Weather(RAIN)
+	Wait(1)
+	ActionOverride("WIRIEZEN",ReallyForceSpell("WICOMM03",CLERIC_CALL_LIGHTNING))
+	ActionOverride("WICOMM03",Kill(Myself))
+	Wait(1)
+	ActionOverride("WIRIEZEN",ReallyForceSpell("WICOMM02",CLERIC_CALL_LIGHTNING))
+	ActionOverride("WICOMM02",Kill(Myself))
+	CreateCreature("WISPID01",[639.885],S)
+	CreateCreature("WISPID01",[640.885],S)
+	CreateCreature("WISPID01",[638.885],S)
+	CreateCreature("WISPID03",[850.806],S)
+	CreateCreature("WISPID01",[641.885],S)
+	CreateCreature("WISPID01",[637.885],S)
+	ActionOverride("WIRIEZEN",ChangeAIScript("BPAVNG1",CLASS))
+	ActionOverride("WIRIEZEN",Enemy())
+	EndCutSceneMode()	
+END

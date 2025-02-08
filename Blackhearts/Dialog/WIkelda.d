@@ -1,0 +1,12 @@
+APPEND KELDDA
+
+IF ~~ THEN BEGIN WIKelddath1
+	SAY @2820 
+	IF ~~ EXIT
+END 
+
+END
+
+EXTEND_BOTTOM KELDDA 0
++~Global("BHBG1Quest","GLOBAL",1) !PartyHasItem("WIHELM01")~+ @2821 GOTO WIKelddath1
+END

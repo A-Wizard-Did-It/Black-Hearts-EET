@@ -1,0 +1,55 @@
+IF
+	Global("Chapter","GLOBAL",7)
+	Global("BHBG1Quest","GLOBAL",16)
+	Global("IllaseraCellerBuff","LOCALS",0)
+	AreaCheck("%BaldursGate_Undercellars%")  // Undercellars (Slythe, Krystin)
+THEN
+	RESPONSE #100
+		SetGlobal("IllaseraCellerBuff","LOCALS",1)
+		ApplySpell(Myself,WIZARD_INVISIBILITY)  // SPWI206.SPL (Invisibility)
+		Continue()
+END
+
+IF
+	Global("Chapter","GLOBAL",7)
+	Global("BHBG1Quest","GLOBAL",16)
+	Dead("Slythe")  // Slythe
+	Dead("Krystin")  // Krystin
+	Global("WIIllaseCallout","LOCALS",0)
+	AreaCheck("%BaldursGate_Undercellars%")  // Undercellars (Slythe, Krystin)
+THEN
+	RESPONSE #100
+		ApplySpell(Myself,CLERIC_INVISIBILITY_PURGE)
+		SetGlobal("WIIllaseCallout","LOCALS",1)
+		StartDialogNoSet(Player1)
+		Continue()
+END
+
+IF
+	Global("BHBG1QuestFinal","%Undercity_TempleofBhaal%",1)
+	HPPercentLT(Myself,10)
+	!Dead("Sarevok")
+	!StateCheck("WIILLASE",CD_STATE_NOTVALID)
+THEN
+	RESPONSE #100	
+		SetGlobal("BHBG1QuestFinal","%Undercity_TempleofBhaal%",2)
+		ChangeEnemyAlly(Myself,NEUTRAL)
+		DisplayStringHead(Myself,@5031)
+		Wait(3)
+		ReallyForceSpell(Myself,DRYAD_TELEPORT)
+END
+
+IF
+	Global("BHBG1QuestFinal","%Undercity_TempleofBhaal%",1)
+	Dead("Sarevok")
+	!StateCheck("WIILLASE",CD_STATE_NOTVALID)
+THEN
+	RESPONSE #100	
+		SetGlobal("BHBG1QuestFinal","%Undercity_TempleofBhaal%",2)
+		MoveToObject(Player1)
+		ChangeEnemyAlly(Myself,NEUTRAL)
+		DisplayStringHead(Myself,@5032)
+		SmallWait(3)
+		ReallyForceSpell(Myself,DRYAD_TELEPORT)
+END
+

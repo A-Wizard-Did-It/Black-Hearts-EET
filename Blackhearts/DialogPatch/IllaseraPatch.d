@@ -1,0 +1,58 @@
+EXTEND_TOP ILLASERA 0
+
+++ @5001 + WiILL1
+++ @5002 + WiILL2
+++ @5003 + WiILL3
+END
+
+CHAIN ILLASERA WiILL1
+	@5004
+END
+		++ @5005 + WiILL4
+
+CHAIN ILLASERA WiILL2
+	@5006
+END
+		++ @5007 + WiILL4
+
+CHAIN ILLASERA WiILL3
+	@5008
+	= @5009
+	= @5010
+END
+		++ @5011 + WiILL5
+		++ @5012 + WiILL6
+		++ @5013 + WiILL7
+		++ @5014 + 8
+		
+CHAIN ILLASERA WiILL4
+	@5015
+	= @5009
+	= @5010
+END
+		++ @5011 + WiILL5
+		++ @5012 + WiILL6
+		++ @5013 + WiILL7
+		++ @5014 + 8
+		
+CHAIN ILLASERA WiILL5
+	@5016
+	= @5017
+END
+		++ @5012 + WiILL6
+		++ @5013 + WiILL7
+		++ @5014 + 8
+
+CHAIN ILLASERA WiILL6
+	@5018
+END
+		++ @5011 + WiILL5
+		++ @5013 + WiILL7
+		++ @5014 + 8
+		
+CHAIN ILLASERA WiILL7
+	@5019
+END
+		++ @5011 + WiILL5
+		++ @5012 + WiILL6
+		++ @5014 + 8

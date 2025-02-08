@@ -1,0 +1,10 @@
+IF 
+	Global("BHBG1Quest","GLOBAL",8)
+	Global("BHBG1Quest8spawn1","%NBaldursGate_ThreeOldKegs_L1%",0)
+THEN
+	RESPONSE #100
+		SetGlobal("BHBG1Quest8spawn1","%NBaldursGate_ThreeOldKegs_L1%",1)
+		CreateCreature("WINerys",[528.271],NE) 
+		CreateCreature("WITHIEF1",[411.134],SE) 
+		CreateCreature("WITHIEF2",[476.182],NW) 
+END

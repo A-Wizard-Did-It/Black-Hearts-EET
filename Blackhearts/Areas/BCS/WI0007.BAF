@@ -1,0 +1,15 @@
+IF
+	Global("BHBG1Quest","GLOBAL",14)
+	Global("BHBG1Quest14spawn2","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("BHBG1Quest14spawn2","GLOBAL",1)
+		CreateCreature("WIRWBKGD",[701.769],SE)
+		CreateCreature("WIRWCLER",[825.619],SW)
+		CreateCreature("WIRWWIZ3",[628.659],S)
+		CreateCreature("WIRWTHI2",[1039.464],N)
+		CreateCreature("WIRWBAR2",[557.911],W)
+		CreateCreature("WIRWWIZ1",[955.598],SW)
+		CreateCreature("WICHERIS",[840.747],SE)
+END
+

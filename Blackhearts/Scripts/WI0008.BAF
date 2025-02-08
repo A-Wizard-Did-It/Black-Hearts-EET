@@ -1,0 +1,41 @@
+IF
+	Global("BHBG1Quest18spawn1","WI0008",0)
+THEN
+	RESPONSE #100
+		CreateCreature("WITROLL",[1489.2928],S)
+		CreateCreature("WITROLL",[1662.2916],S)
+		CreateCreature("BPSLFS01",[1525.2869],S)
+		CreateCreature("BPSLFS01",[1699.2843],S)
+		CreateCreature("WIPORT",[3600.1213],S)  // Sanctum Portal
+		CreateCreature("WIFIRGIA",[616.1763],E)  // Herald of Yaga-Shura
+		CreateCreature("WIRWBARB",[1671.2762],S)  // Thayan Bodyguard
+		Kill("WIRWBARB")  // Thayan Bodyguard
+		CreateCreature("WIRWTHIF",[2425.1475],S)  // Thayan Agent
+		Kill("WIRWTHIF")  // Thayan Agent
+		CreateCreature("WIRWTHIF",[2419.2614],S)  // Thayan Agent
+		Kill("WIRWTHIF")  // Thayan Agent
+		CreateCreature("WIRWBKGD",[1291.3486],S)  // Thayan Subjugator
+		Kill("WIRWBKGD")  // Thayan Subjugator
+		CreateCreature("WIRWWIZ2",[2012.3306],S)  // Thayan Conjuror
+		Kill("WIRWWIZ2")  // Thayan Conjuror
+		CreateCreature("WIRWWIZ5",[2653.1233],S)  // Thayan Conjuror
+		Kill("WIRWWIZ5")  // Thayan Conjuror
+		CreateCreature("WIRWBARB",[2816.1256],S)  // Thayan Bodyguard
+		Kill("WIRWBARB")  // Thayan Bodyguard
+		SetGlobal("BHBG1Quest18spawn1","WI0008",1)
+END
+
+IF
+	Global("WIMIMICTRAP","WI0008",1)
+	Dead("BDMIMIC")
+THEN
+	RESPONSE #100
+		SetInterrupt(FALSE)
+		SetGlobal("WIMIMICTRAP","WI0008",2)
+		ContainerEnable("Mimic",TRUE)
+		SmallWait(5)
+		Unlock("Mimic")
+		SetInterrupt(TRUE)
+END
+
+

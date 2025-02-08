@@ -1,0 +1,17 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		Wait(1)
+		FadeToColor([20.0],0)
+		Wait(1)
+		PlaySound("CAS_PM2F")
+		Wait(3)
+		PlaySound("CAS_M02")
+		CreateCreature("WIPRESF2",[423.287],S)
+		Wait(1)
+		CreateCreature("WISHADO1",[400.250],S)
+		FadeFromColor([20.0],0)
+		EndCutSceneMode()
+END

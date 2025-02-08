@@ -1,0 +1,11 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+	CutSceneId(Player1)
+	CreateCreature("WIBARMAI",[581.354],SE)
+	ActionOverride("WIBARMAI",MoveToPoint([283.556]))
+	Wait(10)
+	EndCutSceneMode()
+	ActionOverride("WIBARMAI",StartDialogueNoSet(Player1))
+END

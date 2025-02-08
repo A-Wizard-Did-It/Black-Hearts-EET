@@ -1,0 +1,25 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+	CutSceneId(Player1)
+	Wait(2)
+	ActionOverride("WIILLASE",ForceSpell(Myself,WIZARD_FIND_FAMILAR))
+	Wait(6)
+	CreateVisualEffectObject("spdimndr",Player1)
+	CreateVisualEffectObject("spdimndr",Player2)
+	CreateVisualEffectObject("spdimndr",Player3)
+	CreateVisualEffectObject("spdimndr",Player4)
+	CreateVisualEffectObject("spdimndr",Player5)
+	CreateVisualEffectObject("spdimndr",Player6)
+	Wait(2)
+	ActionOverride("WIILLASE",DestroySelf())
+	SmallWait(2)
+	EndCutSceneMode()
+	ActionOverride(Player1,LeaveAreaLUA("WI0008","",[1641.3185],12))
+	ActionOverride(Player2,LeaveAreaLUA("WI0008","",[1668.3151],3))
+	ActionOverride(Player3,LeaveAreaLUA("WI0008","",[1735.3150],3))
+	ActionOverride(Player4,LeaveAreaLUA("WI0008","",[1685.3224],3))
+	ActionOverride(Player5,LeaveAreaLUA("WI0008","",[1735.3210],3))
+	ActionOverride(Player6,LeaveAreaLUA("WI0008","",[1755.3174],4))
+END

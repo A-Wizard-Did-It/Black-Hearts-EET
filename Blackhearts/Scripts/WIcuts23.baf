@@ -1,0 +1,24 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		Wait(2)
+		ActionOverride("WIILLASE",ForceSpellRES("WIPW123",Myself)) // Casting animation only
+		//ActionOverride("WIILLASE",ForceSpell(Myself,WIZARD_FIND_FAMILAR)) // Could be replaced by another conjuration spell to avoid https://forums.beamdog.com/discussion/comment/1211299/#Comment_1211299 while keeping the same casting animation EX :  //ActionOverride("WIILLASE",ForceSpellRES("SPPR101",Myself))  // Benediction
+		Wait(6)
+		CreateVisualEffectObject("spdimndr",Player1)
+		CreateVisualEffectObject("spdimndr",Player2)
+		CreateVisualEffectObject("spdimndr",Player3)
+		CreateVisualEffectObject("spdimndr",Player4)
+		CreateVisualEffectObject("spdimndr",Player5)
+		CreateVisualEffectObject("spdimndr",Player6)
+		Wait(3)
+		EndCutSceneMode()
+		ActionOverride(Player1,LeaveAreaLUA("%BaldursGate_Undercellars%","",[524.382],1))
+		ActionOverride(Player2,LeaveAreaLUA("%BaldursGate_Undercellars%","",[506.407],3))
+		ActionOverride(Player3,LeaveAreaLUA("%BaldursGate_Undercellars%","",[494.433],3))
+		ActionOverride(Player4,LeaveAreaLUA("%BaldursGate_Undercellars%","",[539.465],3))
+		ActionOverride(Player5,LeaveAreaLUA("%BaldursGate_Undercellars%","",[580.455],3))
+		ActionOverride(Player6,LeaveAreaLUA("%BaldursGate_Undercellars%","",[619.440],4))
+END

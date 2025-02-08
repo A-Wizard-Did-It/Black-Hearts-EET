@@ -2,6 +2,8 @@
 Black Hearts BG1 - The Huntress v1.04
 *****************************************
 
+### A mod for BGEE, BG2EE and EET
+
 **Introduction**
 Black Hearts is a new Quest mod for Baldur’s Gate Enhanced Edition that follows a plotline involving a character from Throne of Bhaal, Illasera, and a Red Wizard plot involving a dangerous new ally that has joined Sarevok’s cause. This mod repurposes fights from the Black Pits module, using those as a basis for various objectives given to players for the questline (with some modifications to them in some cases). 
 
@@ -15,14 +17,8 @@ The mod includes:
 - Eighteen new items with unique magical properties.
 
 **Installation**
-For BG:EE
-Download Blackhearts_BG1.zip and unzip the mod into your Baldur’s Gate EE directory, making sure that the folder “Blackhearts_BG1” and file Setup-Blackhearts_BG1 is in your base game directory (the same location as the chitin.key. Run the Setup-Blackhearts_BG1 weidu exe file to start installation.
-
-For BG2:EE (patch file for additional Illasera dialogue)
-Download Blackhearts_BG2 Patch.zip and unzip the mod into your Baldur’s Gate 2 EE directory, making sure that the folder “Blackhearts_BG2 Patch” and file Setup-Blackhearts_BG2 Patch is in your base game directory (the same location as the chitin.key. Run the Setup-Blackhearts_BG2 Patch weidu exe file to start installation.
-
-For EET
-Download Blackhearts_EET.zip and unzip the mod into your EET Baldur’s Gate 2 EET directory, making sure that the folder “Blackhearts_EET” and file Setup-Blackhearts_EET is in your base game directory (the same location as the chitin.key. Run the Setup-Blackhearts_EET weidu exe file to start installation.
+For All game
+Download Blackhearts.zip and unzip the mod into your Baldur’s Gate EE directory, making sure that the folder “Blackhearts” and file Setup-Blackhearts is in your base game directory (the same location as the chitin.key. Run the Setup-Blackhearts weidu exe file to start installation.
 
 Note:
 The mod should only be played on a fresh save. Uninstalling the mod and loading up a save that had been installed will probably not totally break your save, but may result in weirdness. 
@@ -68,3 +64,59 @@ Beamdog for their work to maintain Baldur’s Gate as a game. You all aren’t a
 
 **Contact**
 For any issues had with the mod, send me a message through the beamdog site or contact me at mandatorymarley@sbcglobal.net and I'll get back to you when I can.
+
+**Version in progress**
+
+- One version for all games using cpmvars
+- Correct typos for [WIillase.d and WIPORTAL.d](https://forums.beamdog.com/discussion/comment/1208723/#Comment_1208723)  
+- Remove [duplicate scripts](https://forums.beamdog.com/discussion/comment/1206781/#Comment_1206781)   
+- Update WeiDU  
+- Add InfinityAutoPackager thanks to AL|EN  
+- Add metadata and label for Project Infinity  
+- Traify [four forgotten lines](https://forums.beamdog.com/discussion/comment/1208757/#Comment_1208757)  
+- Chinese translation  
+- Typo [in WIillase.d](https://forums.beamdog.com/discussion/comment/1209004/#Comment_1209004)
+- Correct DLG name on creatures (WIRWBARB.cre, WIRWBKG2.cre and WIRWTHIF.cre)  
+- Correct different ressources for EET and BGEE (WISW1H06.itm, WISW1H05.itm, WISW1H03.itm, and WISW1H02.itm)  
+- cpmvars for WI0004.wed (unused but just in case)  
+- Correct misplaced items on creatures (WIAMARAN.CRE, WIDRYAD1.CRE, WIDRYAD2.CRE, WIFIRGIA.CRE, WIILLAS1.CRE, WINERYS.CRE, WIRWTHIF.CRE, and WISPID02.CRE)  
+- Change [PC] to Player1 for wipresfi.d [PC] seem to [ not working well with GENDER)](https://forums.beamdog.com/discussion/comment/1209271/#Comment_1209271)
+- Typo for [Artin](https://forums.beamdog.com/discussion/comment/1209381/#Comment_1209381)  
+- Correct GENTLSUM.baf Global was not set properly.  
+- DeathWar for WIGENTLE.cre to prevent using the same as an existing creature.  
+- Workaround for Illasera placement at Elfsong Tavern
+- Prevent Illasera to stay invisible after Chapter 7 Undercellars fight if game is BGEE without SoD
+- [Correct bam for some weapons header](https://forums.beamdog.com/discussion/comment/1210042/#Comment_1210042)
+- Use correct StingRef for EET
+- Make [PLAT04 and HELM06 undropppable for Thayan Subjugator](https://forums.beamdog.com/discussion/comment/1209747/#Comment_1209747)
+- [Rasaesh instead of Charname](https://forums.beamdog.com/discussion/comment/1209904/#Comment_1209904) if player lie about his identity to Krotia the Black
+- Prevent issues with cutscenes [here](https://forums.beamdog.com/discussion/comment/1210078/#Comment_1210078) and [here](https://forums.beamdog.com/discussion/comment/1210089/#Comment_1210089)
+- Make undroppable some equipement for WIRWBKGD (thayans subjugators)
+- Add nightfall to journal entry @87
+- Cutscene for WIyondak and move some scripts prior others, [issues report here](https://forums.beamdog.com/discussion/comment/1210089/#Comment_1210089)
+- Duplicate string number for [two different items.](https://forums.beamdog.com/discussion/comment/1210132/#Comment_1210132).
+- Little corrections for three items
+	- WISPER01.ITM (30% chance wasn't effective)
+	- WISW1H06.ITM (effects both weapons if dual wielding)
+	- WISW1H01.ITM add a file WISW1H01.eff to make +3 damage to human work (Parameter 3 wasn't activable in raw item)
+- WI0007, [modified search map](https://forums.beamdog.com/discussion/comment/1210306/#Comment_1210306) to prevent enemies not seeing the party.
+- [Prevent acces to Hidden Gorge](https://forums.beamdog.com/discussion/comment/1210504/#Comment_1210504) before Global("BHBG1Quest","GLOBAL",9)
+- Illasera leave if her [HP fall below 10](https://forums.beamdog.com/discussion/comment/1210727/#Comment_1210727). (To see if the talk is ok) And an alternative for Endless BG1 after the final fight.
+- Addition of WIPW123.spl to avoid [wrong line display when teleporting the party away](https://forums.beamdog.com/discussion/comment/1211299/#Comment_1211299). (Also a new line @20006 to display when casting the spell)
+- Flame Binding wardstone was stackable. (WRITE_SHORT 0x38 1 for WIMISC11.itm)
+- Some typos [here](https://forums.beamdog.com/discussion/comment/1211748/#Comment_1211748) and [here](https://forums.beamdog.com/discussion/comment/1211724/#Comment_1211724)
+- Move ClearAllActions to WIpresfi.d [instead of WIcuts0.baf and WIcuts1.baf](https://forums.beamdog.com/discussion/comment/1211710/#Comment_1211710)
+- Typo in WIillase.d (CHAIN WIillase il12.2) [causing duplicated lines](https://forums.beamdog.com/discussion/comment/1211710/#Comment_1211710)
+- [Compatibility issue with Gorgon Eye mod](https://forums.beamdog.com/discussion/comment/1211738/#Comment_1211738). (addition of JOh_WI.d to patch Alatos dialog and prevent dead end)
+
+
+**Special thanks for reporting issues and helping**
+
+- Graion Dilach  
+- lzw104522773  
+- Incrementis  
+- Trouveur  
+- Sylvanas, Maus, Thrasymachus  
+- Sour  
+- Leith
+- Many other people from the Beamdog thread  
