@@ -1,5 +1,5 @@
 *****************************************
-Black Hearts BG1 - The Huntress v1.04
+Black Hearts BG1 - The Huntress v1.1
 *****************************************
 
 ### A mod for BGEE, BG2EE and EET
@@ -65,16 +65,49 @@ Beamdog for their work to maintain Baldur’s Gate as a game. You all aren’t a
 **Contact**
 For any issues had with the mod, send me a message through the beamdog site or contact me at mandatorymarley@sbcglobal.net and I'll get back to you when I can.
 
-**Version in progress**
+
+### Version History :
+--------------------
+
+- Version 1.01 (January 5, 2023)
+
+	- Changed PVRZ and TIS file names so as to fix possible incompatibility.
+	- Minor rewrite to some items for story consistency.
+
+
+- Version 1.02 (January 27, 2023)
+
+	- Changes to scenes with Reizen and Yondak encounters to prevent hard locking game during cutscene.
+	- Minor dialogue changes to address quest issues.
+	- Area fixes that were causing crashes.
+
+- Version 1.03 (January 30, 2023)
+
+	- Fixes to all areas to ensure they corrected point towards EET renamed BG1 areas.
+	- Small fix to Red Wizard Sanctum script to point back to the right sewer.
+
+- Version 1.04 (February 6, 2023)
+
+	- Fix to crash issue when entering Dock area during Nerys Rescue quest.
+
+- Version 1.1 (February, 2025)
+
+	- Compatibility for BGEE and EET.
+	- Fixes for issues reported by player.
+
+<details>
+  <summary>Full v1.1 changelog :</summary>
+
+---
 
 - One version for all games using cpmvars
 - Correct typos for [WIillase.d and WIPORTAL.d](https://forums.beamdog.com/discussion/comment/1208723/#Comment_1208723)  
-- Remove [duplicate scripts](https://forums.beamdog.com/discussion/comment/1206781/#Comment_1206781)   
+- Remove [duplicate scripts](https://forums.beamdog.com/discussion/comment/1206781/#Comment_1206781)
 - Update WeiDU  
 - Add InfinityAutoPackager thanks to AL|EN  
 - Add metadata and label for Project Infinity  
 - Traify [four forgotten lines](https://forums.beamdog.com/discussion/comment/1208757/#Comment_1208757)  
-- Chinese translation  
+- Chinese translation by Lzw104522773
 - Typo [in WIillase.d](https://forums.beamdog.com/discussion/comment/1209004/#Comment_1209004)
 - Correct DLG name on creatures (WIRWBARB.cre, WIRWBKG2.cre and WIRWTHIF.cre)  
 - Correct different ressources for EET and BGEE (WISW1H06.itm, WISW1H05.itm, WISW1H03.itm, and WISW1H02.itm)  
@@ -104,11 +137,16 @@ For any issues had with the mod, send me a message through the beamdog site or c
 - Illasera leave if her [HP fall below 10](https://forums.beamdog.com/discussion/comment/1210727/#Comment_1210727). (To see if the talk is ok) And an alternative for Endless BG1 after the final fight.
 - Addition of WIPW123.spl to avoid [wrong line display when teleporting the party away](https://forums.beamdog.com/discussion/comment/1211299/#Comment_1211299). (Also a new line @20006 to display when casting the spell)
 - Flame Binding wardstone was stackable. (WRITE_SHORT 0x38 1 for WIMISC11.itm)
-- Some typos [here](https://forums.beamdog.com/discussion/comment/1211748/#Comment_1211748) and [here](https://forums.beamdog.com/discussion/comment/1211724/#Comment_1211724)
+- Some typos [here](https://forums.beamdog.com/discussion/comment/1211748/#Comment_1211748), [here](https://forums.beamdog.com/discussion/comment/1211724/#Comment_1211724) an [here](https://forums.beamdog.com/discussion/comment/1212884/#Comment_1212884)
 - Move ClearAllActions to WIpresfi.d [instead of WIcuts0.baf and WIcuts1.baf](https://forums.beamdog.com/discussion/comment/1211710/#Comment_1211710)
-- Typo in WIillase.d (CHAIN WIillase il12.2) [causing duplicated lines](https://forums.beamdog.com/discussion/comment/1211710/#Comment_1211710)
+- Typo in WIillase.d (CHAIN WIillase il12.2) [causing duplicated lines](https://forums.beamdog.com/discussion/comment/1211710/#Comment_1211710) and here for [@2373 + il15.78](https://github.com/11jo/Black-Hearts/commit/becd27ac67bcbc18e900778342e4502dfb71cae9)
 - [Compatibility issue with Gorgon Eye mod](https://forums.beamdog.com/discussion/comment/1211738/#Comment_1211738). (addition of JOh_WI.d to patch Alatos dialog and prevent dead end)
+- Modifications of several DeathVars and remove BlackPits unused dialogs still attribued to some creatures (This one is just a precaution, as it hasn't caused any problems so far.)
+- Change for Cherise encounter in [Undercity](https://forums.beamdog.com/discussion/comment/1213071/#Comment_1213071)
 
+---
+
+</details>
 
 **Special thanks for reporting issues and helping**
 
