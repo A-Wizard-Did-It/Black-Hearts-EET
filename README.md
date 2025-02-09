@@ -94,6 +94,7 @@ For any issues had with the mod, send me a message through the beamdog site or c
 
 	- Compatibility for BGEE and EET.
 	- Fixes for issues reported by player.
+	- Chinese translation by Lzw104522773
 
 <details>
   <summary>Full v1.1 changelog :</summary>
@@ -106,8 +107,7 @@ For any issues had with the mod, send me a message through the beamdog site or c
 - Update WeiDU  
 - Add InfinityAutoPackager thanks to AL|EN  
 - Add metadata and label for Project Infinity  
-- Traify [four forgotten lines](https://forums.beamdog.com/discussion/comment/1208757/#Comment_1208757)  
-- Chinese translation by Lzw104522773
+- Traify [four forgotten lines](https://forums.beamdog.com/discussion/comment/1208757/#Comment_1208757)
 - Typo [in WIillase.d](https://forums.beamdog.com/discussion/comment/1209004/#Comment_1209004)
 - Correct DLG name on creatures (WIRWBARB.cre, WIRWBKG2.cre and WIRWTHIF.cre)  
 - Correct different ressources for EET and BGEE (WISW1H06.itm, WISW1H05.itm, WISW1H03.itm, and WISW1H02.itm)  
