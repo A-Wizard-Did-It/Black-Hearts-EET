@@ -1,10 +1,17 @@
 *****************************************
-Black Hearts BG1 - The Huntress v1.1
+## Black Hearts BG1 - The Huntress v1.1
 *****************************************
 
-### A mod for BGEE, BG2EE and EET
+#### A mod for BGEE, BG2EE and EET !
 
-**Introduction**
+
+### Compatibility :
+
+- Black Hearts need to be installed before [Brandock the Mage](https://github.com/Gitjas/Brandock_the_Mage?tab=readme-ov-file)
+
+
+### Introduction :
+
 Black Hearts is a new Quest mod for Baldur’s Gate Enhanced Edition that follows a plotline involving a character from Throne of Bhaal, Illasera, and a Red Wizard plot involving a dangerous new ally that has joined Sarevok’s cause. This mod repurposes fights from the Black Pits module, using those as a basis for various objectives given to players for the questline (with some modifications to them in some cases). 
 
 There is a small additional ‘Dialogue patch’ supplement mod that can be downloaded for BG2. This adds some additional dialogues to Illasera in TOB to reflect that the two of you knew each other before.
@@ -16,14 +23,18 @@ The mod includes:
 - Six brand new areas.
 - Eighteen new items with unique magical properties.
 
-**Installation**
+
+### Installation :
+
 For All game
 Download Blackhearts.zip and unzip the mod into your Baldur’s Gate EE directory, making sure that the folder “Blackhearts” and file Setup-Blackhearts is in your base game directory (the same location as the chitin.key. Run the Setup-Blackhearts weidu exe file to start installation.
 
 Note:
 The mod should only be played on a fresh save. Uninstalling the mod and loading up a save that had been installed will probably not totally break your save, but may result in weirdness. 
 
-**FAQ**
+
+### FAQ :
+
 Will this mod get ported for the non-EE BG?
 Definitely not. It pulls too much from the EE and I learned to mod using a lot of EE shortcuts that I am not going to relearn to mod vanilla BG.
 
@@ -54,7 +65,9 @@ Yes. I feel like the amount of XP you get in BG:EE is already incredibly high an
 Is there any special content for specific npcs/characters?
 Imoen gets a few extra bits of content in this mod, including an expanded Eversong Bar scene. Besides her, all other EE base npcs get quite a bit of banter and a few even provide alternate routes for some quests to usually shortcut them.
 
-**Credits**
+
+### Credits :
+
 New Area assets sourced from Lionheart: Legacy of the Crusader
 Nerys’ song is So Close by FlyByNo (Endless Legend)
 Nerys voice lines pulled from Legends of Runeterra (Riot Games) 
@@ -62,7 +75,9 @@ Special thanks to DnD Detective (https://www.youtube.com/@dnddetective4463). His
 Thank you to all the BG modding community. You’ve inspired so much interest in this game/series that has kept it fresh and fun for decades. This entire process of modding was a lot of trial and error learned from scouring through various mods and trying to put it all together myself. 
 Beamdog for their work to maintain Baldur’s Gate as a game. You all aren’t always appreciated, but I think deserve accolades for the work you’ve done updating the game (and SOD is a pretty swell little expansion).
 
-**Contact**
+
+### Contact :
+
 For any issues had with the mod, send me a message through the beamdog site or contact me at mandatorymarley@sbcglobal.net and I'll get back to you when I can.
 
 
@@ -93,7 +108,7 @@ For any issues had with the mod, send me a message through the beamdog site or c
 - Version 1.1 (February, 2025)
 
 	- Compatibility for BGEE and EET.
-	- Fixes for issues reported by player.
+	- Fixes for issues reported by players.
 	- Chinese translation by Lzw104522773
 
 <details>
@@ -148,7 +163,8 @@ For any issues had with the mod, send me a message through the beamdog site or c
 
 </details>
 
-**Special thanks for reporting issues and helping**
+
+**Special thanks for reporting issues and helping :**
 
 - Graion Dilach  
 - lzw104522773  
